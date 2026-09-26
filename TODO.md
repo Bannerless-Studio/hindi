@@ -92,3 +92,7 @@ Residuals from the v1 build and QA. The rules already in place are in
   `passage_words_counted`. Spans use `span_fold`, which is per-character,
   so passage text is written in the folded spelling of the multi-character
   rules (रुपए, not रुपये).
+
+## Live check 2026-09-26 (7/8 PASS)
+- Data: "मैंने बहुत सारा चीज़ दिया।" glossed "I gave a lot of cheese." (चीज़ = thing; agreement सारी) — drop or fix in the next rebuild.
+- Engine: multi-token units (के लिए) link as one entry but only the tapped half highlights; a reduplicated query ("धीरे धीरे") doesn't fold to the single lemma. Both engine-side, low.
