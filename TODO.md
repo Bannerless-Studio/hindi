@@ -89,6 +89,16 @@ drops moved one word past the B1 cut and the rank shuffle net -2 sentences).
   दिया।" (dropped, see above); के लिए / धीरे धीरे highlighting are engine-side
   and unrelated to this pack's data, left for the engine.
 
+## Typed production
+- `typing.accents: lenient` (PACK_SCHEMA.md) folds only the nukta; it does not
+  fold chandrabindu against anusvara (माँ vs मां, हँसना vs हंसना), even though
+  both are common written variants (`hi.py`'s own corpus-matching `fold()`
+  folds chandrabindu -> anusvara, but that's matching, not the typing
+  engine). A learner who types the anusvara spelling for a chandrabindu word
+  is marked wrong. Not hacked into the engine here (no per-language typing
+  fold hook exists); worth a schema-level chandrabindu fold if other
+  Devanagari packs (e.g. hi/mr) hit the same complaint.
+
 ## Script primer
 - ङ and ञ have no example words at A1-B1; a note gives the modern ं spelling.
   Several units (ओ, द्ध, ऋ, ऑ, visarga, ज्ञ, श्र, द्य) take their first example

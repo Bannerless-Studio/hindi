@@ -109,8 +109,11 @@ builder and a manual QA pass. They have not had a native-speaker review.
   is n or m before a consonant and a tilde otherwise (माँ = mā̃). The final
   schwa is dropped (कमरा = kamrā). Words Wiktionary gives no romanisation
   are transliterated with the same scheme. The primer uses it too.
-- Typing drills are off (`typing: null`). Recall and cloze drills use
-  multiple choice.
+- Typed production is on: `typing: {caseSensitive: false, accents: lenient,
+  strictFromLevel: null}`. Lenient accents fold the nukta (a typed जरूरत is
+  accepted for ज़रूरत), and never stop folding it, at every level. Lenient
+  does not fold chandrabindu against anusvara (माँ vs मां), so those are
+  typed as written; see `TODO.md`.
 
 ## Hindi rules (summary; details in `langs/hi.py`)
 

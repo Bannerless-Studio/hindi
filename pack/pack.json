@@ -173,7 +173,11 @@
     "w2012",
     "w2013"
   ],
-  "typing": null,
+  "typing": {
+    "caseSensitive": false,
+    "accents": "lenient",
+    "strictFromLevel": null
+  },
   "showPron": true,
   "hasLessons": false,
   "spaced": true,
