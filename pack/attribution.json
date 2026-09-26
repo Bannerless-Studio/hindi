@@ -1,0 +1,83 @@
+{
+  "spoken_freq": {
+    "source": "hermitdave/FrequencyWords",
+    "licence": "CC-BY-SA-4.0",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/hi/hi_full.txt"
+  },
+  "written_freq": {
+    "source": "wordfreq (Python package)",
+    "licence": "CC-BY-SA-4.0"
+  },
+  "dictionary": {
+    "source": "kaikki.org Hindi Wiktionary extract",
+    "licence": "CC-BY-SA-3.0/GFDL",
+    "url": "https://kaikki.org/dictionary/Hindi/kaikki.org-dictionary-Hindi.jsonl.gz"
+  },
+  "tagger": {
+    "source": "Stanza (Apache-2.0) with its Hindi default model, trained on UD Hindi-HDTB",
+    "licence": "Apache-2.0 (code); CC BY-NC-SA 4.0 (UD Hindi-HDTB model data)",
+    "note": "Used at build time only; the pack ships no model files or treebank text."
+  },
+  "sentences": {
+    "source": "Tatoeba hin_sentences_detailed.tsv",
+    "licence": "CC-BY 2.0 FR",
+    "url": "https://downloads.tatoeba.org/exports/per_language/hin/hin_sentences_detailed.tsv.bz2",
+    "contributor_usernames": [
+      "AnjaliNoronha",
+      "Casmurro",
+      "ElClonguero",
+      "LanguageExpert",
+      "MukundChaskar",
+      "PrasantaHembram",
+      "RadiumCat",
+      "Ramona",
+      "Saumya",
+      "Serg_K1ng",
+      "Sorcien",
+      "abhu",
+      "aboi",
+      "abracadebby",
+      "adamtrousers",
+      "anubhav93",
+      "anushka",
+      "coolazice",
+      "dfordivam",
+      "eeyinn",
+      "gauravjiii",
+      "gauravjiiii",
+      "hackerman",
+      "janTuki",
+      "kakul",
+      "kbharat1307",
+      "mayok",
+      "minshirui",
+      "mishigun",
+      "napsternxg",
+      "nurendra",
+      "pallavshah",
+      "prakhar",
+      "pranjal710",
+      "raj_rezzy",
+      "richke",
+      "rsankarpillai",
+      "sabretou",
+      "simranbansal",
+      "sixtynine",
+      "taro",
+      "tatoebaman",
+      "thevikas",
+      "yashtib1995"
+    ]
+  },
+  "audio": {
+    "source": "Tatoeba sentences_with_audio.tsv",
+    "licences": "per clip; recorders listed per licence",
+    "recorders": {}
+  },
+  "written_examples": {
+    "source": "written for this pack (tools/generated_examples.tsv) and reviewed; marked \"src\": \"gen\"",
+    "licence": "CC-BY-SA-4.0",
+    "count": 1034,
+    "note": "Example sentences only, for words whose corpus sentences are missing or dropped by policy; no audio."
+  }
+}

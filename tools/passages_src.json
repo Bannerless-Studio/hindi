@@ -1,0 +1,7598 @@
+{
+ "rules": {
+  "coverage": {
+   "A1": 0.95,
+   "A2": 0.95,
+   "B1": 0.93
+  },
+  "budget": {
+   "A1": [
+    "A2",
+    3
+   ],
+   "A2": [
+    "B1",
+    3
+   ],
+   "B1": [
+    null,
+    0
+   ]
+  },
+  "words_per_passage": {
+   "A1": [
+    60,
+    90
+   ],
+   "A2": [
+    100,
+    140
+   ],
+   "B1": [
+    150,
+    200
+   ]
+  },
+  "questions": [
+   4,
+   5
+  ]
+ },
+ "passages": [
+  {
+   "id": "p0001",
+   "lv": "A1",
+   "title": "राहुल का दिन",
+   "oop": {
+    "राहुल": "name",
+    "जयपुर": "name"
+   },
+   "names": [
+    "राहुल",
+    "जयपुर"
+   ],
+   "sentences": [
+    [
+     "मैं राहुल हूँ और जयपुर में रहता हूँ।",
+     "I am Rahul and I live in Jaipur."
+    ],
+    [
+     "मैं एक बड़ी कंपनी में काम करता हूँ।",
+     "I work at a big company."
+    ],
+    [
+     "मैं हर सुबह सात बजे उठता हूँ।",
+     "I get up at seven every morning."
+    ],
+    [
+     "नाश्ते में मैं रोटी खाता हूँ और चाय पीता हूँ।",
+     "For breakfast I eat roti and drink tea."
+    ],
+    [
+     "फिर मैं बस से काम पर जाता हूँ, क्योंकि मेरे पास कार नहीं है।",
+     "Then I go to work by bus, because I don't have a car."
+    ],
+    [
+     "एक बजे मैं अपने दोस्तों के साथ खाना खाता हूँ।",
+     "At one o'clock I eat with my friends."
+    ],
+    [
+     "शाम को मैं घर लौटता हूँ और थोड़ा सोता हूँ।",
+     "In the evening I come back home and sleep a little."
+    ],
+    [
+     "रात को मैं अपने परिवार के लिए खाना बनाता हूँ।",
+     "At night I cook for my family."
+    ],
+    [
+     "खाने के बाद मैं किताब पढ़ता हूँ।",
+     "After dinner I read a book."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "राहुल काम पर कैसे जाता है?",
+     "en": "How does Rahul go to work?",
+     "type": "mc",
+     "options": [
+      "बस से",
+      "कार से",
+      "रेलगाड़ी से",
+      "दोस्त के साथ"
+     ],
+     "answer": 0,
+     "words": [
+      "बस"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "राहुल के पास अपनी कार है।",
+     "en": "Rahul has his own car.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कार"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "राहुल अपने दोस्तों के साथ एक बजे खाना खाता है।",
+     "en": "Rahul eats with his friends at one o'clock.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दोस्त"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "राहुल रात को क्या करता है?",
+     "en": "What does Rahul do at night?",
+     "type": "mc",
+     "options": [
+      "फ़िल्म देखता है",
+      "खाना बनाता है",
+      "काम पर जाता है",
+      "दोस्तों से मिलता है"
+     ],
+     "answer": 1,
+     "words": [
+      "खाना बनाना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "राहुल नाश्ते में चाय पीता है।",
+     "en": "Rahul drinks tea at breakfast.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चाय"
+     ],
+     "sentence": 3
+    }
+   ]
+  },
+  {
+   "id": "p0002",
+   "lv": "A1",
+   "title": "प्रिया का परिवार",
+   "oop": {
+    "प्रिया": "name",
+    "दिल्ली": "name"
+   },
+   "names": [
+    "प्रिया",
+    "दिल्ली"
+   ],
+   "sentences": [
+    [
+     "प्रिया बारह साल की है।",
+     "Priya is twelve years old."
+    ],
+    [
+     "वह अपने माता-पिता और छोटे भाई के साथ दिल्ली में रहती है।",
+     "She lives in Delhi with her parents and her little brother."
+    ],
+    [
+     "उसके पिता डॉक्टर हैं और एक बड़े अस्पताल में काम करते हैं।",
+     "Her father is a doctor and works in a big hospital."
+    ],
+    [
+     "उसकी माँ एक स्कूल में संगीत सिखाती हैं।",
+     "Her mother teaches music at a school."
+    ],
+    [
+     "उसका भाई सिर्फ़ पाँच साल का है।",
+     "Her brother is only five years old."
+    ],
+    [
+     "प्रिया को किताबें पढ़ना बहुत पसंद है।",
+     "Priya loves reading books."
+    ],
+    [
+     "उसके भाई को खेलना पसंद है।",
+     "Her brother likes playing."
+    ],
+    [
+     "हर रविवार पूरा परिवार साथ में बाज़ार जाता है।",
+     "Every Sunday the whole family goes to the market together."
+    ],
+    [
+     "वहाँ वे सब्ज़ियाँ और फल ख़रीदते हैं।",
+     "There they buy vegetables and fruit."
+    ],
+    [
+     "शाम को सब मिलकर खाना खाते हैं और बातें करते हैं।",
+     "In the evening they all eat together and talk."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "प्रिया के पिता क्या काम करते हैं?",
+     "en": "What does Priya's father do?",
+     "type": "mc",
+     "options": [
+      "वे अध्यापक हैं",
+      "वे दुकान चलाते हैं",
+      "वे डॉक्टर हैं",
+      "वे पुलिस में हैं"
+     ],
+     "answer": 2,
+     "words": [
+      "डॉक्टर"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "प्रिया का भाई उससे बड़ा है।",
+     "en": "Priya's brother is older than her.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "भाई"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "रविवार को परिवार बाज़ार से क्या ख़रीदता है?",
+     "en": "What does the family buy at the market on Sunday?",
+     "type": "mc",
+     "options": [
+      "दूध और चाय",
+      "कपड़े और नए जूते",
+      "किताबें",
+      "फल और सब्ज़ियाँ"
+     ],
+     "answer": 3,
+     "words": [
+      "फल",
+      "सब्ज़ी"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "प्रिया को पढ़ना पसंद है।",
+     "en": "Priya likes reading.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "पढ़ना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "शाम को पूरा परिवार साथ में खाना खाता है।",
+     "en": "In the evening the whole family eats together.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "खाना"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0003",
+   "lv": "A1",
+   "title": "फल की दुकान पर",
+   "oop": {
+    "ललिता": "name"
+   },
+   "names": [
+    "ललिता"
+   ],
+   "sentences": [
+    [
+     "ललिता फल की दुकान पर जाती है।",
+     "Lalita goes to the fruit shop."
+    ],
+    [
+     "\"नमस्ते, ये सेब कितने के हैं?\"",
+     "\"Hello, how much are these apples?\""
+    ],
+    [
+     "दुकान वाला कहता है, \"सौ रुपए में चार सेब।\"",
+     "The shopkeeper says, \"Four apples for a hundred rupees.\""
+    ],
+    [
+     "ललिता कहती है, \"यह बहुत महंगा है।\"",
+     "Lalita says, \"That's very expensive.\""
+    ],
+    [
+     "\"ठीक है, सौ रुपए में पाँच ले लीजिए।\"",
+     "\"All right, take five for a hundred rupees.\""
+    ],
+    [
+     "ललिता पाँच सेब ख़रीदती है।",
+     "Lalita buys five apples."
+    ],
+    [
+     "फिर वह दूसरी दुकान से दूध और चावल लेती है।",
+     "Then she gets milk and rice from another shop."
+    ],
+    [
+     "घर पर उसकी बेटी पूछती है, \"माँ, मेरे लिए क्या लाई हो?\"",
+     "At home her daughter asks, \"Mum, what did you bring for me?\""
+    ],
+    [
+     "ललिता हँसकर कहती है, \"तुम्हारे लिए लाल सेब!\"",
+     "Lalita laughs and says, \"Red apples for you!\""
+    ],
+    [
+     "बेटी बहुत ख़ुश होती है।",
+     "The daughter is very happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "ललिता सेबों के बारे में क्या कहती है?",
+     "en": "What does Lalita say about the apples?",
+     "type": "mc",
+     "options": [
+      "वे बहुत महंगे हैं",
+      "वे बहुत सस्ते हैं",
+      "वे बहुत ही छोटे हैं",
+      "वे गंदे हैं"
+     ],
+     "answer": 0,
+     "words": [
+      "महंगा"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "ललिता को सौ रुपए में कितने सेब मिलते हैं?",
+     "en": "How many apples does Lalita get for a hundred rupees?",
+     "type": "mc",
+     "options": [
+      "तीन",
+      "पाँच",
+      "चार",
+      "छह"
+     ],
+     "answer": 1,
+     "words": [
+      "पाँच"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "ललिता चावल भी ख़रीदती है।",
+     "en": "Lalita also buys rice.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चावल"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "ललिता की बेटी ख़ुश होती है।",
+     "en": "Lalita's daughter is happy.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "ख़ुश"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "ललिता अपनी बेटी के लिए हरे सेब लाती है।",
+     "en": "Lalita brings green apples for her daughter.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "सेब"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0004",
+   "lv": "A1",
+   "title": "अनीता का कमरा",
+   "oop": {
+    "अनीता": "name"
+   },
+   "names": [
+    "अनीता"
+   ],
+   "sentences": [
+    [
+     "मेरा नाम अनीता है और यह मेरा कमरा है।",
+     "My name is Anita and this is my room."
+    ],
+    [
+     "मेरा कमरा छोटा है, लेकिन बहुत साफ़ है।",
+     "My room is small, but very clean."
+    ],
+    [
+     "कमरे में एक बड़ी खिड़की है।",
+     "There is a big window in the room."
+    ],
+    [
+     "खिड़की के पास मेरी मेज़ और कुर्सी है।",
+     "My table and chair are near the window."
+    ],
+    [
+     "मेज़ पर मेरी किताबें और एक नीला फ़ोन है।",
+     "On the table there are my books and a blue phone."
+    ],
+    [
+     "दीवार पर मेरे परिवार की एक तस्वीर है।",
+     "On the wall there is a picture of my family."
+    ],
+    [
+     "सुबह खिड़की से धूप आती है।",
+     "In the morning sunlight comes in through the window."
+    ],
+    [
+     "मुझे यहाँ बैठकर पढ़ना बहुत अच्छा लगता है।",
+     "I really like sitting and reading here."
+    ],
+    [
+     "मेरी बिल्ली भी कभी-कभी मेरी कुर्सी पर सो जाती है।",
+     "My cat also sometimes falls asleep on my chair."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "अनीता का कमरा बहुत बड़ा है।",
+     "en": "Anita's room is very big.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कमरा",
+      "छोटा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "अनीता की मेज़ कहाँ है?",
+     "en": "Where is Anita's table?",
+     "type": "mc",
+     "options": [
+      "दरवाज़े के पास",
+      "रसोई के पास",
+      "खिड़की के पास",
+      "कुर्सी के नीचे"
+     ],
+     "answer": 2,
+     "words": [
+      "खिड़की"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "दीवार पर क्या है?",
+     "en": "What is on the wall?",
+     "type": "mc",
+     "options": [
+      "एक बहुत पुरानी किताब",
+      "एक बड़ा फ़ोन",
+      "एक नई घड़ी",
+      "परिवार की तस्वीर"
+     ],
+     "answer": 3,
+     "words": [
+      "तस्वीर"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "अनीता की बिल्ली कभी-कभी कुर्सी पर सोती है।",
+     "en": "Anita's cat sometimes sleeps on the chair.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "बिल्ली"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "सुबह कमरे में धूप नहीं आती।",
+     "en": "In the morning no sunlight comes into the room.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "धूप"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0005",
+   "lv": "A1",
+   "title": "दिल्ली का मौसम",
+   "oop": {
+    "दिल्ली": "name"
+   },
+   "names": [
+    "दिल्ली"
+   ],
+   "sentences": [
+    [
+     "दिल्ली में साल में कई मौसम होते हैं।",
+     "Delhi has several seasons in a year."
+    ],
+    [
+     "अप्रैल, मई और जून में बहुत गर्मी होती है।",
+     "In April, May and June it is very hot."
+    ],
+    [
+     "इन महीनों में लोग ठंडा पानी पीते हैं और सफ़ेद कपड़े पहनते हैं।",
+     "In these months people drink cold water and wear white clothes."
+    ],
+    [
+     "जुलाई और अगस्त में बहुत बारिश होती है।",
+     "In July and August it rains a lot."
+    ],
+    [
+     "तब सड़कों पर पानी भर जाता है।",
+     "Then the roads fill with water."
+    ],
+    [
+     "दिसंबर और जनवरी में सर्दी होती है।",
+     "In December and January it is winter."
+    ],
+    [
+     "सुबह हवा बहुत ठंडी होती है।",
+     "In the morning the air is very cold."
+    ],
+    [
+     "बसंत में मौसम बहुत अच्छा होता है और हर जगह फूल दिखते हैं।",
+     "In spring the weather is very nice and there are flowers everywhere."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "दिल्ली में बहुत बारिश कब होती है?",
+     "en": "When does it rain a lot in Delhi?",
+     "type": "mc",
+     "options": [
+      "जुलाई और अगस्त में",
+      "दिसंबर और जनवरी में",
+      "अप्रैल और मई में",
+      "मार्च में"
+     ],
+     "answer": 0,
+     "words": [
+      "बारिश"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "सर्दी में सुबह हवा गर्म होती है।",
+     "en": "In winter the morning air is warm.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "हवा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "जुलाई में सड़कें कैसी होती हैं?",
+     "en": "What are the roads like in July?",
+     "type": "mc",
+     "options": [
+      "फूलों से भरी",
+      "पानी से भरी",
+      "बहुत साफ़",
+      "बहुत गर्म"
+     ],
+     "answer": 1,
+     "words": [
+      "पानी"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "बसंत में बहुत फूल होते हैं।",
+     "en": "In spring there are many flowers.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "फूल"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "गर्मी में लोग सफ़ेद कपड़े पहनते हैं।",
+     "en": "In summer people wear white clothes.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "कपड़ा"
+     ],
+     "sentence": 2
+    }
+   ]
+  },
+  {
+   "id": "p0006",
+   "lv": "A1",
+   "title": "डॉक्टर के पास",
+   "oop": {
+    "अमित": "name"
+   },
+   "names": [
+    "अमित"
+   ],
+   "sentences": [
+    [
+     "आज अमित ठीक नहीं है।",
+     "Today Amit is not well."
+    ],
+    [
+     "उसका सिर बहुत गर्म है और वह बहुत थका हुआ है।",
+     "His head is very hot and he is very tired."
+    ],
+    [
+     "वह सुबह स्कूल नहीं जाता।",
+     "He doesn't go to school in the morning."
+    ],
+    [
+     "उसकी माँ उसे डॉक्टर के पास ले जाती हैं।",
+     "His mother takes him to the doctor."
+    ],
+    [
+     "डॉक्टर कहते हैं, \"कोई बड़ी बात नहीं है।\"",
+     "The doctor says, \"It's nothing serious.\""
+    ],
+    [
+     "\"दिन में दो बार यह गोली लो और ज़्यादा पानी पियो।\"",
+     "\"Take this tablet twice a day and drink more water.\""
+    ],
+    [
+     "\"दो दिन घर पर रहो और आराम करो।\"",
+     "\"Stay at home for two days and rest.\""
+    ],
+    [
+     "घर पर माँ उसके लिए दाल और चावल बनाती हैं।",
+     "At home his mother makes dal and rice for him."
+    ],
+    [
+     "अगले दिन अमित को थोड़ा अच्छा लगता है।",
+     "The next day Amit feels a little better."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "अमित को क्या हुआ है?",
+     "en": "What is wrong with Amit?",
+     "type": "mc",
+     "options": [
+      "वह बहुत ख़ुश है",
+      "वह भूखा है",
+      "वह ठीक नहीं है",
+      "उसका पैर टूटा है"
+     ],
+     "answer": 2,
+     "words": [
+      "ठीक होना"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "अमित अपने पिता के साथ डॉक्टर के पास जाता है।",
+     "en": "Amit goes to the doctor with his father.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "माँ",
+      "डॉक्टर"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "अमित को दिन में कितनी बार गोली लेनी है?",
+     "en": "How many times a day does Amit have to take the tablet?",
+     "type": "mc",
+     "options": [
+      "एक बार",
+      "चार बार",
+      "तीन बार",
+      "दो बार"
+     ],
+     "answer": 3,
+     "words": [
+      "गोली"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "डॉक्टर कहते हैं कि अमित को घर पर रहना चाहिए।",
+     "en": "The doctor says Amit should stay at home.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "घर",
+      "रहना"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "माँ अमित के लिए रोटी बनाती हैं।",
+     "en": "His mother makes roti for Amit.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "माँ"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0007",
+   "lv": "A1",
+   "title": "स्कूल में नया दोस्त",
+   "oop": {
+    "रवि": "name",
+    "करण": "name",
+    "मुंबई": "name",
+    "दिल्ली": "name",
+    "जयपुर": "name",
+    "पुणे": "name"
+   },
+   "names": [
+    "रवि",
+    "करण",
+    "मुंबई",
+    "दिल्ली",
+    "जयपुर",
+    "पुणे"
+   ],
+   "sentences": [
+    [
+     "रवि दस साल का है।",
+     "Ravi is ten years old."
+    ],
+    [
+     "आज उसकी कक्षा में एक नया लड़का आया।",
+     "Today a new boy came to his class."
+    ],
+    [
+     "उसका नाम करण है और वह मुंबई से आया है।",
+     "His name is Karan and he has come from Mumbai."
+    ],
+    [
+     "करण किसी को नहीं जानता था, इसलिए वह चुप बैठा था।",
+     "Karan didn't know anyone, so he sat quietly."
+    ],
+    [
+     "खाने के समय रवि ने उससे बात की।",
+     "At lunchtime Ravi talked to him."
+    ],
+    [
+     "उसने करण को अपनी रोटी और सब्ज़ी भी दी।",
+     "He also gave Karan his roti and vegetables."
+    ],
+    [
+     "दोनों को खेलना और कहानियाँ पढ़ना पसंद है।",
+     "Both of them like playing and reading stories."
+    ],
+    [
+     "स्कूल के बाद वे साथ में घर गए, क्योंकि उनके घर पास-पास हैं।",
+     "After school they went home together, because their houses are close to each other."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "करण पहले किस शहर में रहता था?",
+     "en": "Which city did Karan live in before?",
+     "type": "mc",
+     "options": [
+      "मुंबई",
+      "दिल्ली",
+      "जयपुर",
+      "पुणे"
+     ],
+     "answer": 0,
+     "words": [
+      "आना"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "पहले दिन करण ने कक्षा में बहुत बातें कीं।",
+     "en": "On the first day Karan talked a lot in class.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "चुप"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "रवि ने करण को क्या दिया?",
+     "en": "What did Ravi give Karan?",
+     "type": "mc",
+     "options": [
+      "अपनी किताब",
+      "अपना खाना",
+      "नए जूते",
+      "थोड़े पैसे"
+     ],
+     "answer": 1,
+     "words": [
+      "रोटी"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "रवि और करण स्कूल के बाद साथ में घर गए।",
+     "en": "Ravi and Karan went home together after school.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "घर"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "रवि और करण दोनों को कहानियाँ पसंद हैं।",
+     "en": "Both Ravi and Karan like stories.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "कहानी"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0008",
+   "lv": "A1",
+   "title": "सब बच्चों के लिए",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "कृपया सब लोग यह बात ध्यान से पढ़ें।",
+     "Everyone, please read this carefully."
+    ],
+    [
+     "अगले शुक्रवार को स्कूल बंद रहेगा।",
+     "Next Friday the school will be closed."
+    ],
+    [
+     "शनिवार को स्कूल में खेल का दिन है।",
+     "On Saturday there is a sports day at school."
+    ],
+    [
+     "सब बच्चे सुबह आठ बजे स्कूल आएँ।",
+     "All children should come to school at eight in the morning."
+    ],
+    [
+     "सफ़ेद कपड़े और खेल के जूते पहनें।",
+     "Wear white clothes and sports shoes."
+    ],
+    [
+     "अपने साथ पानी और थोड़ा खाना लाएँ।",
+     "Bring water and a little food with you."
+    ],
+    [
+     "माता-पिता भी आ सकते हैं।",
+     "Parents can come too."
+    ],
+    [
+     "खेल दस बजे शुरू होंगे और दो बजे ख़त्म होंगे।",
+     "The games will start at ten and finish at two."
+    ],
+    [
+     "बारिश होने पर खेल अगले हफ़्ते होंगे।",
+     "If it rains, the games will be next week."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "शुक्रवार को क्या होगा?",
+     "en": "What will happen on Friday?",
+     "type": "mc",
+     "options": [
+      "बारिश होगी",
+      "खेल का दिन होगा",
+      "स्कूल नहीं खुलेगा",
+      "बच्चे आठ बजे आएँगे"
+     ],
+     "answer": 2,
+     "words": [
+      "स्कूल"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "बच्चों को सफ़ेद कपड़े पहनने हैं।",
+     "en": "The children have to wear white clothes.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "सफ़ेद",
+      "कपड़ा"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "खेल कितने बजे शुरू होंगे?",
+     "en": "What time will the games start?",
+     "type": "mc",
+     "options": [
+      "आठ बजे",
+      "बारह बजे",
+      "दो बजे",
+      "दस बजे"
+     ],
+     "answer": 3,
+     "words": [
+      "शुरू होना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "माता-पिता भी खेल देखने आ सकते हैं।",
+     "en": "Parents can also come to watch the games.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "माता",
+      "पिता"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "बारिश में भी खेल शनिवार को होंगे।",
+     "en": "Even if it rains, the games will be on Saturday.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बारिश"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0009",
+   "lv": "A1",
+   "title": "माँ का जन्मदिन",
+   "oop": {
+    "नेहा": "name"
+   },
+   "names": [
+    "नेहा"
+   ],
+   "sentences": [
+    [
+     "कल नेहा की माँ का जन्मदिन था।",
+     "Yesterday was Neha's mother's birthday."
+    ],
+    [
+     "नेहा और उसके पिता ने सुबह जल्दी उठकर घर साफ़ किया।",
+     "Neha and her father got up early in the morning and cleaned the house."
+    ],
+    [
+     "फिर उन्होंने मिलकर माँ के लिए खाना बनाया।",
+     "Then together they cooked a meal for her mother."
+    ],
+    [
+     "नेहा ने माँ के लिए एक सुंदर तस्वीर भी बनाई।",
+     "Neha also made a beautiful picture for her mother."
+    ],
+    [
+     "तस्वीर में पूरा परिवार था।",
+     "The whole family was in the picture."
+    ],
+    [
+     "शाम को कुछ दोस्त और पड़ोसी आए।",
+     "In the evening some friends and neighbours came."
+    ],
+    [
+     "सबने साथ में खाना खाया और संगीत सुना।",
+     "Everyone ate together and listened to music."
+    ],
+    [
+     "माँ को तस्वीर बहुत पसंद आई।",
+     "Her mother liked the picture very much."
+    ],
+    [
+     "उन्होंने कहा, \"यह मेरा सबसे अच्छा जन्मदिन है!\"",
+     "She said, \"This is my best birthday!\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "नेहा ने माँ को क्या दिया?",
+     "en": "What did Neha give her mother?",
+     "type": "mc",
+     "options": [
+      "एक तस्वीर",
+      "नए कपड़े",
+      "एक किताब",
+      "कुछ सुंदर फूल"
+     ],
+     "answer": 0,
+     "words": [
+      "तस्वीर"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "शाम को घर पर कोई नहीं आया।",
+     "en": "Nobody came to the house in the evening.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "शाम"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "तस्वीर में नेहा का पूरा परिवार था।",
+     "en": "Neha's whole family was in the picture.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "तस्वीर"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "माँ ने अपने जन्मदिन के बारे में क्या कहा?",
+     "en": "What did the mother say about her birthday?",
+     "type": "mc",
+     "options": [
+      "यह बहुत बुरा था",
+      "यह सबसे अच्छा था",
+      "उन्हें खाना पसंद नहीं आया",
+      "उन्हें संगीत पसंद नहीं आया"
+     ],
+     "answer": 1,
+     "words": [
+      "अच्छा"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "पिता और नेहा ने मिलकर खाना बनाया।",
+     "en": "Father and Neha cooked together.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "खाना बनाना"
+     ],
+     "sentence": 2
+    }
+   ]
+  },
+  {
+   "id": "p0010",
+   "lv": "A1",
+   "title": "रेलगाड़ी में",
+   "oop": {
+    "सुनील": "name",
+    "दिल्ली": "name",
+    "जयपुर": "name"
+   },
+   "names": [
+    "सुनील",
+    "दिल्ली",
+    "जयपुर"
+   ],
+   "sentences": [
+    [
+     "सुनील दिल्ली से जयपुर जा रहा है।",
+     "Sunil is going from Delhi to Jaipur."
+    ],
+    [
+     "वह रेलगाड़ी में खिड़की के पास बैठा है।",
+     "He is sitting by the window in the train."
+    ],
+    [
+     "रेलगाड़ी सुबह छह बजे चली थी और ग्यारह बजे जयपुर पहुँचेगी।",
+     "The train left at six in the morning and will reach Jaipur at eleven."
+    ],
+    [
+     "बाहर हरे पेड़ और छोटे गाँव दिख रहे हैं।",
+     "Outside, green trees and small villages can be seen."
+    ],
+    [
+     "सुनील के सामने एक बूढ़ा आदमी बैठा है।",
+     "An old man is sitting opposite Sunil."
+    ],
+    [
+     "वह एक किताब पढ़ रहा है।",
+     "He is reading a book."
+    ],
+    [
+     "नौ बजे एक लड़का चाय लेकर आता है।",
+     "At nine a boy comes with tea."
+    ],
+    [
+     "सुनील दो चाय लेता है, एक अपने लिए और एक उस आदमी के लिए।",
+     "Sunil takes two teas, one for himself and one for that man."
+    ],
+    [
+     "आदमी कहता है, \"बहुत धन्यवाद, बेटा!\"",
+     "The man says, \"Thank you very much, son!\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "रेलगाड़ी कितने बजे जयपुर पहुँचेगी?",
+     "en": "At what time will the train reach Jaipur?",
+     "type": "mc",
+     "options": [
+      "छह बजे",
+      "नौ बजे",
+      "ग्यारह बजे",
+      "बारह बजे"
+     ],
+     "answer": 2,
+     "words": [
+      "पहुँचना"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "सुनील की सीट खिड़की के पास है।",
+     "en": "Sunil's seat is by the window.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "खिड़की"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "बूढ़ा आदमी क्या कर रहा है?",
+     "en": "What is the old man doing?",
+     "type": "mc",
+     "options": [
+      "सो रहा है",
+      "फ़ोन देख रहा है",
+      "खाना खा रहा है",
+      "पढ़ रहा है"
+     ],
+     "answer": 3,
+     "words": [
+      "पढ़ना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "सुनील सिर्फ़ अपने लिए चाय लेता है।",
+     "en": "Sunil gets tea only for himself.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "चाय"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "बाहर गाँव दिख रहे हैं।",
+     "en": "Villages can be seen outside.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "गाँव"
+     ],
+     "sentence": 3
+    }
+   ]
+  },
+  {
+   "id": "p0011",
+   "lv": "A1",
+   "title": "नया घर",
+   "oop": {
+    "मीना": "name"
+   },
+   "names": [
+    "मीना"
+   ],
+   "sentences": [
+    [
+     "मीना और उसका परिवार अब एक नए घर में रहते हैं।",
+     "Meena and her family now live in a new house."
+    ],
+    [
+     "पुराना घर बहुत छोटा था और शहर से दूर था।",
+     "The old house was very small and far from the city."
+    ],
+    [
+     "नए घर में तीन कमरे और एक बड़ी रसोई है।",
+     "The new house has three rooms and a big kitchen."
+    ],
+    [
+     "घर के पीछे बहुत पेड़ हैं।",
+     "There are lots of trees behind the house."
+    ],
+    [
+     "मीना का स्कूल यहाँ से सिर्फ़ पाँच मिनट दूर है।",
+     "Meena's school is only five minutes from here."
+    ],
+    [
+     "अब वह हर दिन चलकर स्कूल जाती है।",
+     "Now she walks to school every day."
+    ],
+    [
+     "उसके पिता का काम भी पास में है।",
+     "Her father's work is nearby too."
+    ],
+    [
+     "लेकिन पास में कोई बाज़ार नहीं है।",
+     "But there is no market nearby."
+    ],
+    [
+     "इसलिए माँ हर शनिवार कार से बाज़ार जाती हैं।",
+     "So her mother goes to the market by car every Saturday."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "नए घर में कितने कमरे हैं?",
+     "en": "How many rooms does the new house have?",
+     "type": "mc",
+     "options": [
+      "तीन",
+      "दो",
+      "चार",
+      "पाँच"
+     ],
+     "answer": 0,
+     "words": [
+      "कमरा"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "पुराना घर शहर के पास था।",
+     "en": "The old house was near the city.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "पुराना",
+      "शहर"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "मीना स्कूल कैसे जाती है?",
+     "en": "How does Meena get to school?",
+     "type": "mc",
+     "options": [
+      "वह बस से जाती है",
+      "वह चलकर जाती है",
+      "वह कार से जाती है",
+      "वह पिता के साथ जाती है"
+     ],
+     "answer": 1,
+     "words": [
+      "चलना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "घर के पास एक बाज़ार है।",
+     "en": "There is a market near the house.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बाज़ार"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "माँ शनिवार को बाज़ार जाती हैं।",
+     "en": "Her mother goes to the market on Saturdays.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "शनिवार"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0012",
+   "lv": "A1",
+   "title": "फ़ोन पर बात",
+   "oop": {
+    "अंजलि": "name",
+    "रीना": "name"
+   },
+   "names": [
+    "अंजलि",
+    "रीना"
+   ],
+   "sentences": [
+    [
+     "अंजलि अपनी दोस्त रीना को फ़ोन करती है।",
+     "Anjali phones her friend Reena."
+    ],
+    [
+     "\"रीना, तुम अभी क्या कर रही हो?\"",
+     "\"Reena, what are you doing right now?\""
+    ],
+    [
+     "\"मैं घर पर हूँ और पढ़ाई कर रही हूँ।\"",
+     "\"I'm at home and studying.\""
+    ],
+    [
+     "\"आज शाम को मेरे साथ फ़िल्म देखने चलोगी?\"",
+     "\"Will you come with me to see a film this evening?\""
+    ],
+    [
+     "\"कौन सी फ़िल्म?\"",
+     "\"Which film?\""
+    ],
+    [
+     "\"एक नई फ़िल्म है, जो सात बजे शुरू होगी।\"",
+     "\"It's a new film that starts at seven.\""
+    ],
+    [
+     "\"ठीक है, लेकिन मुझे नौ बजे तक घर आना है।\"",
+     "\"OK, but I have to be home by nine.\""
+    ],
+    [
+     "\"कोई बात नहीं, फ़िल्म आठ बजे ख़त्म हो जाएगी।\"",
+     "\"No problem, the film will be over at eight.\""
+    ],
+    [
+     "\"ठीक है, मैं छह बजे तुम्हारे घर आऊँगी।\"",
+     "\"OK, I'll come to your house at six.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "रीना अभी क्या कर रही है?",
+     "en": "What is Reena doing now?",
+     "type": "mc",
+     "options": [
+      "फ़िल्म देख रही है",
+      "खाना बना रही है",
+      "पढ़ाई कर रही है",
+      "बाज़ार में है"
+     ],
+     "answer": 2,
+     "words": [
+      "पढ़ाई करना"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "फ़िल्म सात बजे शुरू होगी।",
+     "en": "The film will start at seven.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "फ़िल्म",
+      "शुरू होना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "रीना रात को देर तक बाहर रह सकती है।",
+     "en": "Reena can stay out late at night.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "घर"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "अंजलि किस समय रीना के घर आएगी?",
+     "en": "At what time will Anjali come to Reena's house?",
+     "type": "mc",
+     "options": [
+      "नौ बजे",
+      "सात बजे",
+      "आठ बजे",
+      "छह बजे"
+     ],
+     "answer": 3,
+     "words": [
+      "आना"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0013",
+   "lv": "A1",
+   "title": "राजू और मोती",
+   "oop": {
+    "राजू": "name",
+    "मोती": "name"
+   },
+   "names": [
+    "राजू",
+    "मोती"
+   ],
+   "sentences": [
+    [
+     "राजू के पास एक छोटा कुत्ता है।",
+     "Raju has a small dog."
+    ],
+    [
+     "कुत्ते का नाम मोती है और उसका रंग भूरा है।",
+     "The dog's name is Moti and he is brown."
+    ],
+    [
+     "मोती दो साल का है।",
+     "Moti is two years old."
+    ],
+    [
+     "हर सुबह राजू और मोती साथ में बाहर जाते हैं।",
+     "Every morning Raju and Moti go out together."
+    ],
+    [
+     "मोती को दौड़ना और खेलना बहुत पसंद है।",
+     "Moti loves running and playing."
+    ],
+    [
+     "जब राजू स्कूल जाता है, तो मोती दरवाज़े के पास बैठकर उसका इंतज़ार करता है।",
+     "When Raju goes to school, Moti sits by the door and waits for him."
+    ],
+    [
+     "मोती दूध पीता है और रोटी खाता है।",
+     "Moti drinks milk and eats roti."
+    ],
+    [
+     "कभी-कभी वह राजू के जूते लेकर भाग जाता है।",
+     "Sometimes he runs off with Raju's shoes."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "मोती कैसा दिखता है?",
+     "en": "What does Moti look like?",
+     "type": "mc",
+     "options": [
+      "वह छोटा और भूरा है",
+      "वह बड़ा और काला है",
+      "वह छोटा और सफ़ेद है",
+      "वह बड़ा और भूरा है"
+     ],
+     "answer": 0,
+     "words": [
+      "भूरा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "मोती तीन साल का है।",
+     "en": "Moti is three years old.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "साल"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "जब राजू स्कूल जाता है, तब मोती क्या करता है?",
+     "en": "What does Moti do when Raju goes to school?",
+     "type": "mc",
+     "options": [
+      "वह सो जाता है",
+      "वह राजू का इंतज़ार करता है",
+      "वह घर के बाहर जाकर खेलता है",
+      "वह दूध पीता है"
+     ],
+     "answer": 1,
+     "words": [
+      "इंतज़ार करना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "मोती कभी-कभी राजू के जूते लेकर भागता है।",
+     "en": "Moti sometimes runs off with Raju's shoes.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "जूता"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "मोती को खेलना पसंद नहीं है।",
+     "en": "Moti doesn't like playing.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "खेलना"
+     ],
+     "sentence": 4
+    }
+   ]
+  },
+  {
+   "id": "p0014",
+   "lv": "A1",
+   "title": "बैंक कहाँ है?",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "एक आदमी सड़क पर एक लड़की से पूछता है, \"माफ़ कीजिए, बैंक कहाँ है?\"",
+     "A man on the street asks a girl, \"Excuse me, where is the bank?\""
+    ],
+    [
+     "लड़की कहती है, \"इस सड़क पर आगे जाइए।\"",
+     "The girl says, \"Go further along this road.\""
+    ],
+    [
+     "\"एक बड़ा अस्पताल आएगा।\"",
+     "\"You'll come to a big hospital.\""
+    ],
+    [
+     "\"अस्पताल के सामने एक छोटी दुकान है।\"",
+     "\"Opposite the hospital there is a small shop.\""
+    ],
+    [
+     "\"बैंक उस दुकान के ऊपर है।\"",
+     "\"The bank is above that shop.\""
+    ],
+    [
+     "\"क्या यह दूर है?\"",
+     "\"Is it far?\""
+    ],
+    [
+     "\"नहीं, बस दस मिनट का रास्ता है।\"",
+     "\"No, it's just ten minutes away.\""
+    ],
+    [
+     "\"आज बैंक चार बजे तक खुला है।\"",
+     "\"Today the bank is open until four.\""
+    ],
+    [
+     "\"लेकिन जल्दी जाइए, अभी तीन बजे हैं।\"",
+     "\"But go quickly, it's already three o'clock.\""
+    ],
+    [
+     "आदमी कहता है, \"बहुत धन्यवाद!\"",
+     "The man says, \"Thank you very much!\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "आदमी कहाँ जाना चाहता है?",
+     "en": "Where does the man want to go?",
+     "type": "mc",
+     "options": [
+      "अस्पताल में",
+      "दुकान में",
+      "बैंक में",
+      "स्कूल में"
+     ],
+     "answer": 2,
+     "words": [
+      "बैंक"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "बैंक दुकान के ऊपर है।",
+     "en": "The bank is above the shop.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दुकान"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "आज बैंक कब तक खुला है?",
+     "en": "Until when is the bank open today?",
+     "type": "mc",
+     "options": [
+      "तीन बजे तक",
+      "दस बजे तक",
+      "पाँच बजे तक",
+      "चार बजे तक"
+     ],
+     "answer": 3,
+     "words": [
+      "बैंक"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "बैंक यहाँ से बहुत दूर है।",
+     "en": "The bank is very far from here.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "रास्ता"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0015",
+   "lv": "A1",
+   "title": "रविवार का खाना",
+   "oop": {
+    "अमित": "name"
+   },
+   "names": [
+    "अमित"
+   ],
+   "sentences": [
+    [
+     "आज रविवार है और अमित के पापा खाना बना रहे हैं।",
+     "Today is Sunday and Amit's dad is cooking."
+    ],
+    [
+     "वे दाल, चावल और सब्ज़ी बना रहे हैं।",
+     "He is making dal, rice and vegetables."
+    ],
+    [
+     "अमित उनकी मदद करता है।",
+     "Amit helps him."
+    ],
+    [
+     "वह पहले सब्ज़ियाँ धोता है और फिर उन्हें काटता है।",
+     "First he washes the vegetables and then he cuts them."
+    ],
+    [
+     "उसकी छोटी बहन मेज़ साफ़ करती है।",
+     "His little sister cleans the table."
+    ],
+    [
+     "माँ बाज़ार गई हैं और एक घंटे में लौटेंगी।",
+     "Mum has gone to the market and will be back in an hour."
+    ],
+    [
+     "पापा कहते हैं, \"दाल में थोड़ा पानी और डालो।\"",
+     "Dad says, \"Put a little more water in the dal.\""
+    ],
+    [
+     "बारह बजे खाना तैयार हो जाता है।",
+     "At twelve the food is ready."
+    ],
+    [
+     "माँ घर आती हैं और सब साथ बैठकर खाते हैं।",
+     "Mum comes home and they all sit down and eat together."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "आज खाना कौन बना रहा है?",
+     "en": "Who is cooking today?",
+     "type": "mc",
+     "options": [
+      "उसके पिता",
+      "उसकी माँ",
+      "उसकी बड़ी बहन",
+      "उसका भाई"
+     ],
+     "answer": 0,
+     "words": [
+      "पापा"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "अमित सब्ज़ियाँ काटता है।",
+     "en": "Amit cuts the vegetables.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "सब्ज़ी",
+      "काटना"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "माँ घर पर खाना बना रही हैं।",
+     "en": "Mum is cooking at home.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "माँ"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "खाना कितने बजे तैयार होता है?",
+     "en": "At what time is the food ready?",
+     "type": "mc",
+     "options": [
+      "दस बजे",
+      "बारह बजे",
+      "ग्यारह बजे",
+      "एक बजे"
+     ],
+     "answer": 1,
+     "words": [
+      "तैयार होना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "अमित की बहन कुछ काम नहीं करती।",
+     "en": "Amit's sister doesn't do any work.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बहन"
+     ],
+     "sentence": 4
+    }
+   ]
+  },
+  {
+   "id": "p0016",
+   "lv": "A1",
+   "title": "रविवार की सुबह",
+   "oop": {
+    "सुनीता": "name"
+   },
+   "names": [
+    "सुनीता"
+   ],
+   "sentences": [
+    [
+     "रविवार की सुबह सुनीता पार्क जाती है।",
+     "On Sunday morning Sunita goes to the park."
+    ],
+    [
+     "वहाँ बहुत लोग होते हैं।",
+     "There are a lot of people there."
+    ],
+    [
+     "कुछ लोग दौड़ते हैं और कुछ लोग सिर्फ़ चलते हैं।",
+     "Some people run and some just walk."
+    ],
+    [
+     "बच्चे पेड़ों के नीचे खेलते हैं।",
+     "Children play under the trees."
+    ],
+    [
+     "सुनीता आधा घंटा दौड़ती है।",
+     "Sunita runs for half an hour."
+    ],
+    [
+     "फिर वह एक कुर्सी पर बैठकर पानी पीती है।",
+     "Then she sits down on a seat and drinks water."
+    ],
+    [
+     "उसके पास एक बूढ़ी महिला बैठी हैं।",
+     "An old woman is sitting next to her."
+    ],
+    [
+     "वे हर रविवार वहाँ मिलती हैं और बात करती हैं।",
+     "They meet there every Sunday and talk."
+    ],
+    [
+     "महिला सुनीता को अपने गाँव की कहानियाँ सुनाती हैं।",
+     "The woman tells Sunita stories about her village."
+    ],
+    [
+     "नौ बजे सुनीता घर लौट जाती है।",
+     "At nine Sunita goes back home."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "सुनीता पार्क में कितनी देर दौड़ती है?",
+     "en": "How long does Sunita run in the park?",
+     "type": "mc",
+     "options": [
+      "दस मिनट",
+      "एक घंटा",
+      "तीस मिनट",
+      "दो घंटे"
+     ],
+     "answer": 2,
+     "words": [
+      "दौड़ना"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "पार्क में कोई बच्चा नहीं होता।",
+     "en": "There are no children in the park.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बच्चा"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "बूढ़ी महिला सुनीता को क्या सुनाती हैं?",
+     "en": "What does the old woman tell Sunita?",
+     "type": "mc",
+     "options": [
+      "नए गाने",
+      "अपने बेटे के बारे में बातें",
+      "शहर की ख़बरें",
+      "गाँव के बारे में कहानियाँ"
+     ],
+     "answer": 3,
+     "words": [
+      "कहानी"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "सुनीता और बूढ़ी महिला हर रविवार मिलती हैं।",
+     "en": "Sunita and the old woman meet every Sunday.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "मिलना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "सुनीता दस बजे घर लौटती है।",
+     "en": "Sunita goes home at ten.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "लौटना"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0017",
+   "lv": "A1",
+   "title": "शादी के कपड़े",
+   "oop": {
+    "करण": "name"
+   },
+   "names": [
+    "करण"
+   ],
+   "sentences": [
+    [
+     "करण को एक शादी में जाना है।",
+     "Karan has to go to a wedding."
+    ],
+    [
+     "इसलिए वह अपनी बहन के साथ कपड़ों की दुकान पर जाता है।",
+     "So he goes to a clothes shop with his sister."
+    ],
+    [
+     "दुकान में बहुत रंगों के कपड़े हैं।",
+     "The shop has clothes in many colours."
+    ],
+    [
+     "करण को नीले रंग के कपड़े पसंद हैं।",
+     "Karan likes blue clothes."
+    ],
+    [
+     "लेकिन उसकी बहन कहती है, \"शादी में लाल या पीला पहनो।\"",
+     "But his sister says, \"Wear red or yellow to a wedding.\""
+    ],
+    [
+     "करण कई कपड़े पहनकर देखता है।",
+     "Karan tries on several clothes."
+    ],
+    [
+     "अंत में वह हरे रंग के कपड़े लेता है।",
+     "In the end he takes green clothes."
+    ],
+    [
+     "वे महंगे नहीं हैं, सिर्फ़ आठ सौ रुपए के हैं।",
+     "They aren't expensive, only eight hundred rupees."
+    ],
+    [
+     "बहन कहती है, \"ये तुम पर बहुत अच्छे लगते हैं!\"",
+     "His sister says, \"They look very nice on you!\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "करण दुकान पर क्यों जाता है?",
+     "en": "Why does Karan go to the shop?",
+     "type": "mc",
+     "options": [
+      "उसे शादी में जाना है",
+      "उसका जन्मदिन है",
+      "उसे अपने दोस्त से मिलना है",
+      "उसकी नई नौकरी है"
+     ],
+     "answer": 0,
+     "words": [
+      "शादी"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "बहन को लगता है कि शादी के लिए लाल रंग अच्छा है।",
+     "en": "His sister thinks red is good for a wedding.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "शादी"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "करण अंत में किस रंग के कपड़े लेता है?",
+     "en": "What colour clothes does Karan take in the end?",
+     "type": "mc",
+     "options": [
+      "नीले",
+      "हरे",
+      "लाल",
+      "पीले"
+     ],
+     "answer": 1,
+     "words": [
+      "हरा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "करण के कपड़े बहुत महंगे हैं।",
+     "en": "Karan's clothes are very expensive.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "महंगा"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "बहन को करण के कपड़े अच्छे लगते हैं।",
+     "en": "His sister likes Karan's clothes.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "अच्छा लगना"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0018",
+   "lv": "A1",
+   "title": "गाँव से चिट्ठी",
+   "oop": {
+    "नेहा": "name",
+    "ललिता": "name",
+    "दिल्ली": "name"
+   },
+   "names": [
+    "नेहा",
+    "ललिता",
+    "दिल्ली"
+   ],
+   "sentences": [
+    [
+     "नमस्ते नेहा!",
+     "Hello Neha!"
+    ],
+    [
+     "मैं इस हफ़्ते अपने चाचा के गाँव में हूँ।",
+     "This week I'm at my uncle's village."
+    ],
+    [
+     "यहाँ का मौसम बहुत अच्छा है, दिन में धूप होती है और रात को ठंडी हवा चलती है।",
+     "The weather here is very nice: it's sunny in the day and a cool wind blows at night."
+    ],
+    [
+     "सुबह मैं चाचा जी के साथ खेतों में जाती हूँ।",
+     "In the morning I go to the fields with my uncle."
+    ],
+    [
+     "यहाँ बहुत पेड़ और फूल हैं।",
+     "There are lots of trees and flowers here."
+    ],
+    [
+     "गाँव में कोई बड़ा बाज़ार नहीं है।",
+     "There's no big market in the village."
+    ],
+    [
+     "लेकिन मुझे यहाँ बहुत मज़ा आ रहा है।",
+     "But I'm having a lot of fun here."
+    ],
+    [
+     "मैं सोमवार को दिल्ली लौटूँगी।",
+     "I'll go back to Delhi on Monday."
+    ],
+    [
+     "तब हम मिलेंगे। तुम्हारी दोस्त, ललिता",
+     "We'll meet then. Your friend, Lalita"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "ललिता अभी कहाँ है?",
+     "en": "Where is Lalita now?",
+     "type": "mc",
+     "options": [
+      "दिल्ली में",
+      "एक बड़े शहर में",
+      "एक गाँव में",
+      "स्कूल में"
+     ],
+     "answer": 2,
+     "words": [
+      "गाँव"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "गाँव में रात को हवा गर्म होती है।",
+     "en": "In the village the wind is warm at night.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "हवा"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "ललिता को गाँव में अच्छा लग रहा है।",
+     "en": "Lalita is enjoying the village.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "मज़ा आना"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "ललिता दिल्ली कब लौटेगी?",
+     "en": "When will Lalita go back to Delhi?",
+     "type": "mc",
+     "options": [
+      "आज रात को",
+      "इस हफ़्ते शनिवार की रात को",
+      "अगले महीने",
+      "अगले हफ़्ते सोमवार को"
+     ],
+     "answer": 3,
+     "words": [
+      "लौटना"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0019",
+   "lv": "A1",
+   "title": "नई नौकरी",
+   "oop": {
+    "दीपक": "name"
+   },
+   "names": [
+    "दीपक"
+   ],
+   "sentences": [
+    [
+     "दीपक तीस साल का है।",
+     "Deepak is thirty years old."
+    ],
+    [
+     "कल उसकी नई नौकरी का पहला दिन था।",
+     "Yesterday was the first day of his new job."
+    ],
+    [
+     "वह बैंक में काम करता है।",
+     "He works in a bank."
+    ],
+    [
+     "वह सुबह नौ बजे से शाम पाँच बजे तक काम करता है।",
+     "He works from nine in the morning until five in the evening."
+    ],
+    [
+     "पहले दिन वह बहुत जल्दी उठा और आठ बजे ही बैंक पहुँच गया।",
+     "On the first day he got up very early and reached the bank already at eight."
+    ],
+    [
+     "बैंक के लोग बहुत अच्छे थे।",
+     "The people at the bank were very nice."
+    ],
+    [
+     "एक आदमी ने उसे सब कुछ दिखाया और समझाया।",
+     "A man showed him everything and explained it."
+    ],
+    [
+     "एक बजे सब ने साथ में खाना खाया।",
+     "At one o'clock they all ate together."
+    ],
+    [
+     "शाम को दीपक थका हुआ था, लेकिन बहुत ख़ुश था।",
+     "In the evening Deepak was tired, but very happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "दीपक कहाँ काम करता है?",
+     "en": "Where does Deepak work?",
+     "type": "mc",
+     "options": [
+      "एक बैंक में",
+      "एक होटल में",
+      "एक स्कूल में",
+      "एक अस्पताल में"
+     ],
+     "answer": 0,
+     "words": [
+      "बैंक"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "दीपक पहले दिन देर से पहुँचा।",
+     "en": "Deepak arrived late on the first day.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "पहुँच जाना"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "दीपक का काम कितने बजे ख़त्म होता है?",
+     "en": "At what time does Deepak's work finish?",
+     "type": "mc",
+     "options": [
+      "नौ बजे",
+      "पाँच बजे",
+      "एक बजे",
+      "आठ बजे"
+     ],
+     "answer": 1,
+     "words": [
+      "काम करना"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "शाम को दीपक ख़ुश था।",
+     "en": "In the evening Deepak was happy.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "ख़ुश"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "एक आदमी ने दीपक को सब कुछ दिखाया।",
+     "en": "A man showed Deepak everything.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दिखाना"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0020",
+   "lv": "A1",
+   "title": "बारिश का दिन",
+   "oop": {
+    "अंजलि": "name"
+   },
+   "names": [
+    "अंजलि"
+   ],
+   "sentences": [
+    [
+     "आज सुबह से बहुत बारिश हो रही है।",
+     "It has been raining a lot since this morning."
+    ],
+    [
+     "सड़कों पर पानी है और बसें देर से चल रही हैं।",
+     "There is water on the roads and the buses are running late."
+    ],
+    [
+     "इसलिए आज स्कूल बंद है।",
+     "So school is closed today."
+    ],
+    [
+     "अंजलि और उसका भाई घर पर हैं।",
+     "Anjali and her brother are at home."
+    ],
+    [
+     "वे खिड़की के पास बैठकर बारिश देखते हैं।",
+     "They sit by the window and watch the rain."
+    ],
+    [
+     "फिर वे माँ के साथ एक खेल खेलते हैं।",
+     "Then they play a game with their mother."
+    ],
+    [
+     "एक बजे माँ सब के लिए गर्म चाय बनाती हैं।",
+     "At one o'clock their mother makes hot tea for everyone."
+    ],
+    [
+     "पिता जी भी आज काम पर नहीं जाते।",
+     "Their father doesn't go to work today either."
+    ],
+    [
+     "शाम को बारिश रुक जाती है और बच्चे बाहर खेलने जाते हैं।",
+     "In the evening the rain stops and the children go out to play."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "आज स्कूल क्यों बंद है?",
+     "en": "Why is school closed today?",
+     "type": "mc",
+     "options": [
+      "गर्मी की वजह से",
+      "छुट्टी की वजह से",
+      "बारिश की वजह से",
+      "बिजली न होने की वजह से"
+     ],
+     "answer": 2,
+     "words": [
+      "बारिश"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "पिता जी आज काम पर जाते हैं।",
+     "en": "Father goes to work today.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "काम"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "बसें समय पर चल रही हैं।",
+     "en": "The buses are running on time.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बस"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "शाम को बच्चे क्या करते हैं?",
+     "en": "What do the children do in the evening?",
+     "type": "mc",
+     "options": [
+      "सो जाते हैं",
+      "माँ के साथ खाना बनाते हैं",
+      "पढ़ाई करते हैं",
+      "बाहर जाकर खेलते हैं"
+     ],
+     "answer": 3,
+     "words": [
+      "खेलना"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "माँ सब के लिए चाय बनाती हैं।",
+     "en": "Mother makes tea for everyone.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चाय"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0021",
+   "lv": "A2",
+   "title": "शिमला की यात्रा",
+   "oop": {
+    "राहुल": "name",
+    "शिमला": "name",
+    "दिल्ली": "name"
+   },
+   "names": [
+    "राहुल",
+    "शिमला",
+    "दिल्ली"
+   ],
+   "sentences": [
+    [
+     "पिछले महीने राहुल अपने दो दोस्तों के साथ शिमला गया।",
+     "Last month Rahul went to Shimla with two friends."
+    ],
+    [
+     "उन्होंने दिल्ली से रात की बस ली और सुबह शिमला पहुँचे।",
+     "They took the night bus from Delhi and reached Shimla in the morning."
+    ],
+    [
+     "रास्ता लंबा था, लेकिन बस में सब गाने सुनते रहे और बातें करते रहे।",
+     "The journey was long, but on the bus they all kept listening to songs and talking."
+    ],
+    [
+     "शिमला में मौसम बहुत ठंडा था, इसलिए उन्होंने गर्म कपड़े पहने।",
+     "The weather in Shimla was very cold, so they wore warm clothes."
+    ],
+    [
+     "पहले दिन वे शहर में घूमे और एक पुराने होटल में खाना खाया।",
+     "On the first day they walked around the town and ate at an old hotel."
+    ],
+    [
+     "दूसरे दिन बर्फ़ गिरी।",
+     "On the second day it snowed."
+    ],
+    [
+     "राहुल ने पहली बार बर्फ़ देखी थी, इसलिए वह बच्चों की तरह ख़ुश था।",
+     "It was the first time Rahul had seen snow, so he was as happy as a child."
+    ],
+    [
+     "उसने बहुत सारी फ़ोटो लीं और अपनी माँ को भेजीं।",
+     "He took lots of photos and sent them to his mother."
+    ],
+    [
+     "तीसरे दिन उसका एक दोस्त बीमार हो गया।",
+     "On the third day one of his friends fell ill."
+    ],
+    [
+     "इसलिए वे एक दिन पहले ही दिल्ली लौट आए।",
+     "So they came back to Delhi a day early."
+    ],
+    [
+     "फिर भी राहुल कहता है कि यह उसकी सबसे अच्छी यात्रा थी।",
+     "Even so, Rahul says it was his best trip."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "राहुल और उसके दोस्त शिमला कैसे गए?",
+     "en": "How did Rahul and his friends get to Shimla?",
+     "type": "mc",
+     "options": [
+      "बस से",
+      "रेलगाड़ी से",
+      "कार से",
+      "हवाई जहाज़ से"
+     ],
+     "answer": 0,
+     "words": [
+      "बस"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "शिमला में मौसम गर्म था।",
+     "en": "The weather in Shimla was warm.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "मौसम"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "दूसरे दिन राहुल इतना ख़ुश क्यों था?",
+     "en": "Why was Rahul so happy on the second day?",
+     "type": "mc",
+     "options": [
+      "उसे एक अच्छा होटल मिला",
+      "उसने पहली बार बर्फ़ देखी",
+      "उसकी माँ भी उसके साथ शिमला आईं",
+      "उसका दोस्त ठीक हो गया"
+     ],
+     "answer": 1,
+     "words": [
+      "बर्फ़"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "राहुल ने अपनी माँ को फ़ोटो भेजीं।",
+     "en": "Rahul sent photos to his mother.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "फ़ोटो"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "वे जल्दी दिल्ली क्यों लौटे?",
+     "en": "Why did they return to Delhi early?",
+     "type": "mc",
+     "options": [
+      "उनके पैसे ख़त्म हो गए",
+      "बहुत बर्फ़ गिरी",
+      "उनका एक दोस्त बीमार था",
+      "राहुल की माँ ने बुलाया"
+     ],
+     "answer": 2,
+     "words": [
+      "बीमार होना"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0022",
+   "lv": "A2",
+   "title": "नई नौकरी, नया शहर",
+   "oop": {
+    "नेहा": "name",
+    "पुणे": "name",
+    "ललिता": "name",
+    "पढ़ाई": "noun 'studies'; the pack has only पढ़ाई करना"
+   },
+   "names": [
+    "नेहा",
+    "पुणे",
+    "ललिता"
+   ],
+   "sentences": [
+    [
+     "नेहा ने पिछले साल अपनी पढ़ाई ख़त्म की।",
+     "Neha finished her studies last year."
+    ],
+    [
+     "इस महीने उसे पुणे में एक कंप्यूटर कंपनी में नौकरी मिली।",
+     "This month she got a job at a computer company in Pune."
+    ],
+    [
+     "वह पहली बार अपने परिवार से दूर रह रही है।",
+     "She is living away from her family for the first time."
+    ],
+    [
+     "उसने ऑफ़िस के पास एक छोटा कमरा किराए पर लिया है।",
+     "She has rented a small room near the office."
+    ],
+    [
+     "पहले हफ़्ते में सब कुछ नया और थोड़ा मुश्किल था।",
+     "In the first week everything was new and a little difficult."
+    ],
+    [
+     "उसे कंपनी के नियम समझने में समय लगा।",
+     "It took her time to understand the company's rules."
+    ],
+    [
+     "लेकिन उसके साथ काम करने वाले लोग बहुत अच्छे हैं।",
+     "But the people she works with are very nice."
+    ],
+    [
+     "एक लड़की, ललिता, ने उसे शहर के अच्छे बाज़ार और सस्ते होटल दिखाए।",
+     "One girl, Lalita, showed her the good markets and cheap places to eat in the city."
+    ],
+    [
+     "अब दोनों हर शाम साथ में चाय पीती हैं।",
+     "Now the two of them have tea together every evening."
+    ],
+    [
+     "नेहा हर रात अपनी माँ को फ़ोन करती है।",
+     "Neha phones her mother every night."
+    ],
+    [
+     "माँ हमेशा पूछती हैं, \"तुम ठीक से खाना खा रही हो?\"",
+     "Her mother always asks, \"Are you eating properly?\""
+    ],
+    [
+     "नेहा हँसकर कहती है, \"हाँ माँ, चिंता मत करो।\"",
+     "Neha laughs and says, \"Yes, Mum, don't worry.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "नेहा पुणे क्यों आई है?",
+     "en": "Why has Neha come to Pune?",
+     "type": "mc",
+     "options": [
+      "पढ़ाई के लिए",
+      "शादी के लिए",
+      "घूमने के लिए",
+      "नौकरी के लिए"
+     ],
+     "answer": 3,
+     "words": [
+      "नौकरी"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "नेहा पुणे में अपने परिवार के साथ रहती है।",
+     "en": "Neha lives with her family in Pune.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "परिवार"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "ललिता ने नेहा की मदद कैसे की?",
+     "en": "How did Lalita help Neha?",
+     "type": "mc",
+     "options": [
+      "उसे शहर दिखाया",
+      "उसे अपना कमरा दिया",
+      "उसे खाना बनाना सिखाया",
+      "उसे कंपनी के नियम समझाए"
+     ],
+     "answer": 0,
+     "words": [
+      "दिखाना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "नेहा और ललिता हर शाम मिलती हैं।",
+     "en": "Neha and Lalita meet every evening.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "शाम"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "नेहा की माँ को उसके खाने की चिंता है।",
+     "en": "Neha's mother worries about her eating.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "खाना"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0023",
+   "lv": "A2",
+   "title": "डॉक्टर की सलाह",
+   "oop": {
+    "अमित": "name"
+   },
+   "names": [
+    "अमित"
+   ],
+   "sentences": [
+    [
+     "पिछले कुछ दिनों से अमित के पेट में दर्द हो रहा था।",
+     "For the last few days Amit had had a stomach ache."
+    ],
+    [
+     "वह ठीक से खाना भी नहीं खा पा रहा था।",
+     "He couldn't even eat properly."
+    ],
+    [
+     "आख़िर वह अस्पताल गया।",
+     "In the end he went to the hospital."
+    ],
+    [
+     "डॉक्टर ने उससे कुछ सवाल पूछे, \"आप क्या खाते हैं? आप कितना पानी पीते हैं?\"",
+     "The doctor asked him some questions: \"What do you eat? How much water do you drink?\""
+    ],
+    [
+     "अमित ने बताया कि वह बहुत व्यस्त रहता है और अक्सर बाहर का खाना खाता है।",
+     "Amit said that he is very busy and often eats out."
+    ],
+    [
+     "वह पानी भी बहुत कम पीता है।",
+     "He also drinks very little water."
+    ],
+    [
+     "डॉक्टर ने कहा, \"आपको कोई गंभीर बीमारी नहीं है, लेकिन आपको अपनी आदतें बदलनी होंगी।\"",
+     "The doctor said, \"You don't have a serious illness, but you'll have to change your habits.\""
+    ],
+    [
+     "\"घर का ताज़ा खाना खाइए, ज़्यादा पानी पीजिए और रात को देर तक मत जागिए।\"",
+     "\"Eat fresh home food, drink more water and don't stay up late at night.\""
+    ],
+    [
+     "उन्होंने अमित को एक हफ़्ते की दवा भी दी।",
+     "He also gave Amit a week's medicine."
+    ],
+    [
+     "अमित ने डॉक्टर की सलाह मानी।",
+     "Amit followed the doctor's advice."
+    ],
+    [
+     "दस दिन बाद उसका दर्द चला गया और वह पहले से बेहतर महसूस करने लगा।",
+     "Ten days later his pain went away and he began to feel better than before."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "अमित अस्पताल क्यों गया?",
+     "en": "Why did Amit go to the hospital?",
+     "type": "mc",
+     "options": [
+      "उसके सिर में दर्द था",
+      "उसके पेट में दर्द था",
+      "उसका पैर टूट गया था",
+      "उसे नींद नहीं आती थी"
+     ],
+     "answer": 1,
+     "words": [
+      "पेट",
+      "दर्द होना"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "अमित अक्सर घर पर खाना बनाता है।",
+     "en": "Amit often cooks at home.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "खाना"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "डॉक्टर के अनुसार अमित की बीमारी बहुत गंभीर है।",
+     "en": "According to the doctor, Amit's illness is very serious.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "गंभीर"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "डॉक्टर ने रात के बारे में क्या कहा?",
+     "en": "What did the doctor say about the night?",
+     "type": "mc",
+     "options": [
+      "रात को खाना मत खाइए",
+      "देर तक काम कीजिए",
+      "जल्दी सोइए",
+      "रात को दवा लीजिए"
+     ],
+     "answer": 2,
+     "words": [
+      "जागना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "दस दिन बाद अमित ठीक हो गया।",
+     "en": "Ten days later Amit was well.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दर्द"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0024",
+   "lv": "A2",
+   "title": "कमरा ख़ाली है",
+   "oop": {
+    "सुनील": "name"
+   },
+   "names": [
+    "सुनील"
+   ],
+   "sentences": [
+    [
+     "\"किराए के लिए कमरा ख़ाली है!\"",
+     "\"Room available to rent!\""
+    ],
+    [
+     "\"शहर के केंद्र में, स्टेशन से सिर्फ़ दस मिनट की दूरी पर, एक बड़ा और साफ़ कमरा ख़ाली है।\"",
+     "\"In the city centre, just ten minutes from the station, a large, clean room is available.\""
+    ],
+    [
+     "\"कमरे में एक बिस्तर, एक मेज़ और दो कुर्सियाँ हैं।\"",
+     "\"The room has a bed, a table and two chairs.\""
+    ],
+    [
+     "\"कमरे के साथ एक छोटी रसोई भी है।\"",
+     "\"There is also a small kitchen with the room.\""
+    ],
+    [
+     "\"किराया आठ हज़ार रुपए महीना है, बिजली का पैसा अलग है।\"",
+     "\"The rent is eight thousand rupees a month; electricity is extra.\""
+    ],
+    [
+     "\"सिर्फ़ छात्र या अकेले काम करने वाले लोग फ़ोन करें।\"",
+     "\"Only students or single working people should call.\""
+    ],
+    [
+     "\"जानवर रखना मना है।\"",
+     "\"No pets allowed.\""
+    ],
+    [
+     "\"शाम छह से आठ बजे के बीच फ़ोन करें।\"",
+     "\"Call between six and eight in the evening.\""
+    ],
+    [
+     "सुनील ने इंटरनेट पर यह पढ़ा और शाम सात बजे फ़ोन किया।",
+     "Sunil read this on the internet and called at seven in the evening."
+    ],
+    [
+     "मालिक ने कहा कि वह कल सुबह दस बजे आकर कमरा देख सकता है।",
+     "The owner said he could come and see the room tomorrow morning at ten."
+    ],
+    [
+     "सुनील के पास एक छोटी बिल्ली है, इसलिए वह थोड़ा परेशान है।",
+     "Sunil has a small cat, so he is a little worried."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "कमरे का किराया कितना है?",
+     "en": "How much is the rent for the room?",
+     "type": "mc",
+     "options": [
+      "छह हज़ार रुपए",
+      "आठ सौ रुपए",
+      "दस हज़ार रुपए",
+      "आठ हज़ार रुपए"
+     ],
+     "answer": 3,
+     "words": [
+      "किराया"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "किराए में बिजली का पैसा भी शामिल है।",
+     "en": "Electricity is included in the rent.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बिजली"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "सुनील थोड़ा परेशान क्यों है?",
+     "en": "Why is Sunil a little worried?",
+     "type": "mc",
+     "options": [
+      "उसके पास एक बिल्ली है",
+      "कमरा स्टेशन से दूर है",
+      "कमरा बहुत महंगा है",
+      "मालिक ने फ़ोन नहीं उठाया"
+     ],
+     "answer": 0,
+     "words": [
+      "बिल्ली"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "सुनील ने सुबह फ़ोन किया।",
+     "en": "Sunil called in the morning.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "फ़ोन करना"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "कमरे के साथ रसोई है।",
+     "en": "The room comes with a kitchen.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "रसोई"
+     ],
+     "sentence": 3
+    }
+   ]
+  },
+  {
+   "id": "p0025",
+   "lv": "A2",
+   "title": "दाल बनाने का तरीक़ा",
+   "oop": {
+    "भारत": "name"
+   },
+   "names": [
+    "भारत"
+   ],
+   "sentences": [
+    [
+     "दाल भारत के लगभग हर घर में बनती है।",
+     "Dal is made in almost every home in India."
+    ],
+    [
+     "इसे बनाना आसान है और इसमें ज़्यादा समय नहीं लगता।",
+     "It is easy to make and doesn't take much time."
+    ],
+    [
+     "पहले दाल को ठंडे पानी से दो-तीन बार धोइए।",
+     "First wash the dal two or three times in cold water."
+    ],
+    [
+     "फिर दाल को पानी के साथ आग पर रखिए।",
+     "Then put the dal on the fire with water."
+    ],
+    [
+     "उसमें थोड़ा नमक डालिए।",
+     "Add a little salt."
+    ],
+    [
+     "दाल को बीस मिनट तक आग पर रहने दीजिए।",
+     "Leave the dal on the fire for twenty minutes."
+    ],
+    [
+     "फिर थोड़ा तेल गर्म कीजिए और उसे दाल के ऊपर डाल दीजिए।",
+     "Then heat a little oil and pour it over the dal."
+    ],
+    [
+     "दाल तैयार है!",
+     "The dal is ready!"
+    ],
+    [
+     "इसे गर्म चावल या रोटी के साथ खाइए।",
+     "Eat it with hot rice or roti."
+    ],
+    [
+     "बच्चों के लिए दाल बहुत अच्छी है, क्योंकि इसमें बहुत ताक़त होती है।",
+     "Dal is very good for children, because it gives a lot of strength."
+    ],
+    [
+     "अगर आपके पास समय कम है, तो आप एक दिन पहले दाल बनाकर रख सकते हैं।",
+     "If you are short of time, you can make the dal a day ahead and keep it."
+    ],
+    [
+     "दाल अगले दिन भी अच्छी लगती है।",
+     "Dal tastes good the next day too."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "दाल को आग पर कितनी देर रखना है?",
+     "en": "How long should the dal stay on the fire?",
+     "type": "mc",
+     "options": [
+      "दस मिनट",
+      "बीस मिनट",
+      "आधा घंटा",
+      "एक घंटा"
+     ],
+     "answer": 1,
+     "words": [
+      "मिनट"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "दाल बनाना बहुत मुश्किल है।",
+     "en": "Making dal is very difficult.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "आसान"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "दाल को आग पर रखने से पहले क्या करना चाहिए?",
+     "en": "What should you do before putting the dal on the fire?",
+     "type": "mc",
+     "options": [
+      "उसे रोटी के साथ खाना चाहिए",
+      "उसमें तेल डालना चाहिए",
+      "उसे धोना चाहिए",
+      "उसे एक दिन रखना चाहिए"
+     ],
+     "answer": 2,
+     "words": [
+      "धोना"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "अगले दिन भी दाल खाई जा सकती है।",
+     "en": "Dal can be eaten the next day too.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दिन"
+     ],
+     "sentence": 11
+    },
+    {
+     "q": "दाल के साथ चावल या रोटी खाई जाती है।",
+     "en": "Dal is eaten with rice or roti.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चावल",
+      "रोटी"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0026",
+   "lv": "A2",
+   "title": "एक बुरा दिन",
+   "oop": {
+    "रीना": "name"
+   },
+   "names": [
+    "रीना"
+   ],
+   "sentences": [
+    [
+     "सोमवार की सुबह रीना की घड़ी नहीं बजी।",
+     "On Monday morning Reena's alarm clock didn't ring."
+    ],
+    [
+     "वह देर से उठी और जल्दी-जल्दी तैयार हुई।",
+     "She got up late and got ready in a hurry."
+    ],
+    [
+     "उसने नाश्ता नहीं किया और बस की तरफ़ भागी।",
+     "She skipped breakfast and ran for the bus."
+    ],
+    [
+     "लेकिन उसकी बस अभी-अभी निकल चुकी थी।",
+     "But her bus had just left."
+    ],
+    [
+     "अगली बस बीस मिनट बाद आई, और उसमें बहुत भीड़ थी।",
+     "The next bus came twenty minutes later, and it was very crowded."
+    ],
+    [
+     "ऑफ़िस पहुँचकर उसे याद आया कि उसका फ़ोन घर पर रह गया है।",
+     "When she got to the office she remembered that she had left her phone at home."
+    ],
+    [
+     "फिर दोपहर को उसके कंप्यूटर ने भी काम करना बंद कर दिया।",
+     "Then in the afternoon her computer stopped working too."
+    ],
+    [
+     "उसका आधा काम खो गया।",
+     "Half of her work was lost."
+    ],
+    [
+     "शाम को घर लौटते समय तेज़ बारिश शुरू हो गई।",
+     "On the way home in the evening it started to rain heavily."
+    ],
+    [
+     "घर पहुँचकर उसने अपनी माँ को सब कुछ बताया।",
+     "When she got home she told her mother everything."
+    ],
+    [
+     "माँ ने उसके लिए गर्म चाय बनाई और कहा, \"कोई बात नहीं, कल नया दिन है।\"",
+     "Her mother made her hot tea and said, \"Never mind, tomorrow is a new day.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "रीना देर से क्यों उठी?",
+     "en": "Why did Reena get up late?",
+     "type": "mc",
+     "options": [
+      "उसकी माँ ने नहीं उठाया",
+      "वह बीमार थी",
+      "वह रात को देर से सोई",
+      "उसकी घड़ी नहीं बजी"
+     ],
+     "answer": 3,
+     "words": [
+      "घड़ी"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "रीना ने सुबह नाश्ता किया।",
+     "en": "Reena had breakfast in the morning.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "नाश्ता"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "ऑफ़िस में रीना को क्या याद आया?",
+     "en": "What did Reena remember at the office?",
+     "type": "mc",
+     "options": [
+      "उसका फ़ोन घर पर है",
+      "आज उसका जन्मदिन है",
+      "उसकी बस छूट गई",
+      "उसने खाना नहीं खाया"
+     ],
+     "answer": 0,
+     "words": [
+      "फ़ोन"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "दोपहर को रीना का कंप्यूटर ख़राब हो गया।",
+     "en": "In the afternoon Reena's computer broke down.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "कंप्यूटर"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "माँ ने रीना के लिए चाय बनाई।",
+     "en": "Her mother made tea for Reena.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चाय"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0027",
+   "lv": "A2",
+   "title": "शहर का नया पार्क",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "हमारे शहर में पिछले हफ़्ते एक नया पार्क खुला।",
+     "A new park opened in our city last week."
+    ],
+    [
+     "पहले इस जगह पर एक पुरानी इमारत थी, जो कई साल से ख़ाली थी।",
+     "Before, there was an old building on this spot that had been empty for many years."
+    ],
+    [
+     "अब यहाँ पेड़, फूल और बच्चों के खेलने की जगह है।",
+     "Now there are trees, flowers and a place for children to play."
+    ],
+    [
+     "पार्क सुबह छह बजे से रात नौ बजे तक खुला रहता है।",
+     "The park is open from six in the morning to nine at night."
+    ],
+    [
+     "अंदर जाने के लिए कोई टिकट नहीं है।",
+     "There is no ticket to go in."
+    ],
+    [
+     "सुबह बहुत लोग यहाँ दौड़ने आते हैं।",
+     "In the morning a lot of people come here to run."
+    ],
+    [
+     "शाम को परिवार अपने बच्चों के साथ आते हैं।",
+     "In the evening families come with their children."
+    ],
+    [
+     "पार्क में साइकिल चलाना और कुत्ते लाना मना है।",
+     "Cycling and bringing dogs are not allowed in the park."
+    ],
+    [
+     "कुछ लोग इस नियम से ख़ुश नहीं हैं, क्योंकि वे अपने कुत्तों के साथ घूमना चाहते हैं।",
+     "Some people are not happy with this rule, because they want to walk with their dogs."
+    ],
+    [
+     "लेकिन ज़्यादातर लोग कहते हैं कि पार्क बहुत सुंदर और शांत है।",
+     "But most people say the park is very beautiful and quiet."
+    ],
+    [
+     "अब शहर के लोगों के पास आराम करने की एक अच्छी जगह है।",
+     "Now the people of the city have a good place to relax."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "नया पार्क कब तक खुला रहता है?",
+     "en": "Until when is the new park open?",
+     "type": "mc",
+     "options": [
+      "शाम छह बजे तक",
+      "रात नौ बजे तक",
+      "रात दस बजे तक",
+      "पूरे दिन और पूरी रात"
+     ],
+     "answer": 1,
+     "words": [
+      "खुलना"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "पार्क में जाने के लिए पैसे देने पड़ते हैं।",
+     "en": "You have to pay to go into the park.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "टिकट"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "पहले इस जगह पर क्या था?",
+     "en": "What was on this spot before?",
+     "type": "mc",
+     "options": [
+      "एक बड़ा बाज़ार",
+      "एक स्कूल",
+      "एक ख़ाली इमारत",
+      "एक पुराना अस्पताल"
+     ],
+     "answer": 2,
+     "words": [
+      "इमारत"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "पार्क में कुत्ते ले जा सकते हैं।",
+     "en": "You can take dogs into the park.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कुत्ता"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "कुछ लोगों को नया नियम पसंद नहीं है।",
+     "en": "Some people don't like the new rule.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "नियम"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0028",
+   "lv": "A2",
+   "title": "पापा के लिए पार्टी",
+   "oop": {
+    "अंजलि": "name"
+   },
+   "names": [
+    "अंजलि"
+   ],
+   "sentences": [
+    [
+     "अगले शनिवार को अंजलि के पापा पचास साल के हो जाएँगे।",
+     "Next Saturday Anjali's dad will turn fifty."
+    ],
+    [
+     "अंजलि और उसका भाई उनके लिए एक छोटी पार्टी की योजना बना रहे हैं।",
+     "Anjali and her brother are planning a small party for him."
+    ],
+    [
+     "यह पार्टी एक राज़ है, पापा को इसके बारे में कुछ पता नहीं है।",
+     "The party is a secret; Dad knows nothing about it."
+    ],
+    [
+     "मम्मी ने पापा के पुराने दोस्तों को फ़ोन करके बुलाया है।",
+     "Mum has phoned Dad's old friends and invited them."
+    ],
+    [
+     "भाई खाने की ज़िम्मेदारी ले रहा है, और अंजलि घर की सफ़ाई करेगी।",
+     "Her brother is taking charge of the food, and Anjali will clean the house."
+    ],
+    [
+     "उन्होंने पापा के लिए एक नई घड़ी ख़रीदी है, क्योंकि उनकी पुरानी घड़ी टूट गई है।",
+     "They have bought Dad a new watch, because his old one is broken."
+    ],
+    [
+     "शनिवार शाम को मम्मी पापा को बाज़ार ले जाएँगी।",
+     "On Saturday evening Mum will take Dad to the market."
+    ],
+    [
+     "जब वे लौटेंगे, तब सब लोग घर में उनका इंतज़ार करेंगे।",
+     "When they come back, everyone will be waiting for them at home."
+    ],
+    [
+     "अंजलि को डर है कि उसका भाई ग़लती से पापा को सब कुछ बता न दे।",
+     "Anjali is afraid her brother might tell Dad everything by mistake."
+    ],
+    [
+     "भाई बहुत बातें करता है!",
+     "Her brother talks a lot!"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "पापा कितने साल के हो रहे हैं?",
+     "en": "How old is Dad turning?",
+     "type": "mc",
+     "options": [
+      "चालीस",
+      "सत्तर",
+      "साठ",
+      "पचास"
+     ],
+     "answer": 3,
+     "words": [
+      "साल"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "पापा को पार्टी के बारे में पता है।",
+     "en": "Dad knows about the party.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "पार्टी"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "बच्चों ने पापा के लिए घड़ी क्यों ख़रीदी?",
+     "en": "Why did the children buy Dad a watch?",
+     "type": "mc",
+     "options": [
+      "पुरानी घड़ी अब काम नहीं करती",
+      "उन्हें नई घड़ियाँ बहुत पसंद हैं",
+      "मम्मी ने कहा था",
+      "वह सस्ती थी"
+     ],
+     "answer": 0,
+     "words": [
+      "घड़ी"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "शनिवार शाम मम्मी पापा को बाहर ले जाएँगी।",
+     "en": "On Saturday evening Mum will take Dad out.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "ले जाना"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "अंजलि सोचती है कि उसका भाई राज़ नहीं रख पाएगा।",
+     "en": "Anjali thinks her brother won't be able to keep the secret.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "डर"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0029",
+   "lv": "A2",
+   "title": "स्टेशन पर घोषणा",
+   "oop": {
+    "दिल्ली": "name",
+    "मुंबई": "name"
+   },
+   "names": [
+    "दिल्ली",
+    "मुंबई"
+   ],
+   "sentences": [
+    [
+     "यात्री कृपया ध्यान दें।",
+     "Attention please, passengers."
+    ],
+    [
+     "दिल्ली से मुंबई जाने वाली रेलगाड़ी आज एक घंटा देर से चल रही है।",
+     "The train from Delhi to Mumbai is running an hour late today."
+    ],
+    [
+     "यह रेलगाड़ी अब शाम सात बजे की जगह आठ बजे आएगी।",
+     "This train will now arrive at eight instead of seven in the evening."
+    ],
+    [
+     "जिन यात्रियों के पास टिकट नहीं है, वे जल्दी से टिकट ख़रीद लें।",
+     "Passengers without tickets should buy them quickly."
+    ],
+    [
+     "टिकट की खिड़की स्टेशन के बाहर, दरवाज़ा नंबर दो के पास है।",
+     "The ticket window is outside the station, near door number two."
+    ],
+    [
+     "यात्री अपने सामान का ध्यान रखें।",
+     "Passengers should look after their luggage."
+    ],
+    [
+     "किसी से खाने-पीने की चीज़ें न लें।",
+     "Do not take food or drink from anyone."
+    ],
+    [
+     "अगर आपको कोई ऐसा सामान दिखे, जिसका कोई मालिक नहीं है, तो पुलिस को बताएँ।",
+     "If you see any luggage that has no owner, tell the police."
+    ],
+    [
+     "स्टेशन पर पीने का पानी और चाय हर जगह मिलती है।",
+     "Drinking water and tea are available all over the station."
+    ],
+    [
+     "अगर आपको कोई मदद चाहिए, तो पुलिस से बात करें।",
+     "If you need any help, speak to the police."
+    ],
+    [
+     "देर के लिए हम माफ़ी माँगते हैं।",
+     "We apologise for the delay."
+    ],
+    [
+     "आपकी यात्रा अच्छी हो।",
+     "Have a good journey."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "मुंबई जाने वाली रेलगाड़ी अब कब आएगी?",
+     "en": "When will the Mumbai train arrive now?",
+     "type": "mc",
+     "options": [
+      "सात बजे",
+      "आठ बजे",
+      "नौ बजे",
+      "छह बजे"
+     ],
+     "answer": 1,
+     "words": [
+      "रेलगाड़ी"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "रेलगाड़ी समय पर आ रही है।",
+     "en": "The train is arriving on time.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "देर"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "टिकट की खिड़की कहाँ है?",
+     "en": "Where is the ticket window?",
+     "type": "mc",
+     "options": [
+      "स्टेशन के अंदर",
+      "रेलगाड़ी में",
+      "स्टेशन के बाहर",
+      "पुलिस के पास"
+     ],
+     "answer": 2,
+     "words": [
+      "खिड़की"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "स्टेशन पर चाय मिल सकती है।",
+     "en": "You can get tea at the station.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चाय"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "जिस सामान का कोई मालिक न हो, उसके बारे में पुलिस को बताना चाहिए।",
+     "en": "Luggage with no owner should be reported to the police.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "पुलिस"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0030",
+   "lv": "A2",
+   "title": "कौन सी फ़िल्म?",
+   "oop": {
+    "करण": "name",
+    "मीना": "name",
+    "रवि": "name",
+    "सुनीता": "name"
+   },
+   "names": [
+    "करण",
+    "मीना",
+    "रवि",
+    "सुनीता"
+   ],
+   "sentences": [
+    [
+     "शुक्रवार की शाम को चार दोस्त फ़िल्म देखने का फ़ैसला करते हैं।",
+     "On Friday evening four friends decide to see a film."
+    ],
+    [
+     "लेकिन कौन सी फ़िल्म देखें, इस पर सब की राय अलग है।",
+     "But everyone has a different opinion about which film to see."
+    ],
+    [
+     "करण को तेज़ और ख़तरनाक कहानी वाली फ़िल्में पसंद हैं।",
+     "Karan likes films with fast, dangerous stories."
+    ],
+    [
+     "मीना कहती है कि वह डर वाली फ़िल्म नहीं देखेगी, क्योंकि उसे रात को नींद नहीं आती।",
+     "Meena says she won't watch a scary film, because then she can't sleep at night."
+    ],
+    [
+     "रवि को प्रेम कहानियाँ अच्छी लगती हैं, लेकिन बाक़ी सब उन पर हँसते हैं।",
+     "Ravi likes love stories, but everyone else laughs at them."
+    ],
+    [
+     "सुनीता एक पुरानी फ़िल्म देखना चाहती है, जो उसने बचपन में देखी थी।",
+     "Sunita wants to see an old film she saw as a child."
+    ],
+    [
+     "आख़िर में वे एक ऐसी फ़िल्म चुनते हैं जिसमें बहुत मज़ाक़ है।",
+     "In the end they choose a film with lots of jokes."
+    ],
+    [
+     "टिकट दो सौ रुपए का है, और फ़िल्म नौ बजे शुरू होती है।",
+     "The ticket is two hundred rupees, and the film starts at nine."
+    ],
+    [
+     "फ़िल्म के बाद सब बहुत ख़ुश हैं, सिर्फ़ करण कहता है कि फ़िल्म थोड़ी लंबी थी।",
+     "After the film everyone is very happy; only Karan says it was a bit long."
+    ],
+    [
+     "अगले हफ़्ते फ़िल्म चुनने की बारी रवि की है।",
+     "Next week it is Ravi's turn to choose the film."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "मीना डर वाली फ़िल्म क्यों नहीं देखना चाहती?",
+     "en": "Why doesn't Meena want to see a scary film?",
+     "type": "mc",
+     "options": [
+      "उसके पास पैसे नहीं हैं",
+      "उसने वह फ़िल्म पहले देखी है",
+      "उसे लगता है कि वह फ़िल्म बहुत लंबी होगी",
+      "उसे बाद में सोने में परेशानी होती है"
+     ],
+     "answer": 3,
+     "words": [
+      "नींद आना"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "रवि को प्रेम कहानियाँ पसंद हैं।",
+     "en": "Ravi likes love stories.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "प्रेम"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "दोस्त अंत में कैसी फ़िल्म देखते हैं?",
+     "en": "What kind of film do the friends see in the end?",
+     "type": "mc",
+     "options": [
+      "मज़ाक़ से भरी फ़िल्म",
+      "एक प्रेम कहानी",
+      "एक पुरानी फ़िल्म",
+      "एक ख़तरनाक कहानी"
+     ],
+     "answer": 0,
+     "words": [
+      "मज़ाक़"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "करण को फ़िल्म थोड़ी लंबी लगी।",
+     "en": "Karan found the film a bit long.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "लंबा"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "अगली बार सुनीता फ़िल्म चुनेगी।",
+     "en": "Next time Sunita will choose the film.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बारी"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0031",
+   "lv": "A2",
+   "title": "दौड़ की प्रतियोगिता",
+   "oop": {
+    "अर्जुन": "name",
+    "दौड़": "noun 'race'; the pack has only the verb दौड़ना"
+   },
+   "names": [
+    "अर्जुन"
+   ],
+   "sentences": [
+    [
+     "पिछले रविवार को शहर में बच्चों के लिए दौड़ की एक प्रतियोगिता थी।",
+     "Last Sunday there was a running race for children in the city."
+    ],
+    [
+     "अर्जुन बारह साल का है और वह भी इसमें दौड़ा।",
+     "Arjun is twelve and he ran in it too."
+    ],
+    [
+     "वह दो महीने से हर सुबह पार्क में तैयारी कर रहा था।",
+     "For two months he had been training in the park every morning."
+    ],
+    [
+     "मैदान में बहुत भीड़ थी, और बच्चों के माता-पिता भी आए थे।",
+     "The ground was very crowded, and the children's parents had come too."
+    ],
+    [
+     "दौड़ शुरू होते ही अर्जुन सबसे आगे निकल गया।",
+     "As soon as the race started, Arjun went into the lead."
+    ],
+    [
+     "लेकिन आख़िरी सौ मीटर में वह गिर गया।",
+     "But in the last hundred metres he fell."
+    ],
+    [
+     "उसके घुटने में चोट लगी, पर वह फिर उठा और दौड़ता रहा।",
+     "He hurt his knee, but he got up again and kept running."
+    ],
+    [
+     "वह तीसरे नंबर पर आया।",
+     "He came third."
+    ],
+    [
+     "पहले वह बहुत दुखी था, क्योंकि वह जीतना चाहता था।",
+     "At first he was very sad, because he had wanted to win."
+    ],
+    [
+     "लेकिन सब लोग उसकी हिम्मत की बात कर रहे थे।",
+     "But everyone was talking about his courage."
+    ],
+    [
+     "उसके पिता ने कहा, \"आज तुमने सबसे बड़ी चीज़ सीखी, कभी हार मत मानो।\"",
+     "His father said, \"Today you learned the most important thing: never give up.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "दौड़ में अर्जुन का नंबर क्या था?",
+     "en": "What place did Arjun finish in the race?",
+     "type": "mc",
+     "options": [
+      "पहला",
+      "तीसरा",
+      "दूसरा",
+      "आख़िरी"
+     ],
+     "answer": 1,
+     "words": [
+      "तीसरा"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "अर्जुन ने दौड़ के लिए कोई तैयारी नहीं की थी।",
+     "en": "Arjun had not prepared for the race at all.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "तैयारी"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "दौड़ में अर्जुन के साथ क्या हुआ?",
+     "en": "What happened to Arjun in the race?",
+     "type": "mc",
+     "options": [
+      "वह देर से पहुँचा",
+      "उसने दौड़ बीच में छोड़ दी",
+      "उसे चोट लगी",
+      "उसका जूता खो गया"
+     ],
+     "answer": 2,
+     "words": [
+      "चोट"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "गिरने के बाद अर्जुन ने दौड़ना बंद कर दिया।",
+     "en": "After falling, Arjun stopped running.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "दौड़ना"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "अर्जुन के पिता ने उससे हार न मानने की बात कही।",
+     "en": "Arjun's father told him never to give up.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "हार मानना"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0032",
+   "lv": "A2",
+   "title": "विश्वविद्यालय में प्रिया",
+   "oop": {
+    "प्रिया": "name",
+    "लखनऊ": "name",
+    "पढ़ाई": "noun 'studies'; the pack has only पढ़ाई करना"
+   },
+   "names": [
+    "प्रिया",
+    "लखनऊ"
+   ],
+   "sentences": [
+    [
+     "प्रिया लखनऊ के एक विश्वविद्यालय में विज्ञान पढ़ती है।",
+     "Priya studies science at a university in Lucknow."
+    ],
+    [
+     "वह तीन दूसरी लड़कियों के साथ एक कमरे में रहती है।",
+     "She shares a room with three other girls."
+    ],
+    [
+     "सुबह नौ बजे उसकी पहली कक्षा होती है।",
+     "Her first class is at nine in the morning."
+    ],
+    [
+     "दोपहर में वह अपनी दोस्तों के साथ पढ़ाई करती है।",
+     "In the afternoon she studies with her friends."
+    ],
+    [
+     "शाम को वह एक दुकान में दो घंटे काम करती है, ताकि उसे कुछ पैसे मिल सकें।",
+     "In the evening she works for two hours in a shop, so that she can earn some money."
+    ],
+    [
+     "इन पैसों से वह अपनी किताबें ख़रीदती है।",
+     "She buys her books with this money."
+    ],
+    [
+     "हफ़्ते के आख़िर में वह घर नहीं जा पाती, क्योंकि घर बहुत दूर है।",
+     "At the weekend she can't go home, because home is very far away."
+    ],
+    [
+     "उसे अपने परिवार की बहुत याद आती है।",
+     "She misses her family a lot."
+    ],
+    [
+     "लेकिन उसे पता है कि यह मेहनत उसके भविष्य के लिए ज़रूरी है।",
+     "But she knows this hard work is important for her future."
+    ],
+    [
+     "वह डॉक्टर बनना चाहती है।",
+     "She wants to become a doctor."
+    ],
+    [
+     "उसका सपना है कि वह अपने गाँव में एक अस्पताल खोले।",
+     "Her dream is to open a hospital in her village."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "प्रिया शाम को क्या करती है?",
+     "en": "What does Priya do in the evening?",
+     "type": "mc",
+     "options": [
+      "घर जाती है",
+      "कक्षा में जाती है",
+      "अपनी दोस्तों के साथ घूमने जाती है",
+      "एक दुकान में काम करती है"
+     ],
+     "answer": 3,
+     "words": [
+      "दुकान"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "प्रिया का अपना अलग कमरा है।",
+     "en": "Priya has a room of her own.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कमरा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "प्रिया हर हफ़्ते घर जाती है।",
+     "en": "Priya goes home every week.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "घर"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "प्रिया दुकान में काम क्यों करती है?",
+     "en": "Why does Priya work in a shop?",
+     "type": "mc",
+     "options": [
+      "उसे किताबों के लिए पैसे चाहिए",
+      "उसे पढ़ाई से ज़्यादा काम पसंद है",
+      "उसके दोस्त वहाँ हैं",
+      "उसके पिता ने कहा"
+     ],
+     "answer": 0,
+     "words": [
+      "पैसा"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "प्रिया को अपने परिवार की याद आती है।",
+     "en": "Priya misses her family.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "याद आना"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0033",
+   "lv": "A2",
+   "title": "मंगलवार का बाज़ार",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "हमारे इलाक़े में हर मंगलवार को एक बड़ा बाज़ार लगता है।",
+     "Every Tuesday a big market is held in our area."
+    ],
+    [
+     "सुबह से ही सड़क के दोनों तरफ़ दुकानें लग जाती हैं।",
+     "From early morning, stalls are set up on both sides of the road."
+    ],
+    [
+     "यहाँ सब्ज़ियाँ, फल, कपड़े, जूते और घर का छोटा-मोटा सामान मिलता है।",
+     "Here you can get vegetables, fruit, clothes, shoes and small household things."
+    ],
+    [
+     "चीज़ें दुकानों से सस्ती होती हैं, इसलिए यहाँ बहुत भीड़ होती है।",
+     "Things are cheaper than in shops, so it gets very crowded."
+    ],
+    [
+     "मेरी माँ हर हफ़्ते यहाँ से ताज़ी सब्ज़ियाँ लाती हैं।",
+     "My mother buys fresh vegetables here every week."
+    ],
+    [
+     "वे हमेशा क़ीमत पर बहस करती हैं।",
+     "She always haggles over the price."
+    ],
+    [
+     "सब्ज़ी वाले उन्हें पहचानते हैं और उनके लिए अच्छी सब्ज़ियाँ अलग रखते हैं।",
+     "The vegetable sellers know her and keep the good vegetables aside for her."
+    ],
+    [
+     "शाम को बाज़ार और भी सुंदर लगता है।",
+     "In the evening the market looks even more beautiful."
+    ],
+    [
+     "कुछ लोग यहाँ सिर्फ़ घूमने आते हैं।",
+     "Some people come here just to stroll around."
+    ],
+    [
+     "रात दस बजे तक सब दुकानें बंद हो जाती हैं।",
+     "By ten at night all the stalls have closed."
+    ],
+    [
+     "अगले दिन सड़क पर फिर से गाड़ियाँ चलने लगती हैं।",
+     "The next day cars start driving on the road again."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "बाज़ार किस दिन लगता है?",
+     "en": "On which day is the market held?",
+     "type": "mc",
+     "options": [
+      "सोमवार",
+      "मंगलवार",
+      "शनिवार",
+      "रविवार"
+     ],
+     "answer": 1,
+     "words": [
+      "मंगलवार"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "बाज़ार में चीज़ें दुकानों से महंगी होती हैं।",
+     "en": "Things at the market are more expensive than in shops.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "सस्ता"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "सब्ज़ी वाले माँ के लिए क्या करते हैं?",
+     "en": "What do the vegetable sellers do for the mother?",
+     "type": "mc",
+     "options": [
+      "उन्हें मुफ़्त में फल देते हैं",
+      "उनके घर तक सब्ज़ियाँ पहुँचाते हैं",
+      "अच्छी सब्ज़ियाँ बचाकर रखते हैं",
+      "उनसे कम पैसे लेते हैं"
+     ],
+     "answer": 2,
+     "words": [
+      "सब्ज़ी"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "माँ सब्ज़ी वालों से क़ीमत के बारे में बहस करती हैं।",
+     "en": "The mother argues with the vegetable sellers about the price.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "क़ीमत"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "रात दस बजे के बाद भी दुकानें खुली रहती हैं।",
+     "en": "The stalls stay open after ten at night.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बंद होना"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0034",
+   "lv": "A2",
+   "title": "शर्मा जी",
+   "oop": {
+    "शर्मा": "name"
+   },
+   "names": [
+    "शर्मा"
+   ],
+   "sentences": [
+    [
+     "मेरे पड़ोसी शर्मा जी सत्तर साल के हैं।",
+     "My neighbour Mr Sharma is seventy years old."
+    ],
+    [
+     "वे पहले एक स्कूल में अध्यापक थे, लेकिन अब काम नहीं करते।",
+     "He used to be a teacher at a school, but now he doesn't work."
+    ],
+    [
+     "उनके बच्चे दूसरे शहरों में रहते हैं, इसलिए वे अकेले रहते हैं।",
+     "His children live in other cities, so he lives alone."
+    ],
+    [
+     "फिर भी वे कभी दुखी नहीं दिखते।",
+     "Even so, he never looks sad."
+    ],
+    [
+     "हर सुबह वे अपनी छत पर पौधों को पानी देते हैं।",
+     "Every morning he waters the plants on his roof."
+    ],
+    [
+     "शाम को पास के बच्चे उनके घर पढ़ने आते हैं।",
+     "In the evening children from nearby come to his house to study."
+    ],
+    [
+     "वे बच्चों से कोई पैसा नहीं लेते।",
+     "He doesn't take any money from the children."
+    ],
+    [
+     "पिछले महीने शर्मा जी बीमार हो गए थे।",
+     "Last month Mr Sharma fell ill."
+    ],
+    [
+     "तब सब पड़ोसियों ने मिलकर उनका ख़्याल रखा।",
+     "Then all the neighbours looked after him together."
+    ],
+    [
+     "मेरी माँ उनके लिए हर दिन खाना ले जाती थीं।",
+     "My mother took food to him every day."
+    ],
+    [
+     "अब वे ठीक हैं और फिर से बच्चों की मदद कर रहे हैं।",
+     "Now he is well and helping the children again."
+    ],
+    [
+     "वे कहते हैं कि बच्चों के साथ रहकर वे जवान महसूस करते हैं।",
+     "He says being with the children makes him feel young."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "शर्मा जी पहले क्या काम करते थे?",
+     "en": "What did Mr Sharma do before?",
+     "type": "mc",
+     "options": [
+      "अस्पताल में काम करते थे",
+      "बैंक में काम करते थे",
+      "दुकान चलाते थे",
+      "बच्चों को सिखाते थे"
+     ],
+     "answer": 3,
+     "words": [
+      "अध्यापक"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "शर्मा जी अपने बच्चों के साथ रहते हैं।",
+     "en": "Mr Sharma lives with his children.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बच्चा"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "बच्चे शाम को शर्मा जी के घर क्यों आते हैं?",
+     "en": "Why do the children come to Mr Sharma's house in the evening?",
+     "type": "mc",
+     "options": [
+      "पढ़ने के लिए",
+      "खेलने के लिए",
+      "खाना खाने के लिए",
+      "पौधों को पानी देने के लिए"
+     ],
+     "answer": 0,
+     "words": [
+      "पढ़ना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "शर्मा जी मुफ़्त में बच्चों की मदद करते हैं।",
+     "en": "Mr Sharma helps the children for free.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "पैसा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "शर्मा जी के बीमार होने पर पड़ोसियों ने उनकी मदद की।",
+     "en": "When Mr Sharma was ill, the neighbours helped him.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "ख़्याल रखना"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0035",
+   "lv": "A2",
+   "title": "नई साइकिल",
+   "oop": {
+    "सोनू": "name"
+   },
+   "names": [
+    "सोनू"
+   ],
+   "sentences": [
+    [
+     "पिछले शनिवार को दस साल का सोनू अपनी नई साइकिल लेकर पार्क गया।",
+     "Last Saturday ten-year-old Sonu took his new bicycle to the park."
+    ],
+    [
+     "उसे साइकिल चलाना अभी ठीक से नहीं आता था।",
+     "He couldn't ride a bike properly yet."
+    ],
+    [
+     "पार्क के रास्ते पर एक कुत्ता अचानक उसके सामने आ गया।",
+     "On the park path a dog suddenly came out in front of him."
+    ],
+    [
+     "सोनू ने जल्दी से साइकिल रोकने की कोशिश की, लेकिन वह गिर गया।",
+     "Sonu tried to stop the bike quickly, but he fell."
+    ],
+    [
+     "उसके हाथ और घुटने में चोट लगी और वह रोने लगा।",
+     "He hurt his hand and knee and started to cry."
+    ],
+    [
+     "पास में खड़ी एक महिला उसकी मदद के लिए दौड़ी।",
+     "A woman standing nearby ran to help him."
+    ],
+    [
+     "उसने सोनू के हाथ को पानी से धोया और उसके घर फ़ोन किया।",
+     "She washed Sonu's hand with water and phoned his home."
+    ],
+    [
+     "दस मिनट में सोनू के पिता आ गए और उसे डॉक्टर के पास ले गए।",
+     "In ten minutes Sonu's father arrived and took him to the doctor."
+    ],
+    [
+     "डॉक्टर ने कहा कि कोई हड्डी नहीं टूटी है।",
+     "The doctor said no bone was broken."
+    ],
+    [
+     "दो दिन बाद सोनू फिर से साइकिल चला रहा था, लेकिन इस बार ज़्यादा ध्यान से।",
+     "Two days later Sonu was riding his bike again, but more carefully this time."
+    ],
+    [
+     "अब वह धीरे चलाता है।",
+     "Now he rides slowly."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "सोनू क्यों गिरा?",
+     "en": "Why did Sonu fall?",
+     "type": "mc",
+     "options": [
+      "उसकी साइकिल टूट गई",
+      "एक कुत्ता सामने आ गया",
+      "वह बहुत तेज़ चला रहा था",
+      "रास्ते पर पत्थर थे"
+     ],
+     "answer": 1,
+     "words": [
+      "कुत्ता"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "सोनू को कोई चोट नहीं लगी।",
+     "en": "Sonu wasn't hurt at all.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "चोट"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "सबसे पहले सोनू की मदद किसने की?",
+     "en": "Who helped Sonu first?",
+     "type": "mc",
+     "options": [
+      "उसके पिता ने",
+      "एक डॉक्टर ने",
+      "एक महिला ने",
+      "उसके दोस्त ने"
+     ],
+     "answer": 2,
+     "words": [
+      "महिला"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "सोनू के पिता उसे डॉक्टर को दिखाने ले गए।",
+     "en": "Sonu's father took him to see a doctor.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "डॉक्टर"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "गिरने के बाद सोनू ने साइकिल चलाना छोड़ दिया।",
+     "en": "After the fall Sonu gave up riding his bike.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "साइकिल"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0036",
+   "lv": "A2",
+   "title": "सब के लिए चित्र कक्षा",
+   "oop": {
+    "मीरा": "name"
+   },
+   "names": [
+    "मीरा"
+   ],
+   "sentences": [
+    [
+     "शहर के कला केंद्र में हर शनिवार सुबह सब के लिए चित्र बनाने की कक्षा होती है।",
+     "Every Saturday morning the city arts centre holds a drawing class for everyone."
+    ],
+    [
+     "कक्षा दस बजे शुरू होती है और दो घंटे चलती है।",
+     "The class starts at ten and lasts two hours."
+    ],
+    [
+     "इसमें आठ साल के बच्चों से लेकर सत्तर साल के लोग तक आ सकते हैं।",
+     "Anyone from eight-year-old children to seventy-year-olds can come."
+    ],
+    [
+     "पहली कक्षा मुफ़्त है।",
+     "The first class is free."
+    ],
+    [
+     "उसके बाद हर महीने पाँच सौ रुपए देने होते हैं।",
+     "After that you pay five hundred rupees a month."
+    ],
+    [
+     "काग़ज़ और रंग केंद्र देता है, इसलिए आपको कुछ लाने की ज़रूरत नहीं है।",
+     "The centre provides paper and paints, so you don't need to bring anything."
+    ],
+    [
+     "कक्षा की अध्यापक, मीरा जी, एक प्रसिद्ध कलाकार हैं।",
+     "The teacher, Meera ji, is a well-known artist."
+    ],
+    [
+     "वे कहती हैं कि चित्र बनाने के लिए अच्छा होना ज़रूरी नहीं है, बस मन से बनाना ज़रूरी है।",
+     "She says you don't need to be good to draw, you just need to draw from the heart."
+    ],
+    [
+     "कक्षा के बाद सब लोग साथ में चाय पीते हैं और एक-दूसरे के चित्र देखते हैं।",
+     "After class everyone has tea together and looks at each other's pictures."
+    ],
+    [
+     "साल के अंत में केंद्र सब के चित्रों का एक शो करता है।",
+     "At the end of the year the centre holds a show of everyone's pictures."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "कक्षा कितनी देर चलती है?",
+     "en": "How long does the class last?",
+     "type": "mc",
+     "options": [
+      "एक घंटा",
+      "आधा घंटा",
+      "तीन घंटे",
+      "दो घंटे"
+     ],
+     "answer": 3,
+     "words": [
+      "घंटा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "पहली कक्षा के लिए पैसे देने पड़ते हैं।",
+     "en": "You have to pay for the first class.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "मुफ़्त"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "कक्षा में क्या लाना पड़ता है?",
+     "en": "What do you have to bring to class?",
+     "type": "mc",
+     "options": [
+      "कुछ नहीं",
+      "रंग",
+      "काग़ज़",
+      "काग़ज़ और रंग"
+     ],
+     "answer": 0,
+     "words": [
+      "ज़रूरत होना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "सत्तर साल के लोग भी कक्षा में आ सकते हैं।",
+     "en": "Seventy-year-olds can also come to the class.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "साल"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "मीरा जी के अनुसार अच्छे चित्र बनाने वाले ही कक्षा में आएँ।",
+     "en": "According to Meera ji, only people who draw well should come.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "चित्र"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0037",
+   "lv": "A2",
+   "title": "लंदन से संदेश",
+   "oop": {
+    "लंदन": "name",
+    "चीन": "name",
+    "अमन": "name"
+   },
+   "names": [
+    "लंदन",
+    "चीन",
+    "अमन"
+   ],
+   "sentences": [
+    [
+     "प्यारे पापा और मम्मी,",
+     "Dear Dad and Mum,"
+    ],
+    [
+     "मुझे लंदन आए हुए अब दो महीने हो गए हैं।",
+     "It's now been two months since I came to London."
+    ],
+    [
+     "यहाँ का मौसम बहुत अजीब है, सुबह धूप होती है और दोपहर को अचानक बारिश शुरू हो जाती है।",
+     "The weather here is very strange: it's sunny in the morning and suddenly starts raining in the afternoon."
+    ],
+    [
+     "इसलिए मैं हमेशा गर्म कपड़े पहनकर निकलता हूँ।",
+     "So I always go out wearing warm clothes."
+    ],
+    [
+     "मेरी कक्षाएँ अच्छी चल रही हैं और मेरे अध्यापक बहुत मदद करते हैं।",
+     "My classes are going well and my teachers help a lot."
+    ],
+    [
+     "मेरे साथ पढ़ने वाले छात्र अलग-अलग देशों से हैं, इसलिए हम सब अंग्रेज़ी में बात करते हैं।",
+     "The students I study with are from different countries, so we all speak English."
+    ],
+    [
+     "यहाँ का खाना मुझे ज़्यादा पसंद नहीं है।",
+     "I don't like the food here much."
+    ],
+    [
+     "मुझे मम्मी की दाल की बहुत याद आती है।",
+     "I really miss Mum's dal."
+    ],
+    [
+     "पिछले हफ़्ते मैंने ख़ुद दाल बनाने की कोशिश की, लेकिन वह बहुत ख़राब बनी।",
+     "Last week I tried to make dal myself, but it turned out very badly."
+    ],
+    [
+     "मेरे एक दोस्त ने, जो चीन से है, कहा कि फिर भी उसे अच्छी लगी!",
+     "A friend of mine from China said he liked it anyway!"
+    ],
+    [
+     "दिसंबर में मेरी छुट्टियाँ होंगी और मैं घर आऊँगा।",
+     "In December I'll have my holidays and I'll come home."
+    ],
+    [
+     "आपका बेटा, अमन",
+     "Your son, Aman"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "लंदन में मौसम कैसा है?",
+     "en": "What is the weather like in London?",
+     "type": "mc",
+     "options": [
+      "हमेशा गर्म",
+      "बहुत बदलता रहता है",
+      "हमेशा ठंडा",
+      "हमेशा बारिश होती है"
+     ],
+     "answer": 1,
+     "words": [
+      "मौसम"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "अमन की कक्षा के सारे छात्र एक ही देश से हैं।",
+     "en": "All the students in Aman's class are from the same country.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "छात्र"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "अमन को किस चीज़ की याद आती है?",
+     "en": "What does Aman miss?",
+     "type": "mc",
+     "options": [
+      "अपने स्कूल के दोस्तों की",
+      "अपने कमरे की",
+      "माँ के हाथ की दाल की",
+      "अपने शहर की"
+     ],
+     "answer": 2,
+     "words": [
+      "दाल"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "अमन की बनाई दाल बहुत अच्छी थी।",
+     "en": "The dal Aman made was very good.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "दाल"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "अमन दिसंबर में घर आएगा।",
+     "en": "Aman will come home in December.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दिसंबर"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0038",
+   "lv": "A2",
+   "title": "नए साल की रात",
+   "oop": {
+    "सुनीता": "name"
+   },
+   "names": [
+    "सुनीता"
+   ],
+   "sentences": [
+    [
+     "सुनीता के परिवार में नए साल की रात हमेशा ख़ास होती है।",
+     "In Sunita's family New Year's Eve is always special."
+    ],
+    [
+     "इस दिन परिवार के सब लोग एक ही घर में मिलते हैं।",
+     "On this day the whole family gets together in one house."
+    ],
+    [
+     "इस साल पार्टी सुनीता के घर पर है, इसलिए पूरे हफ़्ते तैयारी चल रही थी।",
+     "This year the party is at Sunita's house, so preparations went on all week."
+    ],
+    [
+     "घर की सफ़ाई हुई और दरवाज़े पर फूल लगाए गए।",
+     "The house was cleaned and flowers were put up on the door."
+    ],
+    [
+     "माँ ने तीन दिन पहले से खाना बनाना शुरू कर दिया था।",
+     "Her mother had started cooking three days before."
+    ],
+    [
+     "शाम सात बजे से मेहमान आने लगे।",
+     "Guests started arriving from seven in the evening."
+    ],
+    [
+     "बच्चों ने एक छोटा नाटक किया, जिसे देखकर सब बहुत हँसे।",
+     "The children put on a short play, and everyone laughed a lot watching it."
+    ],
+    [
+     "बड़े लोग पुराने दिनों की बातें करते रहे।",
+     "The grown-ups kept talking about the old days."
+    ],
+    [
+     "रात बारह बजे सबने एक-दूसरे को नए साल की शुभकामनाएँ दीं।",
+     "At midnight everyone wished each other a happy New Year."
+    ],
+    [
+     "उसके बाद सब छत पर गए और देर रात तक बातें करते रहे।",
+     "After that they all went up to the roof and talked late into the night."
+    ],
+    [
+     "सुनीता सुबह चार बजे सोई, लेकिन वह बहुत ख़ुश थी।",
+     "Sunita went to sleep at four in the morning, but she was very happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "इस साल पार्टी कहाँ है?",
+     "en": "Where is the party this year?",
+     "type": "mc",
+     "options": [
+      "एक पार्क में",
+      "उसके चाचा के घर पर",
+      "एक होटल में",
+      "सुनीता के यहाँ"
+     ],
+     "answer": 3,
+     "words": [
+      "पार्टी"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "मेहमान सुबह से आने लगे।",
+     "en": "The guests started arriving in the morning.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "मेहमान"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "बच्चों ने पार्टी में क्या किया?",
+     "en": "What did the children do at the party?",
+     "type": "mc",
+     "options": [
+      "एक नाटक किया",
+      "खाना बनाया",
+      "घर साफ़ किया",
+      "गाने सुने"
+     ],
+     "answer": 0,
+     "words": [
+      "नाटक"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "रात बारह बजे सबने शुभकामनाएँ दीं।",
+     "en": "At midnight everyone exchanged good wishes.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "शुभकामना"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "सुनीता पार्टी के बाद जल्दी सो गई।",
+     "en": "Sunita went to sleep early after the party.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "सोना"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0039",
+   "lv": "A2",
+   "title": "पुराना फ़ोन",
+   "oop": {
+    "दीपक": "name"
+   },
+   "names": [
+    "दीपक"
+   ],
+   "sentences": [
+    [
+     "दीपक का मोबाइल सात साल पुराना है।",
+     "Deepak's mobile is seven years old."
+    ],
+    [
+     "यह बहुत धीरे चलता है और इसकी आवाज़ भी साफ़ नहीं आती।",
+     "It is very slow and its sound isn't clear either."
+    ],
+    [
+     "उसके दोस्त उस पर हँसते हैं और कहते हैं, \"नया फ़ोन ख़रीद लो!\"",
+     "His friends laugh at him and say, \"Buy a new phone!\""
+    ],
+    [
+     "पिछले महीने दीपक बाज़ार गया और उसने कई नए फ़ोन देखे।",
+     "Last month Deepak went to the market and looked at several new phones."
+    ],
+    [
+     "वे सुंदर थे, उनके कैमरे अच्छे थे, लेकिन वे बहुत महंगे थे।",
+     "They were beautiful and had good cameras, but they were very expensive."
+    ],
+    [
+     "सबसे सस्ता फ़ोन भी पंद्रह हज़ार रुपए का था।",
+     "Even the cheapest phone cost fifteen thousand rupees."
+    ],
+    [
+     "दीपक ने सोचा कि वह इतने पैसों से अपनी माँ के लिए कुछ अच्छा ख़रीद सकता है।",
+     "Deepak thought that with that much money he could buy something nice for his mother."
+    ],
+    [
+     "इसलिए उसने अपना पुराना फ़ोन ठीक करवाया, सिर्फ़ पाँच सौ रुपए में।",
+     "So he had his old phone repaired, for only five hundred rupees."
+    ],
+    [
+     "अब उसका फ़ोन पहले से तेज़ चलता है।",
+     "Now his phone runs faster than before."
+    ],
+    [
+     "बाक़ी पैसों से उसने अपनी माँ के लिए एक नई घड़ी ख़रीदी।",
+     "With the rest of the money he bought his mother a new watch."
+    ],
+    [
+     "माँ बहुत ख़ुश हुईं।",
+     "His mother was very happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "दीपक का फ़ोन कितना पुराना है?",
+     "en": "How old is Deepak's phone?",
+     "type": "mc",
+     "options": [
+      "दो साल",
+      "सात साल",
+      "पाँच साल",
+      "दस साल"
+     ],
+     "answer": 1,
+     "words": [
+      "पुराना"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "दीपक को नए फ़ोन सस्ते लगे।",
+     "en": "Deepak found the new phones cheap.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "महंगा"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "दीपक ने अपने पुराने फ़ोन के साथ क्या किया?",
+     "en": "What did Deepak do with his old phone?",
+     "type": "mc",
+     "options": [
+      "उसे बेच दिया",
+      "उसे माँ को दिया",
+      "उसे ठीक करवाया",
+      "उसे फेंक दिया"
+     ],
+     "answer": 2,
+     "words": [
+      "करवाना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "फ़ोन ठीक करवाने में पाँच सौ रुपए लगे।",
+     "en": "Repairing the phone cost five hundred rupees.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "रुपया"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "दीपक ने माँ के लिए क्या ख़रीदा?",
+     "en": "What did Deepak buy for his mother?",
+     "type": "mc",
+     "options": [
+      "एक फ़ोन",
+      "एक किताब",
+      "कपड़े",
+      "एक घड़ी"
+     ],
+     "answer": 3,
+     "words": [
+      "घड़ी"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0040",
+   "lv": "A2",
+   "title": "खोई हुई चाबी",
+   "oop": {
+    "रवि": "name",
+    "अर्जुन": "name"
+   },
+   "names": [
+    "रवि",
+    "अर्जुन"
+   ],
+   "sentences": [
+    [
+     "कल रात रवि देर से घर लौटा।",
+     "Last night Ravi came home late."
+    ],
+    [
+     "दरवाज़े पर पहुँचकर उसने अपनी जेब में हाथ डाला, लेकिन चाबी नहीं थी।",
+     "At the door he put his hand in his pocket, but the key wasn't there."
+    ],
+    [
+     "घर में कोई नहीं था, क्योंकि उसका परिवार दो दिन के लिए गाँव गया था।",
+     "Nobody was at home, because his family had gone to the village for two days."
+    ],
+    [
+     "रवि बहुत परेशान हो गया।",
+     "Ravi got very worried."
+    ],
+    [
+     "उसने सोचा कि चाबी शायद ऑफ़िस में या बस में गिर गई होगी।",
+     "He thought the key had probably fallen out at the office or on the bus."
+    ],
+    [
+     "रात के ग्यारह बज रहे थे और ऑफ़िस बंद था।",
+     "It was eleven at night and the office was closed."
+    ],
+    [
+     "उसने अपने पड़ोसी को फ़ोन किया, लेकिन उसने फ़ोन नहीं उठाया।",
+     "He phoned his neighbour, but the neighbour didn't answer."
+    ],
+    [
+     "आख़िर में वह अपने दोस्त अर्जुन के घर गया और रात वहीं सोया।",
+     "In the end he went to his friend Arjun's house and slept there."
+    ],
+    [
+     "सुबह ऑफ़िस पहुँचकर उसे पता चला कि चाबी उसकी मेज़ के नीचे पड़ी थी।",
+     "In the morning at the office he found the key lying under his desk."
+    ],
+    [
+     "उस दिन से रवि घर से निकलने से पहले हमेशा अपनी जेब देखता है।",
+     "Since that day Ravi always checks his pocket before leaving home."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "रवि घर के अंदर क्यों नहीं जा सका?",
+     "en": "Why couldn't Ravi get into the house?",
+     "type": "mc",
+     "options": [
+      "उसके पास चाबी नहीं थी",
+      "दरवाज़ा टूटा था",
+      "घर में बहुत अँधेरा था",
+      "उसका परिवार सो रहा था"
+     ],
+     "answer": 0,
+     "words": [
+      "चाबी"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "रवि का परिवार घर पर था।",
+     "en": "Ravi's family was at home.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "परिवार"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "पड़ोसी ने रवि का फ़ोन नहीं उठाया।",
+     "en": "The neighbour didn't answer Ravi's call.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "पड़ोसी"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "रवि रात को कहाँ सोया?",
+     "en": "Where did Ravi sleep that night?",
+     "type": "mc",
+     "options": [
+      "अपने घर में",
+      "अपने दोस्त के घर",
+      "ऑफ़िस में",
+      "अपने पड़ोसी के घर पर"
+     ],
+     "answer": 1,
+     "words": [
+      "सोना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "चाबी कहाँ मिली?",
+     "en": "Where was the key found?",
+     "type": "mc",
+     "options": [
+      "बस में",
+      "सड़क पर",
+      "उसके ऑफ़िस में",
+      "अर्जुन के घर के बाहर"
+     ],
+     "answer": 2,
+     "words": [
+      "मेज़"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0041",
+   "lv": "B1",
+   "title": "एक मुश्किल फ़ैसला",
+   "oop": {
+    "अनीता": "name",
+    "जयपुर": "name",
+    "मुंबई": "name"
+   },
+   "names": [
+    "अनीता",
+    "जयपुर",
+    "मुंबई"
+   ],
+   "sentences": [
+    [
+     "अनीता पिछले छह साल से जयपुर की एक छोटी कंपनी में काम कर रही है।",
+     "Anita has been working at a small company in Jaipur for the past six years."
+    ],
+    [
+     "उसे अपना काम पसंद है, और उसके साथ काम करने वाले लोग उसके परिवार जैसे हो गए हैं।",
+     "She likes her work, and her colleagues have become like family."
+    ],
+    [
+     "पिछले हफ़्ते उसे मुंबई की एक बड़ी कंपनी से नौकरी का प्रस्ताव मिला।",
+     "Last week she got a job offer from a big company in Mumbai."
+    ],
+    [
+     "नई नौकरी में वेतन पहले से काफ़ी ज़्यादा है, और आगे बढ़ने के अवसर भी ज़्यादा हैं।",
+     "The new job pays a lot more, and there are more chances to move up."
+    ],
+    [
+     "लेकिन मुंबई में रहना बहुत महंगा है, और वहाँ एक छोटे फ़्लैट का किराया भी उसकी आधी कमाई ले लेगा।",
+     "But living in Mumbai is very expensive, and even a small flat there would take half her income."
+    ],
+    [
+     "इसके अलावा, उसके माता-पिता बूढ़े हो रहे हैं, और वह उनकी अकेली बेटी है।",
+     "Besides, her parents are getting old, and she is their only daughter."
+    ],
+    [
+     "उसकी माँ कहती हैं कि उसे अपने भविष्य के बारे में सोचना चाहिए, उनकी चिंता नहीं करनी चाहिए।",
+     "Her mother says she should think about her future and not worry about them."
+    ],
+    [
+     "उसने अपनी कंपनी के मालिक से भी बात की।",
+     "She also talked to the owner of her company."
+    ],
+    [
+     "उन्होंने कहा कि वे उसका वेतन थोड़ा बढ़ा सकते हैं, लेकिन मुंबई जितना नहीं।",
+     "He said they could raise her salary a little, but not as much as Mumbai."
+    ],
+    [
+     "अनीता ने दोनों तरफ़ की बातें एक काग़ज़ पर लिखीं और कई रातें सोचती रही।",
+     "Anita wrote down both sides on a sheet of paper and thought about it for many nights."
+    ],
+    [
+     "आख़िरकार उसने तय किया कि वह एक साल के लिए मुंबई जाएगी और हर महीने घर आएगी।",
+     "Finally she decided she would go to Mumbai for a year and come home every month."
+    ],
+    [
+     "अगर यह ठीक नहीं रहा, तो वह जयपुर लौट आएगी।",
+     "If it doesn't work out, she will come back to Jaipur."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "नई नौकरी का सबसे बड़ा फ़ायदा क्या है?",
+     "en": "What is the biggest advantage of the new job?",
+     "type": "mc",
+     "options": [
+      "आसान काम",
+      "घर के पास होना",
+      "ज़्यादा वेतन",
+      "छुट्टियाँ ज़्यादा हैं"
+     ],
+     "answer": 2,
+     "words": [
+      "वेतन"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "अनीता के कई भाई-बहन हैं।",
+     "en": "Anita has several brothers and sisters.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बेटी"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "कंपनी के मालिक ने अनीता से क्या कहा?",
+     "en": "What did the company owner tell Anita?",
+     "type": "mc",
+     "options": [
+      "वे उसे जाने नहीं देंगे",
+      "उसे नई नौकरी ले लेनी चाहिए",
+      "वे भी जल्दी ही अपनी कंपनी मुंबई ले जाएँगे",
+      "उसे थोड़ा ज़्यादा वेतन मिल सकता है"
+     ],
+     "answer": 3,
+     "words": [
+      "वेतन"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "अनीता ने आख़िर में क्या तय किया?",
+     "en": "What did Anita finally decide?",
+     "type": "mc",
+     "options": [
+      "कुछ समय मुंबई में रहना",
+      "जयपुर में ही रहना",
+      "अपने माता-पिता को भी साथ मुंबई ले जाना",
+      "दूसरी नौकरी ढूँढ़ना"
+     ],
+     "answer": 0,
+     "words": [
+      "तय करना"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "अनीता की माँ नहीं चाहतीं कि वह उनकी वजह से यह मौक़ा छोड़े।",
+     "en": "Anita's mother doesn't want her to give up this chance because of them.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चिंता"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0042",
+   "lv": "B1",
+   "title": "होटल को एक पत्र",
+   "oop": {
+    "रमेश": "name",
+    "गुप्ता": "name"
+   },
+   "names": [
+    "रमेश",
+    "गुप्ता"
+   ],
+   "sentences": [
+    [
+     "प्रबंधक जी,",
+     "Dear Manager,"
+    ],
+    [
+     "मैं पिछले हफ़्ते, दस से तेरह मार्च तक, आपके होटल के कमरा नंबर दो सौ बारह में रुका था।",
+     "Last week, from the tenth to the thirteenth of March, I stayed in room two hundred and twelve of your hotel."
+    ],
+    [
+     "मैंने यह होटल इंटरनेट पर देखकर चुना था, क्योंकि वहाँ लिखा था कि कमरे शांत और साफ़ हैं और समुद्र के पास हैं।",
+     "I chose this hotel after seeing it on the internet, because it said the rooms were quiet, clean and near the sea."
+    ],
+    [
+     "होटल सचमुच समुद्र के पास है, और आपके कर्मचारी बहुत अच्छे थे, लेकिन मेरा अनुभव अच्छा नहीं रहा।",
+     "The hotel really is near the sea, and your staff were very kind, but my experience was not good."
+    ],
+    [
+     "पहली रात कमरे में गर्म पानी नहीं था।",
+     "On the first night there was no hot water in the room."
+    ],
+    [
+     "मैंने दो बार फ़ोन किया, पर कोई नहीं आया।",
+     "I phoned twice, but nobody came."
+    ],
+    [
+     "दूसरी रात ऊपर वाले कमरे में देर रात तक पार्टी चलती रही और इतना शोर था कि मैं सो नहीं पाया।",
+     "On the second night there was a party in the room above until late, and it was so noisy that I couldn't sleep."
+    ],
+    [
+     "नाश्ता ठीक था, लेकिन हर दिन एक ही चीज़ें थीं।",
+     "Breakfast was fine, but it was the same things every day."
+    ],
+    [
+     "सबसे बुरी बात यह थी कि जाते समय मुझसे नाश्ते के लिए अलग से पैसे लिए गए, लेकिन इंटरनेट पर लिखा था कि नाश्ता किराए में शामिल है।",
+     "Worst of all, when I left I was charged separately for breakfast, although the internet said breakfast was included in the price."
+    ],
+    [
+     "मुझे उम्मीद है कि आप नाश्ते का पैसा मेरे बैंक खाते में भेज देंगे।",
+     "I hope you will send the breakfast money to my bank account."
+    ],
+    [
+     "मैं आपके होटल में फिर से आना चाहूँगा, अगर ये समस्याएँ ठीक हो जाएँ।",
+     "I would like to come to your hotel again, if these problems are fixed."
+    ],
+    [
+     "धन्यवाद, रमेश गुप्ता",
+     "Thank you, Ramesh Gupta"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "रमेश जी ने यह होटल क्यों चुना था?",
+     "en": "Why had Mr Ramesh chosen this hotel?",
+     "type": "mc",
+     "options": [
+      "यह सस्ता था",
+      "इंटरनेट पर अच्छी बातें पढ़ी थीं",
+      "उनके एक पुराने दोस्त ने इसके बारे में बताया था",
+      "यह स्टेशन के पास था"
+     ],
+     "answer": 1,
+     "words": [
+      "इंटरनेट"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "पहली रात रमेश जी के फ़ोन करने पर भी कोई नहीं आया।",
+     "en": "On the first night nobody came even when Mr Ramesh phoned.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "फ़ोन करना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "दूसरी रात क्या समस्या थी?",
+     "en": "What was the problem on the second night?",
+     "type": "mc",
+     "options": [
+      "गर्म पानी नहीं था",
+      "कमरा गंदा था",
+      "बहुत शोर था",
+      "नाश्ता ठंडा था"
+     ],
+     "answer": 2,
+     "words": [
+      "शोर"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "रमेश जी होटल से क्या चाहते हैं?",
+     "en": "What does Mr Ramesh want from the hotel?",
+     "type": "mc",
+     "options": [
+      "प्रबंधक से मुलाक़ात",
+      "एक नया कमरा",
+      "एक और रात मुफ़्त",
+      "नाश्ते के पैसे"
+     ],
+     "answer": 3,
+     "words": [
+      "पैसा"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "होटल के कर्मचारी अच्छे नहीं थे।",
+     "en": "The hotel staff were not nice.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कर्मचारी"
+     ],
+     "sentence": 3
+    }
+   ]
+  },
+  {
+   "id": "p0043",
+   "lv": "B1",
+   "title": "पुराना कारख़ाना बंद होगा",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "हमारे शहर का सबसे पुराना कारख़ाना अगले महीने बंद हो जाएगा।",
+     "The oldest factory in our city will close next month."
+    ],
+    [
+     "यह कारख़ाना सत्तर साल पहले बना था, और यहाँ कपड़ा बनता था।",
+     "The factory was built seventy years ago, and it made cloth."
+    ],
+    [
+     "एक समय था जब शहर के लगभग हर परिवार का कोई न कोई सदस्य यहाँ काम करता था।",
+     "There was a time when someone from almost every family in the city worked here."
+    ],
+    [
+     "लेकिन पिछले दस सालों में कंपनी को लगातार नुक़सान हुआ है, क्योंकि विदेश से सस्ता कपड़ा आने लगा।",
+     "But over the last ten years the company has made steady losses, because cheap cloth started coming from abroad."
+    ],
+    [
+     "कंपनी के मालिकों का कहना है कि पुरानी मशीनों के साथ काम चलाना अब संभव नहीं है।",
+     "The owners say it is no longer possible to keep going with the old machines."
+    ],
+    [
+     "इस फ़ैसले से लगभग चार सौ मज़दूरों की नौकरी चली जाएगी।",
+     "About four hundred workers will lose their jobs because of this decision."
+    ],
+    [
+     "कई मज़दूर पचास साल से ज़्यादा उम्र के हैं, और उन्हें डर है कि उन्हें दूसरा काम नहीं मिलेगा।",
+     "Many workers are over fifty, and they are afraid they won't find other work."
+    ],
+    [
+     "कंपनी ने कहा है कि हर मज़दूर को छह महीने का वेतन दिया जाएगा।",
+     "The company has said every worker will be given six months' pay."
+    ],
+    [
+     "शहर की सरकार भी उनके लिए नए कौशल सीखने की कक्षाएँ शुरू करेगी, जैसे कंप्यूटर और बिजली का काम।",
+     "The city government will also start classes for them to learn new skills, such as computers and electrical work."
+    ],
+    [
+     "कुछ लोगों का सुझाव है कि कारख़ाने की इमारत को तोड़ने के बजाय वहाँ एक बाज़ार और बच्चों के लिए खेल का मैदान बनाया जाए।",
+     "Some people suggest that instead of pulling down the factory building, a market and a playground for children should be made there."
+    ],
+    [
+     "दूसरे लोग चाहते हैं कि वहाँ नई कंपनियों के दफ़्तर खुलें, ताकि युवाओं को रोज़गार मिले।",
+     "Others want offices of new companies to open there, so that young people get jobs."
+    ],
+    [
+     "अभी तक इस पर कोई फ़ैसला नहीं हुआ है।",
+     "No decision has been made on this yet."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "कारख़ाना क्यों बंद हो रहा है?",
+     "en": "Why is the factory closing?",
+     "type": "mc",
+     "options": [
+      "कंपनी को नुक़सान हो रहा है",
+      "मज़दूरों ने हड़ताल की",
+      "शहर की सरकार ने इसे बंद करने को कहा",
+      "इमारत बहुत पुरानी है"
+     ],
+     "answer": 0,
+     "words": [
+      "नुक़सान"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "कारख़ाने में लगभग चार सौ लोग काम करते हैं।",
+     "en": "About four hundred people work at the factory.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "मज़दूर"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "कई बड़ी उम्र के मज़दूरों को किस बात का डर है?",
+     "en": "What are many older workers afraid of?",
+     "type": "mc",
+     "options": [
+      "उनका वेतन नहीं मिलेगा",
+      "उन्हें नया काम नहीं मिलेगा",
+      "कारख़ाना दूसरे शहर जाएगा",
+      "उन्हें कंप्यूटर सीखना पड़ेगा"
+     ],
+     "answer": 1,
+     "words": [
+      "डर"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "शहर की सरकार मज़दूरों के लिए क्या करेगी?",
+     "en": "What will the city government do for the workers?",
+     "type": "mc",
+     "options": [
+      "उन्हें छह महीने का वेतन देगी",
+      "कारख़ाना फिर से खोलेगी",
+      "उन्हें नए काम सिखाएगी",
+      "उन्हें दूसरे शहर भेजेगी"
+     ],
+     "answer": 2,
+     "words": [
+      "कौशल"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "कारख़ाने की इमारत के बारे में फ़ैसला हो चुका है।",
+     "en": "A decision about the factory building has already been made.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "फ़ैसला"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0044",
+   "lv": "B1",
+   "title": "पिता जी का गाँव",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "मेरे पिता जी का गाँव पहाड़ों के बीच, शहर से लगभग तीन सौ किलोमीटर दूर है।",
+     "My father's village is in the mountains, about three hundred kilometres from the city."
+    ],
+    [
+     "बचपन में हम हर गर्मी की छुट्टियों में वहाँ जाते थे।",
+     "As children we went there every summer holiday."
+    ],
+    [
+     "तब वहाँ तक पहुँचने के लिए पहले रेल, फिर बस और आख़िर में दो घंटे पैदल चलना पड़ता था।",
+     "Back then, to get there we had to take a train, then a bus, and finally walk for two hours."
+    ],
+    [
+     "गाँव में बिजली कभी-कभी ही आती थी, और रात को आसमान में इतने तारे दिखते थे कि हम उन्हें गिनते-गिनते सो जाते थे।",
+     "The village only had electricity now and then, and at night there were so many stars that we fell asleep counting them."
+    ],
+    [
+     "दादी सुबह चार बजे उठकर गाय का दूध निकालती थीं।",
+     "Grandmother got up at four in the morning to milk the cow."
+    ],
+    [
+     "हम बच्चे दिन भर नदी में खेलते और पेड़ों से फल तोड़ते थे।",
+     "We children played in the river all day and picked fruit from the trees."
+    ],
+    [
+     "पिछले महीने, पंद्रह साल बाद, मैं फिर वहाँ गया।",
+     "Last month, after fifteen years, I went there again."
+    ],
+    [
+     "अब गाँव तक एक पक्की सड़क बन गई है, और शहर से सीधी बस जाती है।",
+     "Now a paved road goes to the village, and there is a direct bus from the city."
+    ],
+    [
+     "हर घर में बिजली है, और ज़्यादातर लोगों के पास मोबाइल फ़ोन है।",
+     "Every house has electricity, and most people have a mobile phone."
+    ],
+    [
+     "गाँव में अब एक बड़ा स्कूल और एक छोटा अस्पताल भी है।",
+     "The village now also has a big school and a small hospital."
+    ],
+    [
+     "लेकिन कई युवा नौकरी के लिए शहरों में चले गए हैं, और कई घर ख़ाली पड़े हैं।",
+     "But many young people have gone to the cities for work, and many houses stand empty."
+    ],
+    [
+     "मैं उसके आँगन में बैठा और मुझे बचपन के वे दिन याद आए।",
+     "I sat in its courtyard and remembered those childhood days."
+    ],
+    [
+     "गाँव में बहुत कुछ बेहतर हुआ है, फिर भी मुझे पुराने गाँव की याद आती है।",
+     "A lot has improved in the village, but I still miss the old village."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "बचपन में लेखक गाँव कब जाता था?",
+     "en": "When did the writer go to the village as a child?",
+     "type": "mc",
+     "options": [
+      "सिर्फ़ परिवार की शादियों में",
+      "हर महीने",
+      "सर्दी में",
+      "गर्मी की हर छुट्टी में"
+     ],
+     "answer": 3,
+     "words": [
+      "छुट्टी"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "बचपन में गाँव तक सीधी बस जाती थी।",
+     "en": "In the writer's childhood a direct bus went to the village.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बस"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "अब गाँव में क्या बदल गया है?",
+     "en": "What has changed in the village now?",
+     "type": "mc",
+     "options": [
+      "सब घरों में बिजली आ गई है",
+      "गाँव में कोई नहीं रहता",
+      "गाँव के सब लोग शहर में चले गए हैं",
+      "नदी सूख गई है"
+     ],
+     "answer": 0,
+     "words": [
+      "बिजली"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "गाँव के कई घर ख़ाली क्यों हैं?",
+     "en": "Why are many houses in the village empty?",
+     "type": "mc",
+     "options": [
+      "घर बहुत पुराने हैं",
+      "युवा काम के लिए शहर चले गए",
+      "वहाँ बिजली नहीं है",
+      "लोग पास के बड़े गाँव में रहने लगे हैं"
+     ],
+     "answer": 1,
+     "words": [
+      "युवा"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "लेखक को अपना बचपन वाला गाँव याद आता है।",
+     "en": "The writer misses the village of his childhood.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "याद आना"
+     ],
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "p0045",
+   "lv": "B1",
+   "title": "अच्छी नींद कैसे लें?",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "आज के समय में बहुत से लोगों को रात को ठीक से नींद नहीं आती।",
+     "These days many people don't sleep well at night."
+    ],
+    [
+     "डॉक्टरों का कहना है कि एक बड़े इंसान को हर रात सात से आठ घंटे सोना चाहिए।",
+     "Doctors say an adult should sleep seven to eight hours every night."
+    ],
+    [
+     "कम सोने से हम दिन भर थके रहते हैं, और काम पर ध्यान नहीं दे पाते।",
+     "If we sleep too little, we stay tired all day and can't concentrate on work."
+    ],
+    [
+     "अच्छी नींद के लिए कुछ आसान उपाय हैं।",
+     "There are some simple ways to sleep well."
+    ],
+    [
+     "पहला, हर दिन एक ही समय पर सोइए और एक ही समय पर उठिए, छुट्टी के दिन भी।",
+     "First, go to bed and get up at the same time every day, even on holidays."
+    ],
+    [
+     "दूसरा, सोने से एक घंटा पहले फ़ोन और टीवी बंद कर दीजिए, क्योंकि उनका प्रकाश दिमाग़ को जगाए रखता है।",
+     "Second, switch off your phone and TV an hour before bed, because their light keeps the brain awake."
+    ],
+    [
+     "तीसरा, शाम के बाद चाय या कॉफ़ी मत पीजिए।",
+     "Third, don't drink tea or coffee after the evening."
+    ],
+    [
+     "चौथा, रात को बहुत भारी खाना न खाइए, और सोने से दो घंटे पहले खाना ख़त्म कर लीजिए।",
+     "Fourth, don't eat a very heavy meal at night, and finish eating two hours before bed."
+    ],
+    [
+     "दिन में थोड़ा व्यायाम करना भी मदद करता है, लेकिन सोने से ठीक पहले नहीं।",
+     "A little exercise during the day also helps, but not right before bed."
+    ],
+    [
+     "सोने का कमरा शांत, अँधेरा और थोड़ा ठंडा होना चाहिए।",
+     "The bedroom should be quiet, dark and a little cool."
+    ],
+    [
+     "अगर बीस मिनट तक नींद न आए, तो बिस्तर से उठिए और कोई शांत काम कीजिए, जैसे किताब पढ़ना।",
+     "If you can't fall asleep within twenty minutes, get out of bed and do something calm, like reading a book."
+    ],
+    [
+     "अगर इन सब के बाद भी कई हफ़्तों तक नींद की समस्या रहे, तो डॉक्टर से ज़रूर मिलिए।",
+     "If the sleep problem continues for several weeks even after all this, be sure to see a doctor."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "डॉक्टरों के अनुसार बड़े लोगों को कितना सोना चाहिए?",
+     "en": "According to doctors, how much should adults sleep?",
+     "type": "mc",
+     "options": [
+      "पाँच-छह घंटे",
+      "नौ-दस घंटे",
+      "सात-आठ घंटे",
+      "चार घंटे"
+     ],
+     "answer": 2,
+     "words": [
+      "घंटा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "सोने से पहले फ़ोन क्यों बंद करना चाहिए?",
+     "en": "Why should you switch off your phone before sleeping?",
+     "type": "mc",
+     "options": [
+      "रात को दोस्त फ़ोन करके परेशान करते हैं",
+      "फ़ोन गर्म हो जाता है",
+      "बिजली ख़र्च होती है",
+      "उसका प्रकाश दिमाग़ को जगाता है"
+     ],
+     "answer": 3,
+     "words": [
+      "प्रकाश"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "शाम को कॉफ़ी पीना अच्छी नींद के लिए ठीक है।",
+     "en": "Drinking coffee in the evening is fine for good sleep.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कॉफ़ी"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "अगर बीस मिनट तक नींद न आए, तो क्या करना चाहिए?",
+     "en": "What should you do if you can't sleep for twenty minutes?",
+     "type": "mc",
+     "options": [
+      "उठकर कुछ शांत काम करना चाहिए",
+      "बिस्तर में लेटे रहना चाहिए",
+      "टीवी देखकर मन को शांत करना चाहिए",
+      "व्यायाम करना चाहिए"
+     ],
+     "answer": 0,
+     "words": [
+      "नींद आना"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "छुट्टी के दिन भी एक ही समय पर उठना चाहिए।",
+     "en": "You should get up at the same time even on holidays.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "छुट्टी"
+     ],
+     "sentence": 4
+    }
+   ]
+  },
+  {
+   "id": "p0046",
+   "lv": "B1",
+   "title": "शनिवार को पुस्तकालय में",
+   "oop": {
+    "रवि": "name",
+    "मीना": "name"
+   },
+   "names": [
+    "रवि",
+    "मीना"
+   ],
+   "sentences": [
+    [
+     "हर शनिवार सुबह रवि अपने इलाक़े के सरकारी पुस्तकालय जाता है।",
+     "Every Saturday morning Ravi goes to the public library in his area."
+    ],
+    [
+     "यह पुस्तकालय एक पुरानी इमारत में है, और बहुत बड़ा नहीं है।",
+     "The library is in an old building and isn't very big."
+    ],
+    [
+     "लेकिन यहाँ कई भाषाओं की किताबें, अख़बार और बच्चों के लिए कहानियों की किताबें हैं।",
+     "But it has books in many languages, newspapers and storybooks for children."
+    ],
+    [
+     "पुस्तकालय का सदस्य बनने के लिए साल में सिर्फ़ सौ रुपए देने होते हैं।",
+     "To become a member of the library you pay only a hundred rupees a year."
+    ],
+    [
+     "सदस्य एक बार में तीन किताबें दो हफ़्ते के लिए घर ले जा सकते हैं।",
+     "Members can take three books home at a time for two weeks."
+    ],
+    [
+     "रवि पिछले साल से यहाँ बच्चों को कहानियाँ पढ़कर सुनाता है।",
+     "Since last year Ravi has been reading stories aloud to children here."
+    ],
+    [
+     "हर शनिवार ग्यारह बजे लगभग बीस बच्चे आते हैं, जिनमें से कई के घरों में किताबें नहीं हैं।",
+     "Every Saturday at eleven about twenty children come, and many of them have no books at home."
+    ],
+    [
+     "पहले कुछ बच्चे चुपचाप बैठे रहते थे, लेकिन अब वे ख़ुद सवाल पूछते हैं और कहानियों पर बहस करते हैं।",
+     "At first some children just sat quietly, but now they ask questions themselves and argue about the stories."
+    ],
+    [
+     "कुछ बच्चों ने अपनी कहानियाँ लिखना भी शुरू कर दिया है।",
+     "Some children have even started writing their own stories."
+    ],
+    [
+     "पुस्तकालय में काम करने वाली मीना जी कहती हैं कि रवि के आने के बाद ज़्यादा बच्चे पुस्तकालय आने लगे हैं।",
+     "Meena ji, who works at the library, says more children have started coming since Ravi began."
+    ],
+    [
+     "पर पुस्तकालय के पास पैसे कम हैं, और नई किताबें ख़रीदना मुश्किल है।",
+     "But the library has little money, and buying new books is difficult."
+    ],
+    [
+     "इसलिए रवि और मीना जी अगले महीने लोगों से पुरानी किताबें दान में माँगेंगे।",
+     "So next month Ravi and Meena ji will ask people to donate old books."
+    ],
+    [
+     "रवि कहता है कि एक अच्छी किताब किसी बच्चे की ज़िंदगी बदल सकती है।",
+     "Ravi says a good book can change a child's life."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "पुस्तकालय का सदस्य बनने में कितना ख़र्च होता है?",
+     "en": "How much does it cost to become a member of the library?",
+     "type": "mc",
+     "options": [
+      "कुछ नहीं",
+      "सौ रुपए साल",
+      "सौ रुपए महीना",
+      "हज़ार रुपए साल"
+     ],
+     "answer": 1,
+     "words": [
+      "सदस्य"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "सदस्य एक बार में पाँच किताबें ले जा सकते हैं।",
+     "en": "Members can take five books at a time.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "किताब"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "रवि पुस्तकालय में क्या करता है?",
+     "en": "What does Ravi do at the library?",
+     "type": "mc",
+     "options": [
+      "वहाँ नौकरी करता है",
+      "पुस्तकालय में सफ़ाई का काम करता है",
+      "बच्चों के लिए कहानियाँ पढ़ता है",
+      "अख़बार पढ़ता है"
+     ],
+     "answer": 2,
+     "words": [
+      "कहानी"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "पुस्तकालय की सबसे बड़ी समस्या क्या है?",
+     "en": "What is the library's biggest problem?",
+     "type": "mc",
+     "options": [
+      "जगह बहुत कम है",
+      "इमारत बहुत पुरानी है",
+      "बच्चे नहीं आते",
+      "पैसे की कमी"
+     ],
+     "answer": 3,
+     "words": [
+      "पैसा"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "अब कुछ बच्चे ख़ुद कहानियाँ लिखते हैं।",
+     "en": "Now some children write stories themselves.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "लिखना"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0047",
+   "lv": "B1",
+   "title": "कम गाड़ियाँ, साफ़ हवा",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "पिछले कुछ सालों में हमारे शहर में प्रदूषण बहुत बढ़ गया है।",
+     "Pollution in our city has increased a lot over the last few years."
+    ],
+    [
+     "सर्दियों में कई दिन ऐसे होते हैं जब आसमान भूरा दिखता है और साँस लेना मुश्किल हो जाता है।",
+     "In winter there are many days when the sky looks brown and it becomes hard to breathe."
+    ],
+    [
+     "डॉक्टरों के अनुसार बच्चों और बूढ़ों पर इसका सबसे बुरा असर पड़ता है।",
+     "According to doctors, children and old people are hit hardest."
+    ],
+    [
+     "इस समस्या का एक बड़ा कारण सड़कों पर गाड़ियों की बढ़ती संख्या है।",
+     "One big cause of the problem is the growing number of vehicles on the roads."
+    ],
+    [
+     "इसलिए शहर की सरकार ने एक नया नियम बनाया है।",
+     "So the city government has made a new rule."
+    ],
+    [
+     "अगले महीने से, हर रविवार को शहर के केंद्र में कार और बाइक चलाना मना होगा।",
+     "From next month, driving cars and motorbikes in the city centre will be banned every Sunday."
+    ],
+    [
+     "उस दिन लोग पैदल, साइकिल से या बस और मेट्रो से आ-जा सकेंगे।",
+     "On that day people will be able to get around on foot, by bicycle, or by bus and metro."
+    ],
+    [
+     "बसें उस दिन मुफ़्त होंगी।",
+     "The buses will be free that day."
+    ],
+    [
+     "कुछ व्यापारी इस नियम से ख़ुश नहीं हैं।",
+     "Some traders are not happy with this rule."
+    ],
+    [
+     "उनका कहना है कि इससे रविवार को उनके ग्राहक कम हो जाएँगे।",
+     "They say it will mean fewer customers on Sundays."
+    ],
+    [
+     "लेकिन दूसरे शहरों के अनुभव कुछ और बताते हैं।",
+     "But the experience of other cities says something different."
+    ],
+    [
+     "वहाँ ऐसे नियमों के बाद सड़कों पर ज़्यादा लोग पैदल घूमने लगे, और छोटी दुकानों की बिक्री बढ़ गई।",
+     "There, after such rules, more people started walking in the streets, and small shops sold more."
+    ],
+    [
+     "सरकार पहले छह महीने यह नियम चलाकर देखेगी, और फिर तय करेगी कि इसे आगे जारी रखना है या नहीं।",
+     "The government will first try the rule for six months, and then decide whether to continue it."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "प्रदूषण का सबसे बुरा असर किन पर पड़ता है?",
+     "en": "Who is hit hardest by pollution?",
+     "type": "mc",
+     "options": [
+      "बच्चों और बूढ़ों पर",
+      "व्यापारियों पर",
+      "गाड़ी चलाने वालों पर",
+      "पेड़ों पर"
+     ],
+     "answer": 0,
+     "words": [
+      "असर"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "नया नियम हर दिन लागू होगा।",
+     "en": "The new rule will apply every day.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "रविवार"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "रविवार को बसों के बारे में क्या नियम है?",
+     "en": "What is the rule about buses on Sundays?",
+     "type": "mc",
+     "options": [
+      "बसें बंद रहेंगी",
+      "बसों में टिकट नहीं लगेगा",
+      "बसें सिर्फ़ सुबह के समय चलेंगी",
+      "बसें देर से चलेंगी"
+     ],
+     "answer": 1,
+     "words": [
+      "मुफ़्त"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "कुछ व्यापारी इस नियम से ख़ुश क्यों नहीं हैं?",
+     "en": "Why are some traders unhappy with this rule?",
+     "type": "mc",
+     "options": [
+      "उन्हें अपनी दुकान तक पैदल चलकर आना पड़ेगा",
+      "उन्हें बस पसंद नहीं है",
+      "उन्हें डर है कि ग्राहक कम आएँगे",
+      "उनकी दुकानें बंद होंगी"
+     ],
+     "answer": 2,
+     "words": [
+      "ग्राहक"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "सरकार यह नियम पहले छह महीने के लिए चलाएगी।",
+     "en": "The government will run this rule for six months at first.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "महीना"
+     ],
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "p0048",
+   "lv": "B1",
+   "title": "पहली अकेली यात्रा",
+   "oop": {
+    "मीरा": "name",
+    "जापान": "name",
+    "अमेरिका": "name"
+   },
+   "names": [
+    "मीरा",
+    "जापान",
+    "अमेरिका"
+   ],
+   "sentences": [
+    [
+     "पिछले साल, तीस साल की उम्र में, मीरा ने पहली बार अकेले विदेश यात्रा की।",
+     "Last year, at the age of thirty, Meera travelled abroad alone for the first time."
+    ],
+    [
+     "वह हमेशा से जापान जाना चाहती थी, लेकिन उसके दोस्तों के पास कभी समय या पैसे नहीं होते थे।",
+     "She had always wanted to go to Japan, but her friends never had the time or the money."
+    ],
+    [
+     "आख़िरकार उसने तय किया कि वह किसी का इंतज़ार नहीं करेगी।",
+     "Finally she decided she wouldn't wait for anyone."
+    ],
+    [
+     "उसने छह महीने पैसे बचाए, पासपोर्ट बनवाया और सस्ते टिकट ढूँढ़े।",
+     "She saved money for six months, got a passport made and looked for cheap tickets."
+    ],
+    [
+     "उसके माता-पिता थोड़े चिंतित थे, इसलिए उसने वादा किया कि वह हर रात उन्हें फ़ोन करेगी।",
+     "Her parents were a little worried, so she promised to phone them every night."
+    ],
+    [
+     "जापान पहुँचकर पहले दो दिन उसे बहुत मुश्किल हुई, क्योंकि वहाँ बहुत कम लोग अंग्रेज़ी बोलते थे।",
+     "After reaching Japan she had a very hard first two days, because very few people there spoke English."
+    ],
+    [
+     "एक बार वह ग़लत रेल में बैठ गई और एक छोटे शहर में पहुँच गई।",
+     "Once she got on the wrong train and ended up in a small town."
+    ],
+    [
+     "लेकिन वहाँ एक बूढ़े आदमी ने, जिसकी भाषा वह नहीं समझती थी, इशारों से उसे सही रास्ता दिखाया।",
+     "But there an old man, whose language she didn't understand, showed her the right way with gestures."
+    ],
+    [
+     "उस दिन उसने सीखा कि मदद के लिए हमेशा एक ही भाषा की ज़रूरत नहीं होती।",
+     "That day she learned that you don't always need a shared language to help someone."
+    ],
+    [
+     "दो हफ़्तों में उसने कई शहर देखे, नए खाने का स्वाद लिया और कुछ नए दोस्त बनाए।",
+     "In two weeks she saw many cities, tasted new food and made some new friends."
+    ],
+    [
+     "अब वह कहती है कि अकेले सफ़र करने से उसे अपने ऊपर भरोसा करना आया।",
+     "Now she says travelling alone taught her to trust herself."
+    ],
+    [
+     "अगले साल वह दक्षिण अमेरिका जाने की योजना बना रही है।",
+     "Next year she is planning to go to South America."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "मीरा अकेले क्यों गई?",
+     "en": "Why did Meera go alone?",
+     "type": "mc",
+     "options": [
+      "उसका काम वहाँ था",
+      "उसे हमेशा से अकेले घूमना पसंद है",
+      "उसके माता-पिता ने कहा",
+      "दोस्त उसके साथ नहीं जा पाते थे"
+     ],
+     "answer": 3,
+     "words": [
+      "दोस्त"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "मीरा ने यात्रा के लिए पैसे बचाए।",
+     "en": "Meera saved money for the trip.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "बचाना"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "जापान में पहले दो दिन मुश्किल क्यों थे?",
+     "en": "Why were the first two days in Japan hard?",
+     "type": "mc",
+     "options": [
+      "भाषा की समस्या थी",
+      "बहुत ठंड थी",
+      "उसके पैसे खो गए",
+      "वह बीमार थी"
+     ],
+     "answer": 0,
+     "words": [
+      "अंग्रेज़ी"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "ग़लत शहर पहुँचने पर मीरा की मदद किसने की?",
+     "en": "Who helped Meera when she reached the wrong town?",
+     "type": "mc",
+     "options": [
+      "एक पुलिस वाले ने",
+      "एक बड़ी उम्र के आदमी ने",
+      "रेल में बैठी एक महिला ने",
+      "होटल वाले ने"
+     ],
+     "answer": 1,
+     "words": [
+      "आदमी"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "मीरा अगले साल फिर जापान जाएगी।",
+     "en": "Meera will go to Japan again next year.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "योजना"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0049",
+   "lv": "B1",
+   "title": "युवा और मोबाइल फ़ोन",
+   "oop": {
+    "भारत": "name"
+   },
+   "names": [
+    "भारत"
+   ],
+   "sentences": [
+    [
+     "आज लगभग हर युवा के हाथ में मोबाइल फ़ोन है।",
+     "Today almost every young person has a mobile phone in their hand."
+    ],
+    [
+     "एक नए अध्ययन के अनुसार, भारत में अठारह से तीस साल के लोग दिन में औसत छह घंटे फ़ोन पर बिताते हैं।",
+     "According to a new study, people aged eighteen to thirty in India spend six hours a day on their phones on average."
+    ],
+    [
+     "इनमें से ज़्यादातर समय वीडियो देखने, गेम खेलने और दोस्तों को संदेश भेजने में जाता है।",
+     "Most of this time goes on watching videos, playing games and sending messages to friends."
+    ],
+    [
+     "फ़ोन के कई फ़ायदे हैं।",
+     "Phones have many advantages."
+    ],
+    [
+     "इससे हम दूर रहने वाले परिवार से बात कर सकते हैं, नई चीज़ें सीख सकते हैं और ज़रूरी जानकारी तुरंत पा सकते हैं।",
+     "With them we can talk to family who live far away, learn new things and get important information at once."
+    ],
+    [
+     "लेकिन डॉक्टर कुछ ख़तरों के बारे में चेतावनी देते हैं।",
+     "But doctors warn about some dangers."
+    ],
+    [
+     "बहुत देर तक फ़ोन देखने से आँखों और गर्दन में दर्द हो सकता है।",
+     "Looking at a phone for too long can cause eye and neck pain."
+    ],
+    [
+     "रात को फ़ोन इस्तेमाल करने से नींद ख़राब होती है।",
+     "Using a phone at night spoils sleep."
+    ],
+    [
+     "कई युवा कहते हैं कि फ़ोन के बिना वे परेशान हो जाते हैं।",
+     "Many young people say they get anxious without their phone."
+    ],
+    [
+     "इस अध्ययन में यह भी पाया गया कि जो युवा दिन में दो घंटे से कम फ़ोन इस्तेमाल करते हैं, वे ज़्यादा ख़ुश रहते हैं।",
+     "The study also found that young people who use their phone for less than two hours a day are happier."
+    ],
+    [
+     "कुछ स्कूलों ने अब कक्षा में फ़ोन लाने पर रोक लगा दी है।",
+     "Some schools have now banned phones in class."
+    ],
+    [
+     "कुछ परिवार खाने के समय सब के फ़ोन एक डिब्बे में रख देते हैं।",
+     "Some families put everyone's phones in a box at mealtimes."
+    ],
+    [
+     "फ़ोन अपने आप में बुरा नहीं है, सवाल यह है कि हम उसका कितना और कैसे इस्तेमाल करते हैं।",
+     "A phone is not bad in itself; the question is how much and how we use it."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "अध्ययन के अनुसार युवा दिन में औसत कितने घंटे फ़ोन पर बिताते हैं?",
+     "en": "According to the study, how many hours a day do young people spend on their phones on average?",
+     "type": "mc",
+     "options": [
+      "दो",
+      "चार",
+      "छह",
+      "आठ"
+     ],
+     "answer": 2,
+     "words": [
+      "औसत"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "डॉक्टरों के अनुसार फ़ोन का कोई ख़तरा नहीं है।",
+     "en": "According to doctors, phones have no dangers.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "ख़तरा"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "रात को फ़ोन इस्तेमाल करने से क्या होता है?",
+     "en": "What happens if you use a phone at night?",
+     "type": "mc",
+     "options": [
+      "आँखें ठीक हो जाती हैं",
+      "ख़ुशी बढ़ती है",
+      "सुबह बहुत जल्दी नींद खुल जाती है",
+      "नींद पर बुरा असर पड़ता है"
+     ],
+     "answer": 3,
+     "words": [
+      "नींद"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "अध्ययन में कौन से युवा ज़्यादा ख़ुश पाए गए?",
+     "en": "Which young people were found to be happier in the study?",
+     "type": "mc",
+     "options": [
+      "जो फ़ोन कम इस्तेमाल करते हैं",
+      "जो दिन भर गेम खेलते हैं",
+      "जिनके पास सबसे महंगा और नया फ़ोन है",
+      "जो रात को फ़ोन देखते हैं"
+     ],
+     "answer": 0,
+     "words": [
+      "ख़ुश"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "खाने के समय कुछ परिवार फ़ोन इस्तेमाल नहीं करते।",
+     "en": "Some families don't use phones at mealtimes.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "फ़ोन"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0050",
+   "lv": "B1",
+   "title": "ऊपर वाले पड़ोसी",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "छह महीने पहले हमारे ऊपर वाले फ़्लैट में एक नया परिवार रहने आया।",
+     "Six months ago a new family moved into the flat above ours."
+    ],
+    [
+     "उनके दो छोटे बच्चे हैं और एक बड़ा कुत्ता।",
+     "They have two small children and a big dog."
+    ],
+    [
+     "पहले हफ़्ते से ही शोर शुरू हो गया।",
+     "The noise started from the very first week."
+    ],
+    [
+     "बच्चे रात दस बजे के बाद भी दौड़ते रहते थे, और कुत्ता जब अकेला होता, तो बहुत शोर करता था।",
+     "The children ran around even after ten at night, and when the dog was alone it made a lot of noise."
+    ],
+    [
+     "मेरी माँ बीमार रहती हैं और उन्हें आराम की ज़रूरत है, इसलिए हम सब परेशान थे।",
+     "My mother is often ill and needs rest, so we were all upset."
+    ],
+    [
+     "पहले हमने सोचा कि इमारत के प्रबंधक से शिकायत करें।",
+     "At first we thought of complaining to the building manager."
+    ],
+    [
+     "लेकिन मेरे पिता ने कहा कि पहले हमें ख़ुद उनसे बात करनी चाहिए।",
+     "But my father said we should first talk to them ourselves."
+    ],
+    [
+     "एक शाम हम मिठाई लेकर उनके घर गए।",
+     "One evening we went to their home with some sweets."
+    ],
+    [
+     "उन्होंने हमारा बहुत अच्छे से स्वागत किया और चाय पिलाई।",
+     "They welcomed us very warmly and gave us tea."
+    ],
+    [
+     "जब हमने शोर के बारे में बताया, तो वे हैरान हो गए, क्योंकि उन्हें पता ही नहीं था कि नीचे आवाज़ इतनी आती है।",
+     "When we told them about the noise they were surprised, because they had no idea so much sound reached downstairs."
+    ],
+    [
+     "उन्होंने माफ़ी माँगी और वादा किया कि बच्चे रात को नहीं दौड़ेंगे।",
+     "They apologised and promised the children wouldn't run around at night."
+    ],
+    [
+     "दिन में कुत्ते का ध्यान रखने के लिए उन्होंने एक लड़के को रखा।",
+     "They hired a boy to look after the dog during the day."
+    ],
+    [
+     "अब घर काफ़ी शांत रहता है, और दोनों परिवारों में दोस्ती भी हो गई है।",
+     "Now the house is much quieter, and the two families have become friends."
+    ],
+    [
+     "पिछले रविवार उनके बच्चे मेरी माँ के लिए अपने हाथ से बनाया एक कार्ड लाए।",
+     "Last Sunday their children brought my mother a card they had made themselves."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "नए परिवार के आने के बाद क्या समस्या शुरू हुई?",
+     "en": "What problem started after the new family came?",
+     "type": "mc",
+     "options": [
+      "पानी कम आने लगा",
+      "बहुत शोर होने लगा",
+      "बिजली जाने लगी",
+      "कार खड़ी करने की जगह नहीं रही"
+     ],
+     "answer": 1,
+     "words": [
+      "शोर"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "लेखक के परिवार ने पहले प्रबंधक से शिकायत की।",
+     "en": "The writer's family complained to the manager first.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बात करना"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "पड़ोसी शोर के बारे में सुनकर हैरान क्यों हुए?",
+     "en": "Why were the neighbours surprised to hear about the noise?",
+     "type": "mc",
+     "options": [
+      "उनका कुत्ता बूढ़ा है",
+      "उनके बच्चे बहुत शांत हैं",
+      "उन्हें शोर का अंदाज़ा नहीं था",
+      "वे ज़्यादातर रात को घर से बाहर रहते हैं"
+     ],
+     "answer": 2,
+     "words": [
+      "हैरान"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "पड़ोसियों ने कुत्ते के लिए क्या किया?",
+     "en": "What did the neighbours do about the dog?",
+     "type": "mc",
+     "options": [
+      "उसे अपने किसी रिश्तेदार के घर भेज दिया",
+      "कुछ नहीं किया",
+      "उसे नए घर में ले गए",
+      "किसी को उसकी देखभाल करने के लिए रखा"
+     ],
+     "answer": 3,
+     "words": [
+      "ध्यान रखना"
+     ],
+     "sentence": 11
+    },
+    {
+     "q": "अब दोनों परिवार दोस्त बन गए हैं।",
+     "en": "The two families have now become friends.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दोस्ती"
+     ],
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "p0051",
+   "lv": "B1",
+   "title": "चालीस में नई शुरुआत",
+   "oop": {
+    "सुनील": "name"
+   },
+   "names": [
+    "सुनील"
+   ],
+   "sentences": [
+    [
+     "सुनील चालीस साल का था, जब उसने बैंक की अपनी पक्की नौकरी छोड़ दी।",
+     "Sunil was forty when he left his secure job at the bank."
+    ],
+    [
+     "वह पंद्रह साल से वहाँ काम कर रहा था, और वेतन भी अच्छा था।",
+     "He had been working there for fifteen years, and the pay was good."
+    ],
+    [
+     "लेकिन हर सुबह दफ़्तर जाते समय उसे लगता था कि वह अपनी ज़िंदगी किसी और की तरह जी रहा है।",
+     "But every morning on the way to the office he felt he was living his life like someone else."
+    ],
+    [
+     "बचपन से उसे खाना बनाने का शौक़ था।",
+     "Since childhood he had loved cooking."
+    ],
+    [
+     "छुट्टी के दिन वह दोस्तों के लिए नए-नए खाने बनाता, और सब उसकी प्रशंसा करते।",
+     "On his days off he cooked new dishes for his friends, and everyone praised him."
+    ],
+    [
+     "एक दिन उसकी पत्नी ने पूछा, \"तुम अपना छोटा सा होटल क्यों नहीं खोलते?\"",
+     "One day his wife asked, \"Why don't you open your own little restaurant?\""
+    ],
+    [
+     "सुनील को डर था कि लोग क्या कहेंगे, और अगर पैसे डूब गए तो क्या होगा।",
+     "Sunil was afraid of what people would say, and of what would happen if he lost the money."
+    ],
+    [
+     "फिर भी उसने अपने बचाए हुए पैसों से एक छोटी सी जगह किराए पर ली।",
+     "Even so, he rented a small place with his savings."
+    ],
+    [
+     "पहले छह महीने बहुत कठिन थे।",
+     "The first six months were very hard."
+    ],
+    [
+     "कई दिन एक भी ग्राहक नहीं आता था, और वह रात को सो नहीं पाता था।",
+     "On many days not a single customer came, and he couldn't sleep at night."
+    ],
+    [
+     "धीरे-धीरे लोगों ने उसके खाने के बारे में दूसरों को बताया।",
+     "Slowly people told others about his food."
+    ],
+    [
+     "आज, तीन साल बाद, उसके होटल में दोपहर को बैठने की जगह नहीं मिलती।",
+     "Today, three years later, you can't get a seat in his restaurant at lunchtime."
+    ],
+    [
+     "वह पहले से कम कमाता है, लेकिन कहता है कि वह पहले से कहीं ज़्यादा ख़ुश है।",
+     "He earns less than before, but says he is much happier than before."
+    ],
+    [
+     "उसके अनुसार, नई शुरुआत के लिए कभी देर नहीं होती।",
+     "According to him, it is never too late for a new start."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "सुनील ने नौकरी क्यों छोड़ी?",
+     "en": "Why did Sunil leave his job?",
+     "type": "mc",
+     "options": [
+      "उसे अपना काम अच्छा नहीं लगता था",
+      "वेतन कम था",
+      "बैंक ने उसे दूसरे शहर भेजने का फ़ैसला किया",
+      "वह बीमार था"
+     ],
+     "answer": 0,
+     "words": [
+      "ज़िंदगी"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "होटल खोलने का विचार सुनील की पत्नी का था।",
+     "en": "Opening a restaurant was Sunil's wife's idea.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "पत्नी"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "पहले छह महीनों में क्या समस्या थी?",
+     "en": "What was the problem in the first six months?",
+     "type": "mc",
+     "options": [
+      "खाना अच्छा नहीं था",
+      "ग्राहक बहुत कम आते थे",
+      "किराया बहुत ज़्यादा था",
+      "उसके खाने में नमक बहुत ज़्यादा होता था"
+     ],
+     "answer": 1,
+     "words": [
+      "ग्राहक"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "सुनील अब पहले से ज़्यादा पैसे कमाता है।",
+     "en": "Sunil now earns more money than before.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कमाना"
+     ],
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "p0052",
+   "lv": "B1",
+   "title": "छत पर सब्ज़ियाँ",
+   "oop": {
+    "दिल्ली": "name",
+    "ललिता": "name"
+   },
+   "names": [
+    "दिल्ली",
+    "ललिता"
+   ],
+   "sentences": [
+    [
+     "दिल्ली जैसे बड़े शहरों में ज़मीन कम है और महंगी भी।",
+     "In big cities like Delhi land is scarce and expensive."
+    ],
+    [
+     "इसलिए कई लोग अब अपने घर की छत पर सब्ज़ियाँ और फूल लगाने लगे हैं।",
+     "So many people have now started growing vegetables and flowers on their roofs."
+    ],
+    [
+     "ललिता जी ने तीन साल पहले अपनी छत पर यह काम शुरू किया।",
+     "Lalita ji started doing this on her roof three years ago."
+    ],
+    [
+     "पहले उन्होंने पुराने डिब्बों और बोतलों में मिट्टी भरकर कुछ सब्ज़ियों के बीज बोए।",
+     "First she filled old boxes and bottles with soil and sowed some vegetable seeds."
+    ],
+    [
+     "पहली बार ज़्यादातर पौधे धूप की गर्मी से सूख गए।",
+     "The first time, most of the plants dried up in the heat of the sun."
+    ],
+    [
+     "फिर उन्होंने इंटरनेट पर पढ़ा और दूसरे लोगों से सलाह ली।",
+     "Then she read up on the internet and asked other people for advice."
+    ],
+    [
+     "उन्होंने पौधों के ऊपर एक हल्का कपड़ा लगाया, ताकि दोपहर की तेज़ धूप सीधे न लगे।",
+     "She put a light cloth over the plants so that the strong afternoon sun didn't hit them directly."
+    ],
+    [
+     "अब उनकी छत पर बीस से ज़्यादा तरह की सब्ज़ियाँ और फल हैं।",
+     "Now there are more than twenty kinds of vegetables and fruit on her roof."
+    ],
+    [
+     "उनका परिवार गर्मियों में बाज़ार से लगभग कोई सब्ज़ी नहीं ख़रीदता।",
+     "In summer her family buys almost no vegetables from the market."
+    ],
+    [
+     "वे रसोई का कचरा फेंकती नहीं, बल्कि उसे मिट्टी में मिला देती हैं।",
+     "She doesn't throw away kitchen scraps, but mixes them into the soil."
+    ],
+    [
+     "इससे पौधों को ताक़त मिलती है।",
+     "This makes the plants strong."
+    ],
+    [
+     "पौधों की वजह से गर्मियों में उनका घर भी पहले से कम गर्म रहता है।",
+     "Because of the plants, her house also stays less hot in summer than before."
+    ],
+    [
+     "अब वे हर महीने अपने इलाक़े के लोगों के लिए एक मुफ़्त कक्षा चलाती हैं।",
+     "Now she runs a free class every month for people in her area."
+    ],
+    [
+     "उनका कहना है, \"छोटी सी जगह में भी बहुत कुछ किया जा सकता है।\"",
+     "She says, \"You can do a lot even in a small space.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "पहली बार ललिता जी के पौधों के साथ क्या हुआ?",
+     "en": "What happened to Lalita ji's plants the first time?",
+     "type": "mc",
+     "options": [
+      "बारिश से ख़राब हो गए",
+      "जानवरों ने खा लिए",
+      "धूप से सूख गए",
+      "बहुत बड़े हो गए"
+     ],
+     "answer": 2,
+     "words": [
+      "सूखना"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "तेज़ धूप से बचाने के लिए उन्होंने क्या किया?",
+     "en": "What did she do to protect them from the strong sun?",
+     "type": "mc",
+     "options": [
+      "पौधों पर पानी डाला",
+      "नए बीज बोए",
+      "पौधों को छत से कमरे के अंदर रखा",
+      "पौधों के ऊपर कपड़ा लगाया"
+     ],
+     "answer": 3,
+     "words": [
+      "कपड़ा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "गर्मियों में ललिता जी के घर के लिए बहुत सब्ज़ियाँ बाज़ार से आती हैं।",
+     "en": "In summer a lot of vegetables for Lalita ji's home come from the market.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "सब्ज़ी"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "ललिता जी रसोई के कचरे का क्या करती हैं?",
+     "en": "What does Lalita ji do with kitchen scraps?",
+     "type": "mc",
+     "options": [
+      "उसे मिट्टी में मिलाती हैं",
+      "उसे फेंक देती हैं",
+      "उसे पास के खेत में ले जाती हैं",
+      "उसे बेचती हैं"
+     ],
+     "answer": 0,
+     "words": [
+      "कचरा"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "ललिता जी दूसरों को यह काम मुफ़्त में सिखाती हैं।",
+     "en": "Lalita ji teaches others how to do this for free.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "मुफ़्त"
+     ],
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "p0053",
+   "lv": "B1",
+   "title": "खाना बनाने की प्रतियोगिता",
+   "oop": {
+    "कमला": "name"
+   },
+   "names": [
+    "कमला"
+   ],
+   "sentences": [
+    [
+     "पिछले महीने एक टीवी कार्यक्रम ने घर पर खाना बनाने वालों के लिए एक प्रतियोगिता रखी।",
+     "Last month a TV programme held a competition for home cooks."
+    ],
+    [
+     "इसमें पाँच सौ से ज़्यादा लोगों ने हिस्सा लिया।",
+     "More than five hundred people took part."
+    ],
+    [
+     "आख़िरी दिन सिर्फ़ पाँच लोग बचे थे।",
+     "On the last day only five people were left."
+    ],
+    [
+     "उनमें से एक थीं साठ साल की कमला जी, जिन्होंने पहले कभी कैमरे के सामने खाना नहीं बनाया था।",
+     "One of them was sixty-year-old Kamala ji, who had never cooked in front of a camera before."
+    ],
+    [
+     "हर व्यक्ति को एक घंटे में दो चीज़ें बनानी थीं, एक खाना और एक मीठी चीज़।",
+     "Each person had to make two things in an hour: a main dish and something sweet."
+    ],
+    [
+     "दूसरे लोग महंगी और नई तरह की चीज़ें बना रहे थे।",
+     "The others were making expensive, new kinds of dishes."
+    ],
+    [
+     "कमला जी ने अपनी माँ से सीखी हुई एक साधारण दाल और गुड़ वाले चावल बनाए।",
+     "Kamala ji made a simple dal and sweet rice with jaggery, which she had learned from her mother."
+    ],
+    [
+     "बीच में उनकी गैस ख़त्म हो गई, और दस मिनट बर्बाद हो गए।",
+     "Halfway through her gas ran out, and ten minutes were lost."
+    ],
+    [
+     "वे थोड़ी परेशान हुईं, लेकिन उन्होंने हार नहीं मानी।",
+     "She got a little flustered, but she didn't give up."
+    ],
+    [
+     "जब निर्णय देने वाले लोगों ने उनकी दाल खाई, तो एक की आँखों में आँसू आ गए।",
+     "When the judges ate her dal, one of them had tears in his eyes."
+    ],
+    [
+     "उसने कहा कि इसका स्वाद उसे अपनी दादी के घर की याद दिलाता है।",
+     "He said its taste reminded him of his grandmother's home."
+    ],
+    [
+     "कमला जी पहले नंबर पर आईं और उन्हें एक लाख रुपए का पुरस्कार मिला।",
+     "Kamala ji came first and won a prize of one lakh rupees."
+    ],
+    [
+     "वे इन पैसों से अपने गाँव की लड़कियों के लिए खाना बनाने की एक कक्षा शुरू करना चाहती हैं।",
+     "With this money she wants to start a cooking class for the girls of her village."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "प्रतियोगिता में कितने लोगों ने हिस्सा लिया?",
+     "en": "How many people took part in the competition?",
+     "type": "mc",
+     "options": [
+      "पाँच",
+      "पाँच सौ से ज़्यादा",
+      "पचास",
+      "एक लाख"
+     ],
+     "answer": 1,
+     "words": [
+      "हिस्सा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "कमला जी पहले भी कैमरे के सामने खाना बना चुकी थीं।",
+     "en": "Kamala ji had cooked in front of a camera before.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कैमरा"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "कमला जी ने क्या बनाया?",
+     "en": "What did Kamala ji make?",
+     "type": "mc",
+     "options": [
+      "कई विदेशी और नई तरह की चीज़ें",
+      "सिर्फ़ मीठी चीज़ें",
+      "घर का साधारण खाना",
+      "बहुत महंगा खाना"
+     ],
+     "answer": 2,
+     "words": [
+      "साधारण"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "प्रतियोगिता के बीच में कमला जी के साथ क्या हुआ?",
+     "en": "What happened to Kamala ji in the middle of the competition?",
+     "type": "mc",
+     "options": [
+      "उनका हाथ कट गया",
+      "उनकी दाल जल गई",
+      "उनकी दाल में बहुत नमक पड़ गया",
+      "रसोई की गैस ख़त्म हो गई"
+     ],
+     "answer": 3,
+     "words": [
+      "गैस"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "कमला जी पुरस्कार के पैसे अपने गाँव की लड़कियों को सिखाने में लगाएँगी।",
+     "en": "Kamala ji will use the prize money to teach the girls of her village.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "लड़की"
+     ],
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "p0054",
+   "lv": "B1",
+   "title": "मामा की बेटी की शादी",
+   "oop": {
+    "प्रिया": "name",
+    "जयपुर": "name",
+    "भारत": "name"
+   },
+   "names": [
+    "प्रिया",
+    "जयपुर",
+    "भारत"
+   ],
+   "sentences": [
+    [
+     "पिछले महीने मेरे मामा की बेटी, प्रिया, की शादी हुई।",
+     "Last month my uncle's daughter, Priya, got married."
+    ],
+    [
+     "शादी जयपुर में थी, और हम सब एक हफ़्ते पहले ही वहाँ पहुँच गए।",
+     "The wedding was in Jaipur, and we all got there a week early."
+    ],
+    [
+     "भारत में शादी सिर्फ़ एक दिन का काम नहीं होती, बल्कि कई दिनों का उत्सव होती है।",
+     "In India a wedding is not a one-day affair but a celebration lasting several days."
+    ],
+    [
+     "पहले दिन घर पर संगीत का कार्यक्रम था, और सब रिश्तेदार देर रात तक नाचते रहे।",
+     "On the first day there was a music evening at home, and all the relatives danced until late at night."
+    ],
+    [
+     "दूसरे दिन घर में फूल और कई रंगों के कपड़े लगाए गए।",
+     "On the second day flowers and cloth of many colours were put up in the house."
+    ],
+    [
+     "शादी के दिन सुबह से ही घर में बहुत भीड़ थी।",
+     "On the wedding day the house was crowded from early morning."
+    ],
+    [
+     "मेरी ज़िम्मेदारी मेहमानों को खाना खिलाने की थी।",
+     "My job was to serve food to the guests."
+    ],
+    [
+     "लगभग पाँच सौ मेहमान आए थे, और मैं पूरी शाम एक मेज़ से दूसरी मेज़ तक दौड़ता रहा।",
+     "About five hundred guests came, and I kept running from one table to another all evening."
+    ],
+    [
+     "लड़के वाले रात नौ बजे संगीत के साथ आए।",
+     "The groom's family arrived at nine at night with music."
+    ],
+    [
+     "शादी का मुख्य कार्यक्रम आधी रात के बाद शुरू हुआ और सुबह चार बजे तक चला।",
+     "The main ceremony started after midnight and went on until four in the morning."
+    ],
+    [
+     "सुबह जब प्रिया अपने नए घर जाने लगी, तो मामा जी रो पड़े।",
+     "In the morning, when Priya was leaving for her new home, my uncle burst into tears."
+    ],
+    [
+     "उस समय सब लोग चुप हो गए।",
+     "At that moment everyone fell silent."
+    ],
+    [
+     "मैं बहुत थका हुआ था, लेकिन यह शादी मुझे हमेशा याद रहेगी।",
+     "I was very tired, but I will always remember this wedding."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "शादी में लेखक की क्या ज़िम्मेदारी थी?",
+     "en": "What was the writer's job at the wedding?",
+     "type": "mc",
+     "options": [
+      "मेहमानों को खाना खिलाना",
+      "घर में फूल लगाना",
+      "शादी के लिए सब रिश्तेदारों को बुलाना",
+      "फ़ोटो लेना"
+     ],
+     "answer": 0,
+     "words": [
+      "ज़िम्मेदारी"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "शादी में सौ से कम लोग आए।",
+     "en": "Fewer than a hundred people came to the wedding.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "मेहमान"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "शादी का मुख्य कार्यक्रम कब तक चला?",
+     "en": "Until when did the main ceremony go on?",
+     "type": "mc",
+     "options": [
+      "आधी रात तक",
+      "सुबह चार बजे तक",
+      "रात नौ बजे तक",
+      "दोपहर तक"
+     ],
+     "answer": 1,
+     "words": [
+      "कार्यक्रम"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "प्रिया के जाते समय मामा जी रोने लगे।",
+     "en": "When Priya was leaving, her father started to cry.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "रोना"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "लेखक के अनुसार भारत में शादी कैसी होती है?",
+     "en": "According to the writer, what is a wedding like in India?",
+     "type": "mc",
+     "options": [
+      "सिर्फ़ एक दिन का काम",
+      "घर के लोगों का एक छोटा सा कार्यक्रम",
+      "कई दिन चलने वाला उत्सव",
+      "बहुत शांत"
+     ],
+     "answer": 2,
+     "words": [
+      "उत्सव"
+     ],
+     "sentence": 2
+    }
+   ]
+  },
+  {
+   "id": "p0055",
+   "lv": "B1",
+   "title": "क़िला अब रात को भी खुला",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "शहर का पुराना क़िला अब हर शुक्रवार और शनिवार को रात दस बजे तक खुला रहेगा।",
+     "The city's old fort will now stay open until ten at night every Friday and Saturday."
+    ],
+    [
+     "पहले यह शाम पाँच बजे बंद हो जाता था, इसलिए काम करने वाले लोग इसे सिर्फ़ छुट्टी के दिन देख पाते थे।",
+     "Before, it closed at five in the evening, so working people could only visit on their days off."
+    ],
+    [
+     "क़िला लगभग चार सौ साल पुराना है, और इसके अंदर कई महल और एक बड़ा आँगन है।",
+     "The fort is about four hundred years old, and inside there are several palaces and a large courtyard."
+    ],
+    [
+     "रात को क़िले की दीवारों पर एक ख़ास प्रकाश किया जाएगा।",
+     "At night the fort's walls will be specially lit."
+    ],
+    [
+     "हर शाम सात बजे आँगन में एक शो होगा, जिसमें क़िले का इतिहास बताया जाएगा।",
+     "Every evening at seven there will be a show in the courtyard telling the history of the fort."
+    ],
+    [
+     "यह शो दो भाषाओं में होगा, और एक घंटे का होगा।",
+     "The show will be in two languages and will last an hour."
+    ],
+    [
+     "रात के टिकट की क़ीमत दिन से थोड़ी ज़्यादा है, बड़ों के लिए दो सौ रुपए और बच्चों के लिए सौ रुपए।",
+     "A night ticket costs a little more than a day ticket: two hundred rupees for adults and a hundred for children."
+    ],
+    [
+     "छात्रों को अपना कार्ड दिखाने पर आधी क़ीमत पर टिकट मिलेगा।",
+     "Students will get tickets at half price on showing their card."
+    ],
+    [
+     "टिकट इंटरनेट पर या क़िले के दरवाज़े पर ख़रीदे जा सकते हैं।",
+     "Tickets can be bought online or at the fort gate."
+    ],
+    [
+     "क़िले के अंदर खाने-पीने की चीज़ें ले जाना मना है, लेकिन अंदर एक छोटा होटल है।",
+     "Taking food and drink into the fort is not allowed, but there is a small restaurant inside."
+    ],
+    [
+     "अधिकारियों का कहना है कि इस फ़ैसले से ज़्यादा युवा इतिहास में दिलचस्पी लेंगे।",
+     "Officials say this decision will get more young people interested in history."
+    ],
+    [
+     "अगर लोगों ने इसे पसंद किया, तो अगले साल से क़िला हर रात खुलेगा।",
+     "If people like it, the fort will open every night from next year."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "पहले क़िला कितने बजे बंद होता था?",
+     "en": "At what time did the fort close before?",
+     "type": "mc",
+     "options": [
+      "दोपहर एक बजे",
+      "शाम सात बजे",
+      "रात दस बजे",
+      "शाम पाँच बजे"
+     ],
+     "answer": 3,
+     "words": [
+      "बंद होना"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "रात का टिकट दिन के टिकट से सस्ता है।",
+     "en": "The night ticket is cheaper than the day ticket.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "टिकट"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "छात्रों के लिए टिकट के बारे में क्या नियम है?",
+     "en": "What is the ticket rule for students?",
+     "type": "mc",
+     "options": [
+      "उन्हें आधी क़ीमत देनी होगी",
+      "उन्हें टिकट नहीं लेना होगा",
+      "उन्हें सिर्फ़ दिन में आना होगा",
+      "उन्हें दो सौ रुपए देने होंगे"
+     ],
+     "answer": 0,
+     "words": [
+      "क़ीमत"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "शाम सात बजे आँगन में क्या होगा?",
+     "en": "What will happen in the courtyard at seven in the evening?",
+     "type": "mc",
+     "options": [
+      "खाने का कार्यक्रम",
+      "इतिहास के बारे में शो",
+      "संगीत का कार्यक्रम",
+      "बच्चों के लिए खेल और नाटक"
+     ],
+     "answer": 1,
+     "words": [
+      "इतिहास"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "टिकट इंटरनेट से भी ख़रीदा जा सकता है।",
+     "en": "Tickets can also be bought online.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "इंटरनेट"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0056",
+   "lv": "B1",
+   "title": "घर से काम",
+   "oop": {
+    "करण": "name"
+   },
+   "names": [
+    "करण"
+   ],
+   "sentences": [
+    [
+     "दो साल पहले तक करण हर दिन दो घंटे बस में सफ़र करके दफ़्तर जाता था।",
+     "Until two years ago Karan spent two hours a day on the bus to get to the office."
+    ],
+    [
+     "फिर उसकी कंपनी ने कर्मचारियों को घर से काम करने की अनुमति दे दी।",
+     "Then his company allowed employees to work from home."
+    ],
+    [
+     "शुरू में करण बहुत ख़ुश था।",
+     "At first Karan was very happy."
+    ],
+    [
+     "अब उसे सुबह जल्दी उठकर भागना नहीं पड़ता था, और सफ़र के पैसे भी बचते थे।",
+     "He no longer had to get up early and rush, and he saved on travel too."
+    ],
+    [
+     "वह उन दो घंटों में व्यायाम करता और अपने बच्चों को स्कूल छोड़ने जाता।",
+     "In those two hours he exercised and took his children to school."
+    ],
+    [
+     "लेकिन कुछ महीनों बाद उसे कुछ समस्याएँ महसूस होने लगीं।",
+     "But after a few months he began to notice some problems."
+    ],
+    [
+     "घर पर काम और आराम के बीच कोई सीमा नहीं थी।",
+     "At home there was no line between work and rest."
+    ],
+    [
+     "वह रात को भी दफ़्तर के संदेश देखता रहता था।",
+     "He kept checking office messages even at night."
+    ],
+    [
+     "उसे अपने साथ काम करने वालों से बात करने की कमी महसूस होती थी, और वह कभी-कभी अकेला महसूस करता था।",
+     "He missed talking to his colleagues, and sometimes he felt lonely."
+    ],
+    [
+     "उसके छोटे फ़्लैट में काम करने के लिए कोई अलग कमरा भी नहीं था।",
+     "His small flat didn't have a separate room to work in either."
+    ],
+    [
+     "इसलिए करण ने कुछ नियम बनाए।",
+     "So Karan made some rules."
+    ],
+    [
+     "अब वह शाम छह बजे के बाद अपना कंप्यूटर बंद कर देता है।",
+     "Now he switches off his computer after six in the evening."
+    ],
+    [
+     "हफ़्ते में दो दिन वह दफ़्तर जाता है, ताकि लोगों से मिल सके।",
+     "Two days a week he goes to the office so he can see people."
+    ],
+    [
+     "उसका मानना है कि घर से काम करना अच्छा है, लेकिन इसके लिए अपने ऊपर नियंत्रण ज़रूरी है।",
+     "He believes working from home is good, but it takes self-control."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "पहले करण दफ़्तर कैसे जाता था?",
+     "en": "How did Karan use to get to the office?",
+     "type": "mc",
+     "options": [
+      "कार से",
+      "मेट्रो से",
+      "बस से",
+      "पैदल"
+     ],
+     "answer": 2,
+     "words": [
+      "बस"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "घर से काम करने पर करण के पैसे बचते थे।",
+     "en": "Working from home saved Karan money.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "पैसा"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "कुछ महीनों बाद करण को क्या समस्या हुई?",
+     "en": "What problem did Karan have after a few months?",
+     "type": "mc",
+     "options": [
+      "बच्चे स्कूल नहीं गए",
+      "कंपनी ने उसका वेतन कम कर दिया",
+      "उसका कंप्यूटर टूट गया",
+      "काम और आराम अलग नहीं रहे"
+     ],
+     "answer": 3,
+     "words": [
+      "सीमा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "अब करण हफ़्ते में कितने दिन दफ़्तर जाता है?",
+     "en": "How many days a week does Karan go to the office now?",
+     "type": "mc",
+     "options": [
+      "दो",
+      "एक",
+      "तीन",
+      "पाँच"
+     ],
+     "answer": 0,
+     "words": [
+      "दफ़्तर"
+     ],
+     "sentence": 12
+    },
+    {
+     "q": "करण अब रात को भी कंप्यूटर पर काम करता है।",
+     "en": "Karan now works on his computer at night too.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कंप्यूटर"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0057",
+   "lv": "B1",
+   "title": "चोरी हुई साइकिल",
+   "oop": {
+    "राहुल": "name"
+   },
+   "names": [
+    "राहुल"
+   ],
+   "sentences": [
+    [
+     "पिछले मंगलवार को राहुल की साइकिल उसके दफ़्तर के बाहर से चोरी हो गई।",
+     "Last Tuesday Rahul's bicycle was stolen from outside his office."
+    ],
+    [
+     "उसने साइकिल हमेशा की तरह ताला लगाकर एक पेड़ के पास खड़ी की थी।",
+     "As always, he had locked it and left it by a tree."
+    ],
+    [
+     "शाम को जब वह बाहर आया, तो वहाँ सिर्फ़ टूटा हुआ ताला पड़ा था।",
+     "When he came out in the evening, only the broken lock was lying there."
+    ],
+    [
+     "यह साइकिल उसके लिए बहुत ख़ास थी, क्योंकि यह उसके पिता ने उसे बीस साल पहले उपहार में दी थी।",
+     "This bike was very special to him, because his father had given it to him as a gift twenty years ago."
+    ],
+    [
+     "राहुल तुरंत पुलिस के पास गया और शिकायत की।",
+     "Rahul went to the police at once and made a complaint."
+    ],
+    [
+     "पुलिस ने कहा कि शहर में हर महीने बहुत सी साइकिलें चोरी होती हैं, और उन्हें ढूँढ़ना मुश्किल है।",
+     "The police said many bikes are stolen in the city every month, and they are hard to find."
+    ],
+    [
+     "राहुल ने हार नहीं मानी।",
+     "Rahul didn't give up."
+    ],
+    [
+     "उसने साइकिल की एक पुरानी फ़ोटो इंटरनेट पर डाली और लोगों से मदद माँगी।",
+     "He put an old photo of the bike on the internet and asked people for help."
+    ],
+    [
+     "हज़ारों लोगों ने उसकी कहानी दूसरों तक पहुँचाई।",
+     "Thousands of people passed his story on to others."
+    ],
+    [
+     "तीन दिन बाद एक लड़की ने उसे संदेश भेजा।",
+     "Three days later a girl sent him a message."
+    ],
+    [
+     "उसने लिखा कि उसने बिल्कुल उसी तरह की साइकिल पुराने सामान के एक बाज़ार में बिकती देखी है।",
+     "She wrote that she had seen exactly the same bike for sale at a second-hand market."
+    ],
+    [
+     "राहुल पुलिस के साथ वहाँ गया, और सचमुच वह उसकी साइकिल थी।",
+     "Rahul went there with the police, and it really was his bike."
+    ],
+    [
+     "बेचने वाले ने कहा कि उसने इसे किसी से सस्ते में ख़रीदा था।",
+     "The seller said he had bought it cheaply from someone."
+    ],
+    [
+     "राहुल को अपनी साइकिल मिल गई, और अब वह उसे दफ़्तर के अंदर रखता है।",
+     "Rahul got his bike back, and now he keeps it inside the office."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "साइकिल राहुल के लिए ख़ास क्यों थी?",
+     "en": "Why was the bike special to Rahul?",
+     "type": "mc",
+     "options": [
+      "वह बहुत महंगी थी",
+      "वह उसके पिता का उपहार थी",
+      "वह बिल्कुल नई थी",
+      "उसने उसे बहुत मेहनत से ख़ुद बनाया था"
+     ],
+     "answer": 1,
+     "words": [
+      "उपहार"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "पुलिस ने कहा कि साइकिल आसानी से मिल जाएगी।",
+     "en": "The police said the bike would be easy to find.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "पुलिस"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "राहुल ने साइकिल ढूँढ़ने के लिए क्या किया?",
+     "en": "What did Rahul do to find his bike?",
+     "type": "mc",
+     "options": [
+      "हर बाज़ार में गया",
+      "नई साइकिल ख़रीदी",
+      "इंटरनेट पर मदद माँगी",
+      "दफ़्तर में सबसे पूछा"
+     ],
+     "answer": 2,
+     "words": [
+      "इंटरनेट"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "साइकिल कहाँ मिली?",
+     "en": "Where was the bike found?",
+     "type": "mc",
+     "options": [
+      "एक पेड़ के पास",
+      "लड़की के घर",
+      "पुलिस के पास",
+      "पुराने सामान के एक बाज़ार में"
+     ],
+     "answer": 3,
+     "words": [
+      "बाज़ार"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "अब राहुल अपनी साइकिल बाहर नहीं छोड़ता।",
+     "en": "Rahul no longer leaves his bike outside.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "साइकिल"
+     ],
+     "sentence": 13
+    }
+   ]
+  },
+  {
+   "id": "p0058",
+   "lv": "B1",
+   "title": "नए होटल के बारे में मेरी राय",
+   "oop": {
+    "नीम": "name"
+   },
+   "names": [
+    "नीम"
+   ],
+   "sentences": [
+    [
+     "पिछले शनिवार मैं अपने परिवार के साथ शहर के नए होटल \"नीम\" में खाना खाने गया।",
+     "Last Saturday I went to eat with my family at the city's new restaurant, \"Neem\"."
+    ],
+    [
+     "होटल पुराने बाज़ार के पास है, और उसे एक पुराने मकान में बनाया गया है।",
+     "The restaurant is near the old market and has been set up in an old house."
+    ],
+    [
+     "अंदर का माहौल बहुत अच्छा है, पुरानी तस्वीरें, लकड़ी की मेज़ें और धीमा संगीत।",
+     "The atmosphere inside is very nice: old pictures, wooden tables and soft music."
+    ],
+    [
+     "हमने पहले से फ़ोन करके जगह नहीं ली थी, इसलिए हमें बीस मिनट इंतज़ार करना पड़ा।",
+     "We hadn't phoned ahead to book, so we had to wait twenty minutes."
+    ],
+    [
+     "खाने की सूची में ज़्यादातर पारंपरिक चीज़ें हैं, जो गाँव के तरीक़े से बनाई जाती हैं।",
+     "Most of the menu is traditional dishes, made the village way."
+    ],
+    [
+     "हमने दाल, दो सब्ज़ियाँ, रोटी और चावल लिए।",
+     "We had dal, two vegetable dishes, roti and rice."
+    ],
+    [
+     "दाल का स्वाद शानदार था, बिल्कुल घर जैसा।",
+     "The dal tasted wonderful, just like home."
+    ],
+    [
+     "लेकिन एक सब्ज़ी में नमक बहुत ज़्यादा था, और रोटियाँ ठंडी थीं।",
+     "But one vegetable dish was far too salty, and the rotis were cold."
+    ],
+    [
+     "जब हमने कर्मचारी को बताया, तो उसने तुरंत माफ़ी माँगी और नई रोटियाँ ले आया।",
+     "When we told the waiter, he apologised at once and brought fresh rotis."
+    ],
+    [
+     "मिठाई में हमने गुड़ वाली एक चीज़ ली, जो मेरे बच्चों को बहुत पसंद आई।",
+     "For dessert we had something made with jaggery, which my children loved."
+    ],
+    [
+     "चार लोगों का खाना दो हज़ार रुपए का पड़ा, जो थोड़ा महंगा है।",
+     "The meal for four came to two thousand rupees, which is a bit expensive."
+    ],
+    [
+     "मेरी राय में, यह होटल पाँच में से चार अंक का है।",
+     "In my opinion, this restaurant deserves four out of five."
+    ],
+    [
+     "खाना अच्छा है, कर्मचारी अच्छे हैं, लेकिन शनिवार को जाने से पहले फ़ोन ज़रूर कर लें।",
+     "The food is good and the staff are nice, but be sure to phone before going on a Saturday."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "लेखक को बीस मिनट इंतज़ार क्यों करना पड़ा?",
+     "en": "Why did the writer have to wait twenty minutes?",
+     "type": "mc",
+     "options": [
+      "जगह पहले से तय नहीं थी",
+      "होटल बंद था",
+      "रसोई में खाना देर से बन रहा था",
+      "कर्मचारी नहीं थे"
+     ],
+     "answer": 0,
+     "words": [
+      "इंतज़ार करना"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "लेखक को दाल का स्वाद अच्छा नहीं लगा।",
+     "en": "The writer didn't like the taste of the dal.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "स्वाद"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "रोटियों के बारे में क्या समस्या थी?",
+     "en": "What was the problem with the rotis?",
+     "type": "mc",
+     "options": [
+      "उनमें नमक ज़्यादा था",
+      "वे ठंडी थीं",
+      "वे बहुत छोटी थीं",
+      "वे जली हुई थीं"
+     ],
+     "answer": 1,
+     "words": [
+      "रोटी"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "लेखक होटल को कितने अंक देता है?",
+     "en": "How many points does the writer give the restaurant?",
+     "type": "mc",
+     "options": [
+      "दो",
+      "तीन",
+      "चार",
+      "पाँच"
+     ],
+     "answer": 2,
+     "words": [
+      "अंक"
+     ],
+     "sentence": 11
+    },
+    {
+     "q": "कर्मचारी ने शिकायत सुनकर नई रोटियाँ दीं।",
+     "en": "The waiter brought fresh rotis after hearing the complaint.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "कर्मचारी"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0059",
+   "lv": "B1",
+   "title": "बड़ी उम्र में नई भाषा",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "बहुत से लोग मानते हैं कि नई भाषा सिर्फ़ बचपन में ही अच्छी तरह सीखी जा सकती है।",
+     "Many people believe a new language can only be learned well in childhood."
+    ],
+    [
+     "लेकिन नए अध्ययन बताते हैं कि यह पूरा सच नहीं है।",
+     "But new studies show this is not the whole truth."
+    ],
+    [
+     "बच्चे नई आवाज़ें आसानी से पकड़ लेते हैं, इसलिए वे किसी भाषा को उसके लोगों की तरह बोल पाते हैं।",
+     "Children pick up new sounds easily, so they can speak a language like its native speakers."
+    ],
+    [
+     "पर बड़े लोगों के पास कुछ ऐसे फ़ायदे हैं जो बच्चों के पास नहीं होते।",
+     "But adults have some advantages that children don't."
+    ],
+    [
+     "वे नियमों को जल्दी समझ लेते हैं, और अपनी पहली भाषा से तुलना करके सीख सकते हैं।",
+     "They understand rules quickly, and can learn by comparing with their first language."
+    ],
+    [
+     "उन्हें पता होता है कि वे भाषा क्यों सीख रहे हैं, और यह लक्ष्य उन्हें आगे बढ़ाता है।",
+     "They know why they are learning the language, and this goal pushes them forward."
+    ],
+    [
+     "सबसे बड़ी बाधा अक्सर उम्र नहीं, बल्कि डर होता है।",
+     "The biggest obstacle is often not age but fear."
+    ],
+    [
+     "बड़े लोग ग़लती करने से डरते हैं, और दूसरों के सामने बोलने में उन्हें शर्म आती है।",
+     "Adults are afraid of making mistakes, and they feel shy speaking in front of others."
+    ],
+    [
+     "शिक्षकों की सलाह है कि हर दिन थोड़ा समय दें, चाहे सिर्फ़ पंद्रह मिनट ही क्यों न हो।",
+     "Teachers advise giving a little time every day, even if it is only fifteen minutes."
+    ],
+    [
+     "सबसे ज़रूरी बात है ग़लतियों से न डरना, क्योंकि हर ग़लती हमें कुछ सिखाती है।",
+     "The most important thing is not to fear mistakes, because every mistake teaches us something."
+    ],
+    [
+     "साठ साल की उम्र में जापानी सीखने वाली एक महिला कहती हैं, \"मेरा दिमाग़ धीमा है, लेकिन मेरा धैर्य बच्चों से कहीं ज़्यादा है।\"",
+     "A woman learning Japanese at sixty says, \"My brain is slow, but I have far more patience than children.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "बच्चों को भाषा सीखने में क्या फ़ायदा है?",
+     "en": "What advantage do children have in learning a language?",
+     "type": "mc",
+     "options": [
+      "वे ग़लती से नहीं डरते",
+      "वे नियम जल्दी समझते हैं",
+      "वे अपनी पहली भाषा से तुलना करके सीखते हैं",
+      "उनके कान नई आवाज़ें जल्दी पकड़ते हैं"
+     ],
+     "answer": 3,
+     "words": [
+      "आवाज़"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "लेख के अनुसार बड़े लोगों के लिए सबसे बड़ी बाधा उनकी उम्र है।",
+     "en": "According to the article, the biggest obstacle for adults is their age.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बाधा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "शिक्षक हर दिन कितना समय देने की सलाह देते हैं?",
+     "en": "How much time a day do teachers advise giving?",
+     "type": "mc",
+     "options": [
+      "थोड़ा ही सही, पर हर दिन",
+      "कम से कम दो घंटे",
+      "हफ़्ते में एक बार कई घंटे",
+      "पूरा दिन"
+     ],
+     "answer": 0,
+     "words": [
+      "समय"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "साठ साल की महिला के पास बच्चों से ज़्यादा क्या है?",
+     "en": "What does the sixty-year-old woman have more of than children?",
+     "type": "mc",
+     "options": [
+      "समय",
+      "धैर्य",
+      "पैसा",
+      "ताक़त"
+     ],
+     "answer": 1,
+     "words": [
+      "धैर्य"
+     ],
+     "sentence": 10
+    },
+    {
+     "q": "लेख के अनुसार हर ग़लती से हम कुछ सीखते हैं।",
+     "en": "According to the article, we learn something from every mistake.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "ग़लती"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0060",
+   "lv": "B1",
+   "title": "दस साल बाद के लिए चिट्ठी",
+   "oop": {
+    "अर्जुन": "name",
+    "रवि": "name",
+    "करण": "name",
+    "भारत": "name",
+    "पढ़ाई": "noun 'studies'; the pack has only पढ़ाई करना"
+   },
+   "names": [
+    "अर्जुन",
+    "रवि",
+    "करण",
+    "भारत"
+   ],
+   "sentences": [
+    [
+     "आज मैं बीस साल का हो गया हूँ, और मैंने सोचा कि दस साल बाद के अपने लिए एक चिट्ठी लिखूँ।",
+     "Today I turned twenty, and I thought I would write a letter to myself ten years from now."
+    ],
+    [
+     "प्यारे तीस साल के अर्जुन,",
+     "Dear thirty-year-old Arjun,"
+    ],
+    [
+     "जब तुम यह पढ़ोगे, तब शायद तुम्हारे पास एक अच्छी नौकरी होगी।",
+     "When you read this, you will probably have a good job."
+    ],
+    [
+     "अभी मैं इंजीनियर बनने की पढ़ाई कर रहा हूँ, लेकिन सच कहूँ तो मुझे संगीत ज़्यादा पसंद है।",
+     "Right now I'm studying to be an engineer, but to be honest I like music more."
+    ],
+    [
+     "मुझे उम्मीद है कि तुमने संगीत से अपना रिश्ता नहीं तोड़ा होगा।",
+     "I hope you haven't broken off your relationship with music."
+    ],
+    [
+     "क्या तुम अब भी हर सुबह दौड़ने जाते हो, या फिर देर तक सोते हो?",
+     "Do you still go running every morning, or do you sleep in?"
+    ],
+    [
+     "मुझे यह भी जानना है कि क्या तुम अब भी रवि और करण के दोस्त हो।",
+     "I also want to know if you are still friends with Ravi and Karan."
+    ],
+    [
+     "आज हम तीनों हर शाम साथ में चाय पीते हैं और बड़े सपने देखते हैं।",
+     "Today the three of us have tea together every evening and dream big."
+    ],
+    [
+     "हमने तय किया था कि तीस साल का होने से पहले हम साथ में दक्षिण भारत घूमेंगे।",
+     "We decided that before turning thirty we would travel around South India together."
+    ],
+    [
+     "अगर तुमने अभी तक यह नहीं किया, तो अगली छुट्टियों में ज़रूर करना।",
+     "If you haven't done it yet, be sure to do it on your next holiday."
+    ],
+    [
+     "माँ और पापा का ध्यान रखना।",
+     "Take care of Mum and Dad."
+    ],
+    [
+     "वे अब बूढ़े हो रहे होंगे, और तुम्हें उनके साथ ज़्यादा समय बिताना चाहिए।",
+     "They must be getting old now, and you should spend more time with them."
+    ],
+    [
+     "और हाँ, अगर तुमने कुछ ग़लत फ़ैसले भी लिए हों, तो ख़ुद को माफ़ कर देना।",
+     "And yes, if you have made some wrong decisions, forgive yourself."
+    ],
+    [
+     "हर ग़लती ने तुम्हें आज का इंसान बनाया है।",
+     "Every mistake has made you the person you are today."
+    ],
+    [
+     "तुम्हारा, बीस साल का अर्जुन",
+     "Yours, twenty-year-old Arjun"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "अर्जुन यह चिट्ठी किसके लिए लिख रहा है?",
+     "en": "Who is Arjun writing this letter to?",
+     "type": "mc",
+     "options": [
+      "अपने स्कूल के दोस्त रवि के लिए",
+      "अपनी माँ के लिए",
+      "भविष्य के अर्जुन के लिए",
+      "अपने पापा के लिए"
+     ],
+     "answer": 2,
+     "words": [
+      "चिट्ठी"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "अर्जुन को पढ़ाई से ज़्यादा संगीत पसंद है।",
+     "en": "Arjun likes music more than his studies.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "संगीत"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "अर्जुन और उसके दोस्तों ने क्या तय किया था?",
+     "en": "What had Arjun and his friends decided?",
+     "type": "mc",
+     "options": [
+      "विदेश जाना",
+      "एक ही कंपनी में साथ काम करना",
+      "हर शाम चाय पीना",
+      "साथ में दक्षिण भारत घूमना"
+     ],
+     "answer": 3,
+     "words": [
+      "तय करना"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "अर्जुन माता-पिता के बारे में क्या कहता है?",
+     "en": "What does Arjun say about his parents?",
+     "type": "mc",
+     "options": [
+      "उनके साथ ज़्यादा वक़्त रहना",
+      "उन्हें हर साल विदेश घूमने ले जाना",
+      "उनसे कम मिलना",
+      "उन्हें चिट्ठी लिखना"
+     ],
+     "answer": 0,
+     "words": [
+      "समय"
+     ],
+     "sentence": 11
+    },
+    {
+     "q": "अर्जुन कहता है कि ग़लत फ़ैसलों के लिए ख़ुद को माफ़ नहीं करना चाहिए।",
+     "en": "Arjun says you shouldn't forgive yourself for wrong decisions.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "माफ़ करना"
+     ],
+     "sentence": 12
+    }
+   ]
+  }
+ ]
+}
