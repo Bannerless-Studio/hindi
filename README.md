@@ -6,7 +6,7 @@ romanisation. Every word has at least two example sentences with English
 translations. The Read tab adds 60 short reading passages with
 comprehension questions (see "Reading passages" below).
 
-**Live:** https://ishmum123.github.io/hindi/
+**Live:** https://bannerless-studio.github.io/hindi/
 
 **Script primer.** A "देवनागरी" stage runs before A1 and teaches the
 Devanagari script in 73 units over 10 sets. The units are:
@@ -31,7 +31,7 @@ been checked on real devices. The primer is emitted by
 `python3 -m packbuilder script --lang hi .` into `pack/script.json`.
 
 This repo holds the Hindi data pack and the Hindi data files its build reads,
-plus [`vocab-engine`](https://github.com/ishmum123/vocab-engine) as a git
+plus [`vocab-engine`](https://github.com/Bannerless-Studio/vocab-engine) as a git
 submodule at `engine/`. The engine holds the shared UI and drill logic and
 the shared pack builder, `engine/tools/packbuilder`. The builder's Hindi
 rules live in `engine/tools/packbuilder/langs/hi.py`.
