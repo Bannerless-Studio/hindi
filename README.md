@@ -111,9 +111,10 @@ builder and a manual QA pass. They have not had a native-speaker review.
   are transliterated with the same scheme. The primer uses it too.
 - Typed production is on: `typing: {caseSensitive: false, accents: lenient,
   strictFromLevel: null}`. Lenient accents fold the nukta (a typed जरूरत is
-  accepted for ज़रूरत), and never stop folding it, at every level. Lenient
-  does not fold chandrabindu against anusvara (माँ vs मां), so those are
-  typed as written; see `TODO.md`.
+  accepted for ज़रूरत) and, as of engine `122d88a`, also fold chandrabindu
+  against anusvara (माँ = मां, हँसना = हंसना), at every level. Every fold is
+  guarded against collisions with another pack word, but hindi has no
+  colliding pair at either fold, so nothing is rejected on that account.
 
 ## Hindi rules (summary; details in `langs/hi.py`)
 
