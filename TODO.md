@@ -124,3 +124,19 @@ drops moved one word past the B1 cut and the rank shuffle net -2 sentences).
 - Multi-token units (के लिए) link as one entry but only the tapped half
   highlights; a reduplicated query ("धीरे धीरे") doesn't fold to the single
   lemma. Both engine-side.
+
+## v1.1 spot-QA residuals (2026-09-26, KEEP LIVE)
+Sample of 60 sentences with changed links: 351 links, 2 wrong (both old). All 60 new
+V2/passive जाना links correct. Classes to fix in `langs/hi.py` for v1.2:
+- Bare stem + होना is always the noun (लूट हुई links लूटना; also जीत, हार, मार).
+  The सज़ा fix special-cases one word (NUKTA_NOUN_LV); generalise it in the stem block.
+- दिखाई/सुनाई देना (LIGHT_VERBS, not pack words) fall to the causative-stem rule and link
+  दिखाना/सुनाना + देना (7 sentences). Link only the light verb when the compound is not in
+  the pack, as the passage path already does, or add both compounds.
+- Colloquial करा (= किया) links कराना (s0732, s1822).
+- Level drift from V2 linking: राष्ट्रपति A2→A1 (should stay A2), ध्यान देना A2→B1 (too
+  high). Floor listed compounds or keep a hand A1 list. Other 11 level moves are sane.
+- Merged entries lost sense examples: वही "same" (det) has no sentence; ठीक "fine/okay"
+  has none and "ठीक सामने" (exactly) is not in the gloss. Merge rule should require ≥1
+  example per merged sense. रख लेना dropped by rank drift.
+- p0020 distractor "सो जाते हैं" is an A2 compound inside an A1 passage.
