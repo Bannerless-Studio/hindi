@@ -402,5 +402,19 @@
  "पैंट|noun": "trousers, pants",
  "वसंत|noun": "spring (season)",
  "बैंगनी|adj": "purple, violet",
- "बीच|noun": "middle, centre; (के बीच) between, among"
+ "बीच|noun": "middle, centre; (के बीच) between, among",
+ "_QA v1.1 nationality": "nationality adjectives marked (nationality/adj), a class fix so the one-word gloss is never mistaken for the country name",
+ "भारतीय|adj": "Indian (nationality/adj)",
+ "अमेरिकी|adj": "American (nationality/adj)",
+ "अंग्रेज़ी|adj": "English (nationality/adj)",
+ "ब्रिटिश|adj": "British (nationality/adj)",
+ "रूसी|adj": "Russian (nationality/adj)",
+ "चीनी|adj": "Chinese (nationality/adj)",
+ "जापानी|adj": "Japanese (nationality/adj)",
+ "_QA v1.1 second-entry": "second-entry rule admitted a same-sense alt-POS pair by English-gloss overlap; merged into the surviving entry (drop_keys redirects the other POS here)",
+ "वही|pron": "that, that very one; (det) same",
+ "ठीक|adv": "well; (adj) fine, good, okay",
+ "बाक़ी|adj": "remaining, left over; (noun) rest, remainder",
+ "मूर्ख|adj": "stupid, dumb, foolish; (noun) fool, idiot, dimwit",
+ "विरोधी|adj": "opposing, against, hostile; (noun) opponent, adversary, antagonist"
 }

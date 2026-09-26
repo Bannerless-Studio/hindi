@@ -1,54 +1,36 @@
 # TODO (v2 candidates)
 
-Residuals from the v1 build and QA. The rules already in place are in
-`engine/tools/packbuilder/langs/hi.py` and summarised in the README.
-
-## Before publishing
-- `engine/` points at vocab-engine `0341bc5` (origin/main), which does not
-  have `langs/hi.py` yet. Until that file is committed upstream and the
-  submodule is bumped, build and check with
-  `PACKBUILDER_PATH=../vocab-engine/tools`.
-- Nothing in this repo is committed yet. `./check.sh` passes the packbuilder
-  check and `validate_pack.py` (0 errors, 18 warnings). The stale-build
-  guard fails only because `index.html` and `sw.js` are not tracked or
-  committed.
+Residuals from the v1.1 build and QA (2026-09-26, engine `ac2a8c1`). The
+rules are in `engine/tools/packbuilder/langs/hi.py` and summarised in the
+README.
 
 ## Sentences
 - 1,034 of 3,172 sentences were written for the pack, and 368 words have only
   written sentences. More Tatoeba Hindi with English links would replace
   them.
 - There is no audio. Tatoeba's audio export has no Hindi recordings
-  (checked 2026-09-26; the scout's "105 permissive clips" did not reproduce).
-  Synthetic audio (Piper) is the likely path, as for Persian and Urdu.
-- Link residuals from the seed 42 sample (2 of 505 wrong):
-  - भरती, a variant spelling of भर्ती "recruitment", reads as a form of भरना
-    "to fill" (भरती होना).
-  - A possessive before a directional adverb and a verbal noun (उसके बाहर
-    जाने की आवाज़ "the sound of him going out") reads as the compound
-    postposition के बाहर. उसके पीछे भागना "run after him" needs the compound,
-    so no surface rule separates them.
+  (checked 2026-09-26). Synthetic audio (Piper) is the likely path, as for
+  Persian and Urdu.
 - Minor, not counted as wrong: से in फिर से "again" links the postposition.
-  Tatoeba typos (कि for की, को for कोई) link as written.
-- Nukta folding merges सज़ा "punishment" with सजा, the stem of सजाना "to
-  decorate". A noun after a genitive or an adjective is kept as a noun (a
-  class fix that took सजाना out of the pack, since its count came from
-  सज़ा दी). A bare उसे सज़ा दी can still read as सजाना.
+  The pack has no separate फिर से adverb entry (फिर alone already glosses
+  "then; again"), so the "add फिर से as a unit" rule doesn't apply; left as
+  documented. Tatoeba typos (कि for की, को for कोई) link as written.
+- A possessive before a directional adverb and a verbal noun (उसके बाहर
+  जाने की आवाज़ "the sound of him going out") reads as the compound
+  postposition के बाहर. उसके पीछे भागना "run after him" needs the compound,
+  so no surface rule separates them.
 
 ## Words and glosses
-- Same-sense duplicate entries kept by the second-entry rule: वही, ठीक
-  (adj and adv), बाक़ी, मूर्ख, विरोधी. चीनी (sugar / Chinese) is a real pair.
-- Nationality adjectives have one-word glosses (Indian, American, Chinese).
-  The scan flags them as single-capital glosses; they are correct.
 - Religious nouns (भगवान, अल्लाह, परमेश्वर, ईश्वर, हिंदू, मुसलमान) are kept
   with neutral glosses. Sentences that pair a religion or country with
-  enmity words are dropped.
+  enmity words are dropped. मुस्लिम "Muslim" is a religion adjective, not a
+  nationality one, and is out of the v1.1 nationality-gloss fix below.
 - बीमार is A1 but बीमार होना "to be ill, to fall ill" is B1. बीमार है links the
   compound, so A1 passages avoid it.
 - खाना is one entry ("to eat; (noun) food"). The noun has no entry of its
   own, because the second-entry rule found no separate share over 20%.
 - Frequency floor: `min_corpus_tokens` is 1, not 3, because the Hindi
   Tatoeba corpus is small (13,286 sentences with English).
-
 - Requested words not added: रेस्टोरेंट, संग्रहालय, पल, रंगीन and कुल have no
   Tatoeba tokens, so they are not candidates. Forcing them would put them at A1.
   पच्चीस (25) is outside the closed numeral set. सभी is a form of सब, not a
@@ -57,10 +39,55 @@ Residuals from the v1 build and QA. The rules already in place are in
   words pushed केंद्र, नंबर, प्रदेश, यात्रा करना, शिक्षा, चुनना, ज़मीन, मालिक,
   साथी, ठीक, हे, विकास, राष्ट्रपति, भारतीय, विश्वास, जल्द and उम्र from A1 to A2.
   उम्र and ठीक are debatable at A2.
-- The QA round of 2026-09-26 moved सहायक, मुस्लिम, ग़ुस्सा, कृपा, चीनी, सक्रिय,
-  जोखिम and सफ़ाई from A2 to B1. Merging spelling variants freed five places.
 - लेना has no लिए/लिये alt, because के लिए owns that form. A perfective ले लिए
   is not highlighted as लेना.
+
+## v1.1 QA (2026-09-26, engine `ac2a8c1`)
+Classes found and fixed; per-class counts are before -> after the engine
+bump + hi.py fix (2000-word pack, 3172 -> 3170 sentences after the चीज़
+drops moved one word past the B1 cut and the rank shuffle net -2 sentences).
+- **Bad Tatoeba translations (false friend):** चीज़ "thing" glossed as
+  "cheese" (पनीर is the real word) in 5 corpus rows, 2 of them in the pack
+  (s0336, the old s1765/new s1749 "मैंने बहुत सारा चीज़ दिया।"). All 5 are now
+  in `bad_text_re`, dropped at every level.
+- **Noun spelling variant colliding with a verb inflection:** भरती, an
+  unhaltanted spelling of भर्ती "recruitment, admission", is also भरना's
+  feminine participle "filling". Audited every pack noun for a
+  halant/nukta/chandrabindu-drop that collides with a verb stem+ending;
+  भरती/भरना is the only instance. Before: भरती + होना/करना misread as भरना
+  (1 sentence, s1249/old id, "टॉम को ... वायु सेना में भरती होना था"). After:
+  भर्ती + होना/करना/कराना resolves to the noun भर्ती, matching the halant
+  spelling's own sentences (494199, 9013203, 9976048 in the corpus).
+- **Nukta-distinct lemma pair:** सज़ा "punishment" folds (nukta dropped) to
+  सजा, the stem of सजाना "to decorate". Audited every such pair with a
+  corpus sense on both sides; सज़ा/सजा is the only one (सजाना itself has no
+  pack entry — its only corpus support was misread सज़ा दी). Before: a bare
+  सज़ा + दी/हुई/सुनाई (no preceding genitive/adjective) could still misread
+  as सजाना. After: सज़ा stays the noun before देना/होना/मिलना/पाना/सुनाना/
+  भुगतना regardless of what precedes it (`NUKTA_NOUN_LV` in hi.py).
+- **Second-entry rule admits a same-sense alt-POS pair:** वही (pron "that"
+  vs. det "same"), ठीक (adv "well" vs. adj "fine, good, okay"), बाक़ी (adj
+  "remaining" vs. noun "the rest"), मूर्ख (adj "stupid" vs. noun "a fool"),
+  विरोधी (adj "opposing" vs. noun "an opponent") each held 2 pack entries;
+  the English-gloss-overlap heuristic (`SECOND_SENSE_OVERLAP`) read them as
+  distinct senses. Before: 5 words x 2 entries = 10 pack slots. After: 5
+  entries, `drop_keys` redirects the dropped POS's sentences to the
+  survivor, whose gloss merges both senses (hindi/tools/gloss_overrides.json).
+  चीनी (sugar noun / Chinese adj) is a real pair and is unchanged.
+- **Nationality adjective one-word gloss:** भारतीय, अमेरिकी, अंग्रेज़ी,
+  ब्रिटिश, रूसी, चीनी, जापानी glossed with just the English demonym (Indian,
+  American, ...), risking a learner reading it as the country name rather
+  than the grammatical adjective. All 7 now read "<Demonym> (nationality/
+  adj)" (hindi/tools/gloss_overrides.json). मुस्लिम "Muslim" is a religion
+  adjective and was left alone.
+- **Passage residual from the engine bump:** the 2b1e21e V2/passive-जाना
+  link fix reshuffled corpus-derived word ranks pack-wide (link resolution
+  feeds frequency); रुक जाना moved from A2 to B1, breaking an A1 passage
+  (p0020) that used it. Rewrote that sentence to the bare A1 verb रुकना
+  ("बारिश रुक जाती है" -> "बारिश रुकती है").
+- Live check from the v1 QA round, now checked off: "मैंने बहुत सारा चीज़
+  दिया।" (dropped, see above); के लिए / धीरे धीरे highlighting are engine-side
+  and unrelated to this pack's data, left for the engine.
 
 ## Script primer
 - ङ and ञ have no example words at A1-B1; a note gives the modern ं spelling.
@@ -93,6 +120,7 @@ Residuals from the v1 build and QA. The rules already in place are in
   so passage text is written in the folded spelling of the multi-character
   rules (रुपए, not रुपये).
 
-## Live check 2026-09-26 (7/8 PASS)
-- Data: "मैंने बहुत सारा चीज़ दिया।" glossed "I gave a lot of cheese." (चीज़ = thing; agreement सारी) — drop or fix in the next rebuild.
-- Engine: multi-token units (के लिए) link as one entry but only the tapped half highlights; a reduplicated query ("धीरे धीरे") doesn't fold to the single lemma. Both engine-side, low.
+## Engine, low priority
+- Multi-token units (के लिए) link as one entry but only the tapped half
+  highlights; a reduplicated query ("धीरे धीरे") doesn't fold to the single
+  lemma. Both engine-side.

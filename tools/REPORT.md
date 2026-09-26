@@ -16,19 +16,19 @@ Each subtitle / wordfreq surface form is split over the (lemma, POS) pairs it ta
 
 | list | surfaces resolved from corpus | simplemma fallback |
 |---|---|---|
-| subtitles (top 100,000 surfaces) | 3,254 | 15,406 |
-| wordfreq top 30,000 | 3,344 | 19,005 |
+| subtitles (top 100,000 surfaces) | 3,265 | 15,395 |
+| wordfreq top 30,000 | 3,355 | 18,994 |
 
-Fallback lemmas whose POS could not be attached from another surface: 26,267. Clitic compounds resolved to the verb by suffix stripping: 0 distinct forms. Tokens with no dictionary-validated lemma (kept, never selected as words): 1,332.
+Fallback lemmas whose POS could not be attached from another surface: 26,260. Clitic compounds resolved to the verb by suffix stripping: 0 distinct forms. Tokens with no dictionary-validated lemma (kept, never selected as words): 1,332.
 
 ## Word-selection funnel
 
-Candidate pool: 6,625 (lemma, POS) keys in blended-rank order, one POS per lemma (its best-ranked corpus POS), plus forced items.
+Candidate pool: 6,620 (lemma, POS) keys in blended-rank order, one POS per lemma (its best-ranked corpus POS), plus forced items.
 
 | Exclusion | Count | Examples |
 |---|---|---|
-| fewer than 1 tokens in the tagged corpus | 2,202 | अन्य, जबकि, अध्यक्ष, पल, चारा, स्तर, समर्थन, विभाग, लाइन, प्रभु, विधायक, प्रिय |
-| no usable Wiktionary entry for corpus POS | 1,519 | की, मै, एम, दूर, व, आर, पिताजी, डॉ, ओह, खैर, तेजी, वोट |
+| fewer than 1 tokens in the tagged corpus | 2,203 | अन्य, जबकि, अध्यक्ष, पल, चारा, स्तर, समर्थन, विभाग, लाइन, प्रभु, विधायक, प्रिय |
+| no usable Wiktionary entry for corpus POS | 1,517 | की, मै, एम, दूर, व, आर, पिताजी, डॉ, ओह, खैर, वोट, तेजी |
 | proper noun (corpus PROPN/capitalised majority) | 92 | श्री, राहुल, जय, बेबी, एस, गूगल, सीता, गोवा, हैदराबाद, केरल, चंद्रमा, यूनियन |
 | second POS entry without a distinct sense | 38 | कुछ, बहुत, पहले, जैसे, खाना, जैसे, दूसरा, बाद, जी, इसी, उसी, युवा |
 | interjection (not in forced greetings) | 9 | अरे, वाह, रे, प्लीज, चल, हेलो, सुप्रभात, छी, जिंदाबाद |
@@ -36,21 +36,21 @@ Candidate pool: 6,625 (lemma, POS) keys in blended-rank order, one POS per lemma
 | profanity (hand list) | 4 | साला, चोदना, कमीना, चूतिया |
 
 Forced A1 items (days, months, seasons, numbers 0-20 + tens + सौ/हज़ार, colours, greetings, pronouns (with honorific आप) and possessives, question words, postpositions (with के लिए, के बाद, के साथ, के बारे में, की तरफ़, के पास), conjunctions, particles, होना, core light verbs, A1 core list): 341/341 included.
-Word ids reused from v1 for unchanged (lemma, pos): 2,000; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
+Word ids reused from v1 for unchanged (lemma, pos): 1,994; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
 
-Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1128, 'adj': 318, 'verb': 306, 'adv': 72, 'prep': 44, 'num': 33, 'pron': 30, 'conj': 20, 'det': 20, 'part': 19, 'intj': 6, 'phrase': 4}.
+Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb': 305, 'adv': 72, 'prep': 44, 'num': 33, 'pron': 30, 'conj': 20, 'part': 19, 'det': 19, 'intj': 6, 'phrase': 4}.
 
 ## Sentences
 
-- Final sentences: **3,172**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Final sentences: **3,170**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
 - Word coverage: 0 = 0, 1 = 1, 2 = 1999.
-- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,495. Rejected for a content lemma outside pack/top-3000: 2,883.
-- Primary word level of each sentence: {'B1': 1215, 'A1': 792, 'A2': 1165}.
+- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,490. Rejected for a content lemma outside pack/top-3000: 2,883.
+- Primary word level of each sentence: {'B1': 1214, 'A1': 790, 'A2': 1166}.
 - Token-length distribution of the final set:
 
 | tokens | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| sentences | 18 | 183 | 948 | 941 | 565 | 240 | 100 | 67 | 46 | 32 | 24 | 8 |
+| sentences | 18 | 183 | 953 | 944 | 559 | 238 | 100 | 67 | 44 | 32 | 24 | 8 |
 
 ## Top 100 by rank (lemma [pos] gloss)
 
@@ -60,14 +60,14 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1128, 'adj': 318, 'verb
    3 में [prep] in, into; inside
    4 के लिए [prep] for
    5 नहीं [part] not, no
-   6 यह [pron] this; he, she, it (near)
-   7 करना [verb] to do, to make
+   6 करना [verb] to do, to make
+   7 यह [pron] this; he, she, it (near)
    8 मैं [pron] I
    9 और [conj] and; more
   10 को [prep] to; (marks a definite object)
   11 से [prep] from; with, by; than; since
-  12 रहना [verb] to live, to stay
-  13 एक [num] one; a, an
+  12 एक [num] one; a, an
+  13 रहना [verb] to live, to stay
   14 जाना [verb] to go
   15 वह [pron] that; he, she, it (far)
   16 आप [pron] you (polite)
@@ -77,24 +77,24 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1128, 'adj': 318, 'verb
   20 के साथ [prep] with, together with
   21 अपना [pron] one's own (my own, your own, his own...)
   22 के बारे में [prep] about
-  23 हम [pron] we
-  24 वे [pron] they; he, she (polite)
-  25 कोई [pron] someone, anyone; some, any
-  26 देना [verb] to give; to let, to allow
+  23 देना [verb] to give; to let, to allow
+  24 हम [pron] we
+  25 वे [pron] they; he, she (polite)
+  26 कोई [pron] someone, anyone; some, any
   27 सकना [verb] to be able to, can (after a verb stem)
   28 मेरा [pron] my, mine
-  29 हो जाना [verb] to become; to happen, to get done
-  30 ही [part] only, just; (emphasis) very
-  31 आना [verb] to come
+  29 ही [part] only, just; (emphasis) very
+  30 आना [verb] to come
+  31 तुम [pron] you (familiar)
   32 कहना [verb] to say, to tell
-  33 तुम [pron] you (familiar)
-  34 जो [pron] who, which, that (relative)
+  33 जो [pron] who, which, that (relative)
+  34 लेना [verb] to take
   35 ये [pron] these; they; he, she (polite, near)
-  36 लेना [verb] to take
-  37 तो [part] (emphasis) as for, indeed, well
-  38 के पास [prep] near; (X के पास है) X has
+  36 तो [part] (emphasis) as for, indeed, well
+  37 के पास [prep] near; (X के पास है) X has
+  38 बात करना [verb] to talk, to speak
   39 देखना [verb] to see, to look, to watch
-  40 बात करना [verb] to talk, to speak
+  40 हो जाना [verb] to become; to happen, to get done
   41 सब [pron] all, everyone, everything (सभी: all, every one of them)
   42 ने [prep] (marks the subject of a past transitive verb)
   43 अब [adv] now
@@ -108,53 +108,53 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1128, 'adj': 318, 'verb
   51 लगना [verb] to seem, to feel; to take (time); to be attached
   52 कुछ [pron] something; some, a few
   53 उसका [pron] his, her, its; that one's
-  54 क्या [pron] what
-  55 वाला [part] the one (who/which); -er (बेचने वाला: seller); about to (जाने वाला: about to go)
+  54 वाला [part] the one (who/which); -er (बेचने वाला: seller); about to (जाने वाला: about to go)
+  55 क्या [pron] what
   56 के बाद [prep] after
-  57 जब [adv] when (relative: जब ... तब)
-  58 चलना [verb] to walk, to move, to go; to run (of a machine)
-  59 यहाँ [adv] here
+  57 यहाँ [adv] here
+  58 जब [adv] when (relative: जब ... तब)
+  59 चलना [verb] to walk, to move, to go; to run (of a machine)
   60 तक [prep] until, up to, as far as
   61 हमारा [pron] our, ours
-  62 कर देना [verb] to do (completely), to get done
-  63 या [conj] or
+  62 या [conj] or
+  63 फिर [adv] then; again
   64 चाहिए [verb] should, ought to; (मुझे ... चाहिए) I need, I want
   65 बहुत [adv] very, a lot
-  66 फिर [adv] then; again
-  67 चाहना [verb] to want, to wish; to love
-  68 उनका [pron] their; his, her (polite)
-  69 पसंद होना [verb] to like (मुझे पसंद है: I like it)
+  66 चाहना [verb] to want, to wish; to love
+  67 कर देना [verb] to do (completely), to get done
+  68 पसंद होना [verb] to like (मुझे पसंद है: I like it)
+  69 उनका [pron] their; his, her (polite)
   70 अगर [conj] if
   71 न [part] not; (question tag) isn't it?
   72 आपका [pron] your, yours (polite)
   73 दिन [noun] day (m)
-  74 इसका [pron] his, her, its; this one's
-  75 की तरह [prep] like, in the manner of
+  74 की तरह [prep] like, in the manner of
+  75 इसका [pron] his, her, its; this one's
   76 कभी [adv] sometime, ever; (कभी नहीं) never
-  77 मिल जाना [verb] to be found; to come across, to meet
-  78 आ जाना [verb] to come, to arrive, to turn up
-  79 बनाना [verb] to make, to build; to cook
-  80 समय [noun] time (m)
-  81 क्यों [adv] why
-  82 तरह [noun] kind, type; way, manner (f)
-  83 बताना [verb] to tell, to let know
-  84 घर [noun] house, home (m)
-  85 हर [det] every, each
-  86 बंद करना [verb] to close, to shut; to turn off
-  87 पूरा [adj] whole, complete, full
-  88 अच्छा लगना [verb] to like, to feel good (मुझे अच्छा लगता है: I like it)
-  89 बार [noun] time, occasion (एक बार: once) (f)
-  90 रखना [verb] to put, to keep
-  91 बात [noun] matter, thing (said); talk (f)
-  92 अच्छा [adj] good, nice, fine
-  93 बड़ा [adj] big, large; elder
+  77 बनाना [verb] to make, to build; to cook
+  78 क्यों [adv] why
+  79 समय [noun] time (m)
+  80 तरह [noun] kind, type; way, manner (f)
+  81 घर [noun] house, home (m)
+  82 बताना [verb] to tell, to let know
+  83 हर [det] every, each
+  84 बंद करना [verb] to close, to shut; to turn off
+  85 अच्छा लगना [verb] to like, to feel good (मुझे अच्छा लगता है: I like it)
+  86 पूरा [adj] whole, complete, full
+  87 रखना [verb] to put, to keep
+  88 बात [noun] matter, thing (said); talk (f)
+  89 अच्छा [adj] good, nice, fine
+  90 बार [noun] time, occasion (एक बार: once) (f)
+  91 बड़ा [adj] big, large; elder
+  92 कौन [pron] who
+  93 नाम [noun] name (m)
   94 बनना [verb] to become; to be made
-  95 नाम [noun] name (m)
-  96 कौन [pron] who
-  97 रूप [noun] form, shape, appearance (m)
-  98 छोड़ देना [verb] to leave, to quit, to give up
-  99 कैसे [adv] how
- 100 भूल जाना [verb] to forget
+  95 रूप [noun] form, shape, appearance (m)
+  96 मिल जाना [verb] to be found; to come across, to meet
+  97 कैसे [adv] how
+  98 आ जाना [verb] to come, to arrive, to turn up
+  99 मारना [verb] to hit, to strike, to beat
+ 100 दो [num] two
 ```
 
 <!-- manual:begin -->
