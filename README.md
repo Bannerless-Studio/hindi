@@ -92,6 +92,10 @@ Passage-only rules in `langs/hi.py`:
 The passages and questions are machine-written by Claude and checked by the
 builder and a manual QA pass. They have not had a native-speaker review.
 
+On Today, a passage's spaced re-read (after 7 days) becomes a listening
+pass when the device can play every sentence, with text hidden and some
+questions audio-only.
+
 ## Script and display
 
 - The font is [Noto Sans Devanagari](https://fonts.google.com/noto/specimen/Noto+Sans+Devanagari)
