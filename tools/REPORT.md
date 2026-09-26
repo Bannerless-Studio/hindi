@@ -19,7 +19,7 @@ Each subtitle / wordfreq surface form is split over the (lemma, POS) pairs it ta
 | subtitles (top 100,000 surfaces) | 3,265 | 15,395 |
 | wordfreq top 30,000 | 3,355 | 18,994 |
 
-Fallback lemmas whose POS could not be attached from another surface: 26,260. Clitic compounds resolved to the verb by suffix stripping: 0 distinct forms. Tokens with no dictionary-validated lemma (kept, never selected as words): 1,332.
+Fallback lemmas whose POS could not be attached from another surface: 26,256. Clitic compounds resolved to the verb by suffix stripping: 0 distinct forms. Tokens with no dictionary-validated lemma (kept, never selected as words): 1,332.
 
 ## Word-selection funnel
 
@@ -28,7 +28,7 @@ Candidate pool: 6,620 (lemma, POS) keys in blended-rank order, one POS per lemma
 | Exclusion | Count | Examples |
 |---|---|---|
 | fewer than 1 tokens in the tagged corpus | 2,203 | अन्य, जबकि, अध्यक्ष, पल, चारा, स्तर, समर्थन, विभाग, लाइन, प्रभु, विधायक, प्रिय |
-| no usable Wiktionary entry for corpus POS | 1,517 | की, मै, एम, दूर, व, आर, पिताजी, डॉ, ओह, खैर, वोट, तेजी |
+| no usable Wiktionary entry for corpus POS | 1,518 | की, मै, एम, दूर, व, आर, पिताजी, डॉ, ओह, खैर, वोट, तेजी |
 | proper noun (corpus PROPN/capitalised majority) | 92 | श्री, राहुल, जय, बेबी, एस, गूगल, सीता, गोवा, हैदराबाद, केरल, चंद्रमा, यूनियन |
 | second POS entry without a distinct sense | 38 | कुछ, बहुत, पहले, जैसे, खाना, जैसे, दूसरा, बाद, जी, इसी, उसी, युवा |
 | interjection (not in forced greetings) | 9 | अरे, वाह, रे, प्लीज, चल, हेलो, सुप्रभात, छी, जिंदाबाद |
@@ -42,15 +42,15 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
 
 ## Sentences
 
-- Final sentences: **3,170**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Final sentences: **3,165**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
 - Word coverage: 0 = 0, 1 = 1, 2 = 1999.
-- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,490. Rejected for a content lemma outside pack/top-3000: 2,883.
-- Primary word level of each sentence: {'B1': 1214, 'A1': 790, 'A2': 1166}.
+- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,495. Rejected for a content lemma outside pack/top-3000: 2,878.
+- Primary word level of each sentence: {'B1': 1211, 'A1': 791, 'A2': 1163}.
 - Token-length distribution of the final set:
 
 | tokens | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| sentences | 18 | 183 | 953 | 944 | 559 | 238 | 100 | 67 | 44 | 32 | 24 | 8 |
+| sentences | 18 | 181 | 950 | 940 | 564 | 238 | 99 | 67 | 44 | 32 | 24 | 8 |
 
 ## Top 100 by rank (lemma [pos] gloss)
 
@@ -84,8 +84,8 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
   27 सकना [verb] to be able to, can (after a verb stem)
   28 मेरा [pron] my, mine
   29 ही [part] only, just; (emphasis) very
-  30 आना [verb] to come
-  31 तुम [pron] you (familiar)
+  30 तुम [pron] you (familiar)
+  31 आना [verb] to come
   32 कहना [verb] to say, to tell
   33 जो [pron] who, which, that (relative)
   34 लेना [verb] to take
@@ -108,8 +108,8 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
   51 लगना [verb] to seem, to feel; to take (time); to be attached
   52 कुछ [pron] something; some, a few
   53 उसका [pron] his, her, its; that one's
-  54 वाला [part] the one (who/which); -er (बेचने वाला: seller); about to (जाने वाला: about to go)
-  55 क्या [pron] what
+  54 क्या [pron] what
+  55 वाला [part] the one (who/which); -er (बेचने वाला: seller); about to (जाने वाला: about to go)
   56 के बाद [prep] after
   57 यहाँ [adv] here
   58 जब [adv] when (relative: जब ... तब)
