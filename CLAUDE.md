@@ -58,7 +58,7 @@ glosses and Tatoeba/written sentences (same stance as Russian and Persian).
 - Edit `pack/*.json` by hand; change `tools/gloss_overrides.json`,
   `tools/forced_a1.txt` or `langs/hi.py` and rebuild.
 - Edit `pack/*.js`, `index.html` or `sw.js` by hand (generated).
-- Delete `sw.js` (use `engine/sw.disable.js`).
+- Delete `sw.js` (use `engine/engine/sw.disable.js`).
 - Add comments that say what the code does; only why, or an external
   reference.
 - Push to main without `git merge-base --is-ancestor origin/main HEAD`.
