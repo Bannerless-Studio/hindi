@@ -150,3 +150,8 @@ V2/passive जाना links correct. Classes to fix in `langs/hi.py` for v1.2:
   has none and "ठीक सामने" (exactly) is not in the gloss. Merge rule should require ≥1
   example per merged sense. रख लेना dropped by rank drift.
 - p0020 distractor "सो जाते हैं" is an A2 compound inside an A1 passage.
+
+## Republish on engine 0e2bb0c
+- passages --check reports 1 pre-existing error: p0016 links the B1 word सुनाना
+  at A1 (present on engine 87cd160 with the committed pack); fix with the next
+  data pass.
