@@ -1824,7 +1824,7 @@
      "They meet there every Sunday and talk."
     ],
     [
-     "महिला सुनीता को अपने गाँव की कहानियाँ सुनाती हैं।",
+     "महिला सुनीता को अपने गाँव की कहानियाँ बताती हैं।",
      "The woman tells Sunita stories about her village."
     ],
     [
@@ -1861,7 +1861,7 @@
      "sentence": 3
     },
     {
-     "q": "बूढ़ी महिला सुनीता को क्या सुनाती हैं?",
+     "q": "बूढ़ी महिला सुनीता को क्या बताती हैं?",
      "en": "What does the old woman tell Sunita?",
      "type": "mc",
      "options": [

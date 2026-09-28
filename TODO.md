@@ -152,6 +152,10 @@ V2/passive जाना links correct. Classes to fix in `langs/hi.py` for v1.2:
 - p0020 distractor "सो जाते हैं" is an A2 compound inside an A1 passage.
 
 ## Republish on engine 0e2bb0c
-- passages --check reports 1 pre-existing error: p0016 links the B1 word सुनाना
-  at A1 (present on engine 87cd160 with the committed pack); fix with the next
-  data pass.
+- ~~passages --check reports 1 pre-existing error: p0016 links the B1 word सुनाना
+  at A1.~~ **Fixed 2026-09-28** (uncommitted, for the republish wave): the link
+  was right (सुनाती = सुनाना, moved A2 -> B1 by a words rebuild); p0016 sentence 8
+  and question 3 now use बताती (बताना A1). passages rebuilt (0 errors). Class
+  guard on vocab-engine branch engine-data-fixes: `packbuilder check` (check.sh)
+  now fails when a shipped passage links a word above its level budget, so a
+  words rebuild that re-levels a passage word fails before shipping.
