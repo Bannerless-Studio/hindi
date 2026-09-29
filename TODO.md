@@ -161,3 +161,6 @@ V2/passive जाना links correct. Classes to fix in `langs/hi.py` for v1.2:
   words rebuild that re-levels a passage word fails before shipping.
 
 Republish dbbf541: 6 reduplication cloze gaps (धीरे-धीरे etc.) now blank the whole token (engine locateWord).
+
+## Republish 09e90bc (2026-09-29)
+- Republish 09e90bc: sentence spans (17882/17946 linked words placed); inflected forms now cloze targets
