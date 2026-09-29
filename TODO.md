@@ -159,3 +159,5 @@ V2/passive जाना links correct. Classes to fix in `langs/hi.py` for v1.2:
   guard on vocab-engine branch engine-data-fixes: `packbuilder check` (check.sh)
   now fails when a shipped passage links a word above its level budget, so a
   words rebuild that re-levels a passage word fails before shipping.
+
+Republish dbbf541: 6 reduplication cloze gaps (धीरे-धीरे etc.) now blank the whole token (engine locateWord).
