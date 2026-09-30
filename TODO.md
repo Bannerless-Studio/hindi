@@ -164,3 +164,4 @@ Republish dbbf541: 6 reduplication cloze gaps (धीरे-धीरे etc.) n
 
 ## Republish 09e90bc (2026-09-29)
 - Republish 09e90bc: sentence spans (17882/17946 linked words placed); inflected forms now cloze targets
+- Republish ef44c6e: बम, विस्फोट, शराब A2→B1 (quota: चीनी, कृपा, सक्रिय B1→A2); deleted override key अंतर्राष्ट्रीय|adj; set-counter and no-voice planner fixes. Known: चीनी "sugar" still links the "Chinese" sentence मेरी को चीनी समझ में आती है (now at A2)

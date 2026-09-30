@@ -42,15 +42,15 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
 
 ## Sentences
 
-- Final sentences: **3,165**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Final sentences: **3,163**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
 - Word coverage: 0 = 0, 1 = 1, 2 = 1999.
 - Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,495. Rejected for a content lemma outside pack/top-3000: 2,878.
-- Primary word level of each sentence: {'B1': 1211, 'A1': 791, 'A2': 1163}.
+- Primary word level of each sentence: {'B1': 1211, 'A1': 791, 'A2': 1161}.
 - Token-length distribution of the final set:
 
 | tokens | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| sentences | 18 | 181 | 950 | 940 | 564 | 238 | 99 | 67 | 44 | 32 | 24 | 8 |
+| sentences | 18 | 181 | 949 | 942 | 562 | 237 | 99 | 67 | 44 | 32 | 24 | 8 |
 
 ## Top 100 by rank (lemma [pos] gloss)
 
