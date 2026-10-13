@@ -36,13 +36,14 @@ Candidate pool: 6,620 (lemma, POS) keys in blended-rank order, one POS per lemma
 | profanity (hand list) | 4 | साला, चोदना, कमीना, चूतिया |
 
 Forced A1 items (days, months, seasons, numbers 0-20 + tens + सौ/हज़ार, colours, greetings, pronouns (with honorific आप) and possessives, question words, postpositions (with के लिए, के बाद, के साथ, के बारे में, की तरफ़, के पास), conjunctions, particles, होना, core light verbs, A1 core list): 341/341 included.
-Word ids reused from v1 for unchanged (lemma, pos): 1,994; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
+Word ids reused from v1 for unchanged (lemma, pos): 2,000; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
 
 Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb': 305, 'adv': 72, 'prep': 44, 'num': 33, 'pron': 30, 'conj': 20, 'part': 19, 'det': 19, 'intj': 6, 'phrase': 4}.
 
 ## Sentences
 
 - Final sentences: **3,163**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Sentence ids (`tools/sentence_ids_v1.json`): 3,159 kept, 4 new (s3164, s3165, s3166, s3167), 4 retired.
 - Word coverage: 0 = 0, 1 = 1, 2 = 1999.
 - Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,495. Rejected for a content lemma outside pack/top-3000: 2,878.
 - Primary word level of each sentence: {'B1': 1211, 'A1': 791, 'A2': 1161}.
@@ -90,15 +91,15 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
   33 जो [pron] who, which, that (relative)
   34 लेना [verb] to take
   35 ये [pron] these; they; he, she (polite, near)
-  36 तो [part] (emphasis) as for, indeed, well
+  36 तो [part] indeed, well; (emphasis) as for
   37 के पास [prep] near; (X के पास है) X has
   38 बात करना [verb] to talk, to speak
   39 देखना [verb] to see, to look, to watch
   40 हो जाना [verb] to become; to happen, to get done
   41 सब [pron] all, everyone, everything (सभी: all, every one of them)
-  42 ने [prep] (marks the subject of a past transitive verb)
+  42 ने [prep] ergative marker (subject of a past transitive verb)
   43 अब [adv] now
-  44 क्या [part] (yes/no question marker)
+  44 क्या [part] question marker (for yes/no questions)
   45 तो [conj] then, so
   46 लोग [noun] people (m)
   47 मिलना [verb] to meet; to be found, to get (मुझे मिला: I got)
@@ -118,7 +119,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
   61 हमारा [pron] our, ours
   62 या [conj] or
   63 फिर [adv] then; again
-  64 चाहिए [verb] should, ought to; (मुझे ... चाहिए) I need, I want
+  64 चाहिए [verb] need, want (मुझे ... चाहिए: I need ...); should, ought to
   65 बहुत [adv] very, a lot
   66 चाहना [verb] to want, to wish; to love
   67 कर देना [verb] to do (completely), to get done
@@ -190,4 +191,14 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
   - Policy lexicon (POLICY_HI): the 15 listed rows drop; no other shipped Tatoeba row matched.
   - Primer: प/ल/ग moved to set 1 (अ examples अपना, अगर, अलग, all readable); ऑ/ॉ units; notes for रु/रू,
     reph/rakar and ङ/ञ.
+
+- **Gloss and tier QA pass (2026-10-14).** Every word read against its typed cue: 243 gloss fixes in
+  tools/gloss_overrides.json (wrong or rare primary sense first, untypeable bracket-only or garbled glosses,
+  noun/adj POS mismatches, register labels, duplicate-gloss qualifiers; e.g. स्पष्ट "coherent" -> "clear",
+  अपेक्षा "requirement" -> "expectation", थामना "to stop" -> "to hold", शराब "wine" -> "alcohol, liquor"), and 138
+  tier moves in tools/tiers_overrides.json (52 forced A1 basics and 35 more everyday words peripheral -> core,
+  43 formal Sanskritic doublets and genre artefacts core -> peripheral, 8 ambient compound/content words -> core).
+  Seed 505: 59/60 words correct, 0 wrong links in the 60-sentence sample. No pron, rank, level or word id changed.
+  id_map_v1.json keys are nukta-folded (`fold()`), but `persist_ids` writes the unfolded shipped lemma, so a nukta
+  word that took a fresh id (तारीफ़, नाज़ुक) got another fresh id on the next rebuild; those two keys are stored folded.
 <!-- manual:end -->
