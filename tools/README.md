@@ -17,7 +17,7 @@ this before deciding what else in `tools/` you need to open.
 - `generated_examples.tsv` — 1,093 candidate sentences written for this
   pack; 1,034 are selected (marked `"src": "gen"` in `pack/sentences.json`).
   Append-only.
-- `passages_src.json` — source text + rules for the 60 reading passages.
+- `passages_src.json` — source text + rules for the 80 reading passages.
 
 ## Generated (do not hand-edit; rebuild instead)
 
@@ -136,7 +136,7 @@ enforces in-pack coverage of at least 95% at A1/A2 and 93% at B1, plus a
 level budget (an A1 passage may use at most 3 A2 words and no B1 words; an
 A2 passage at most 3 B1 words). Word bands are A1 60-90, A2 100-140, B1
 150-200, counted as tokens (a regex word count breaks on Devanagari
-matras). All 60 passages pass at coverage >= 0.98. Passage-only rules in
+matras). All 80 passages pass at coverage >= 0.98. Passage-only rules in
 `langs/hi.py`:
 
 - hyphenated pairs (माता-पिता, धीरे-धीरे) split into their words;

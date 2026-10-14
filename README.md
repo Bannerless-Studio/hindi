@@ -5,7 +5,7 @@ offline-capable vocabulary trainer for Hindi, built on the shared
 [`vocab-engine`](https://github.com/Bannerless-Studio/vocab-engine). It
 teaches 2000 words spanning A1-B1, each with a short English gloss and a
 romanisation. Every word has at least two example sentences with English
-translations. The Read tab adds 60 short reading passages with
+translations. The Read tab adds 80 short reading passages with
 comprehension questions.
 
 **Scope note:** this app is a vocabulary base for B1; an exam also needs
@@ -31,8 +31,8 @@ example sentences, and does not teach those skills.
 - **Words** is a searchable browser with per-set drills; **Test** has a
   placement test plus free tests; **Progress** shows stats and lets you
   export, import or reset your progress.
-- **Read tab passages.** 60 short reading texts (20 each at A1, A2, B1),
-  4-5 comprehension questions each (296 in total: 142 multiple-choice, 154
+- **Read tab passages.** 80 short reading texts (20 at A1, 30 each at A2 and B1),
+  4-5 comprehension questions each (396 in total: 202 multiple-choice, 194
   true/false). A passage's spaced re-read (after 7 days) becomes a
   listening pass when every sentence has audio: the text stays hidden and
   some questions are audio-only.
@@ -98,7 +98,7 @@ shipped. Known residuals are tracked in `TODO.md`.
 | Example sentences | [Tatoeba](https://tatoeba.org) `hin_sentences_detailed.tsv` | CC BY 2.0 FR | sentence text (contributors in `pack/attribution.json`) |
 | Sentence translations | Tatoeba `eng_sentences.tsv` + `hin-eng_links.tsv` | CC BY 2.0 FR | English translations |
 | Written sentences | `tools/generated_examples.tsv`, written for this pack | same as this repo | 1,034 sentences marked `"src": "gen"` |
-| Reading passages | `tools/passages_src.json`, written for this pack | same as this repo | 60 passages |
+| Reading passages | `tools/passages_src.json`, written for this pack | same as this repo | 80 passages |
 | Font | Noto Sans Devanagari via Google Fonts | SIL OFL 1.1 | display only |
 
 Licence: code MIT, pack data CC BY-SA 4.0, see LICENSE.

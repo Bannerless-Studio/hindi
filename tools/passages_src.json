@@ -7593,6 +7593,2684 @@
      "sentence": 12
     }
    ]
+  },
+  {
+   "id": "p0061",
+   "lv": "A2",
+   "title": "किसान और गधा",
+   "oop": {
+    "रामलाल": "name"
+   },
+   "names": [
+    "रामलाल"
+   ],
+   "sentences": [
+    [
+     "एक गाँव में रामलाल नाम का किसान रहता था।",
+     "A farmer named Ramlal lived in a village."
+    ],
+    [
+     "उसके पास एक पुराना गधा था, जो रोज़ उसके साथ खेत जाता था।",
+     "He had an old donkey that went to the field with him every day."
+    ],
+    [
+     "एक दिन दोनों जंगल के रास्ते से बाज़ार जा रहे थे।",
+     "One day the two were going to the market by the forest road."
+    ],
+    [
+     "रास्ते में एक छोटी नदी थी, और उसके ऊपर कोई पुल नहीं था।",
+     "There was a small river on the way, and no bridge over it."
+    ],
+    [
+     "किसान ने सोचा कि हमें पत्थरों पर चलकर नदी पार करनी होगी।",
+     "The farmer thought we would have to cross the river by walking on stones."
+    ],
+    [
+     "लेकिन गधा बीच नदी में रुक गया और आगे नहीं गया।",
+     "But the donkey stopped in the middle of the river and did not go on."
+    ],
+    [
+     "किसान ने बहुत कोशिश की, पर गधा एक क़दम भी नहीं हिला।",
+     "The farmer tried hard, but the donkey did not move a single step."
+    ],
+    [
+     "वह ग़ुस्से में चिल्लाने लगा, पर इससे कुछ नहीं हुआ।",
+     "He began to shout in anger, but nothing came of it."
+    ],
+    [
+     "फिर उसने गधे को प्यार से बुलाया और उसके मुँह के पास थोड़ी घास रखी।",
+     "Then he called the donkey kindly and held a little grass near its mouth."
+    ],
+    [
+     "गधा धीरे-धीरे चलने लगा और दोनों नदी पार कर गए।",
+     "The donkey began to walk slowly and both crossed the river."
+    ],
+    [
+     "उस दिन किसान ने समझा कि प्यार से हर काम आसान हो जाता है।",
+     "That day the farmer understood that everything becomes easy with kindness."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "किसान और गधा कहाँ जा रहे थे?",
+     "en": "Where were the farmer and the donkey going?",
+     "type": "mc",
+     "options": [
+      "खेत तक",
+      "बाज़ार तक",
+      "स्कूल तक",
+      "दूसरे गाँव तक"
+     ],
+     "answer": 1,
+     "words": [
+      "बाज़ार",
+      "जंगल"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "नदी के ऊपर एक पुल था।",
+     "en": "There was a bridge over the river.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "पुल"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "नदी के बीच गधे ने क्या किया?",
+     "en": "What did the donkey do in the middle of the river?",
+     "type": "mc",
+     "options": [
+      "वह रुक गया",
+      "वह तैरने लगा",
+      "वह भाग गया",
+      "वह सो गया"
+     ],
+     "answer": 0,
+     "words": [
+      "रुक जाना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "किसान के चिल्लाने से गधा चलने लगा।",
+     "en": "The donkey started walking because the farmer shouted.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "चिल्लाना",
+      "ग़ुस्सा"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "अंत में किसान ने क्या सीखा?",
+     "en": "What did the farmer learn in the end?",
+     "type": "mc",
+     "options": [
+      "गधे को हमेशा घर पर रखना चाहिए",
+      "प्यार से काम आसान होता है",
+      "नदी पर बड़ा पुल बनाना चाहिए",
+      "जल्दी चलना ज़रूरी है"
+     ],
+     "answer": 1,
+     "words": [
+      "प्यार",
+      "आसान"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0062",
+   "lv": "A2",
+   "title": "भैया की शादी",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "अगले सप्ताह मेरे भैया का विवाह है, इसलिए हमारे घर में बहुत काम है।",
+     "My brother's wedding is next week, so there is a lot to do at our house."
+    ],
+    [
+     "दीदी ने सब लोगों के लिए कार्ड बनाए हैं और मैं अपने मित्रों को फ़ोन कर रही हूँ।",
+     "My sister has made cards for all the people and I am phoning my friends."
+    ],
+    [
+     "माँ ने भोजन की सूची बनाई है, क्योंकि क़रीब दो सौ लोग आएँगे।",
+     "Mother has made a list for the food, because about two hundred people will come."
+    ],
+    [
+     "पापा पास के पार्क में सबके बैठने की व्यवस्था कर रहे हैं।",
+     "Father is arranging seats for everyone in the park nearby."
+    ],
+    [
+     "कल शाम हमारे घर गाने का कार्यक्रम है, और मैंने एक नया गीत सीखा है।",
+     "Tomorrow evening there is a singing event at our house, and I have learned a new song."
+    ],
+    [
+     "मुझे थोड़ा डर लग रहा है, क्योंकि मुझे सबके सामने गाना है।",
+     "I am a little afraid, because I have to sing in front of everyone."
+    ],
+    [
+     "दादी कहती हैं कि गहरी साँस लो और बस मुस्कुराओ।",
+     "Grandmother says to take a deep breath and just smile."
+    ],
+    [
+     "शादी के दिन सुबह सब नए कपड़े पहनेंगे और मेहमानों का स्वागत करेंगे।",
+     "On the wedding day everyone will wear new clothes in the morning and welcome the guests."
+    ],
+    [
+     "जिससे भैया की शादी हो रही है, वह लड़की बहुत अच्छी है, और मैं उससे कई बार मिल चुकी हूँ।",
+     "The girl my brother is marrying is very nice, and I have met her many times."
+    ],
+    [
+     "मुझे आशा है कि सब कुछ ठीक होगा और सब लोग ख़ुश रहेंगे।",
+     "I hope everything will go well and everyone will be happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "शादी में क़रीब कितने लोग आएँगे?",
+     "en": "About how many people will come to the wedding?",
+     "type": "mc",
+     "options": [
+      "सौ",
+      "दो सौ",
+      "पाँच सौ",
+      "एक हज़ार"
+     ],
+     "answer": 1,
+     "words": [
+      "भोजन",
+      "क़रीब"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "सबके बैठने की व्यवस्था घर के अंदर हो रही है।",
+     "en": "The seating for everyone is being arranged inside the house.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "व्यवस्था",
+      "पार्क"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "लड़की को किस बात का डर लग रहा है?",
+     "en": "What is the girl afraid of?",
+     "type": "mc",
+     "options": [
+      "देर से पहुँचने का",
+      "सबके सामने गाने का",
+      "भोजन कम पड़ने का",
+      "नए लोगों से मिलने का"
+     ],
+     "answer": 1,
+     "words": [
+      "डर लगना",
+      "सामने"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "दादी ने उसे गहरी साँस लेने के लिए कहा।",
+     "en": "Grandmother told her to take a deep breath.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "गहरा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "शादी के दिन सुबह क्या होगा?",
+     "en": "What will happen on the morning of the wedding?",
+     "type": "mc",
+     "options": [
+      "मेहमानों का स्वागत होगा",
+      "सब लोग मिलकर गाने सीखेंगे",
+      "दीदी नए कार्ड बनाएँगी",
+      "सब पार्क में खाना खाएँगे"
+     ],
+     "answer": 0,
+     "words": [
+      "स्वागत करना",
+      "मेहमान"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0063",
+   "lv": "A2",
+   "title": "पुस्तकालय के नए नियम",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "सभी सदस्य ध्यान दें: अगले सप्ताह से पुस्तकालय के समय और नियम बदल रहे हैं।",
+     "All members, please note: from next week the library's hours and rules are changing."
+    ],
+    [
+     "अब पुस्तकालय सुबह नौ बजे खुलेगा और शाम सात बजे बंद होगा।",
+     "The library will now open at nine in the morning and close at seven in the evening."
+    ],
+    [
+     "रविवार को पुस्तकालय बंद रहेगा।",
+     "The library will stay closed on Sunday."
+    ],
+    [
+     "भीतर कृपया शांति रखें और फ़ोन पर ज़ोर से बात न करें।",
+     "Please keep quiet inside and do not talk loudly on the phone."
+    ],
+    [
+     "एक सदस्य एक बार में चार पुस्तकें ले सकता है।",
+     "A member can take four books at a time."
+    ],
+    [
+     "हर पुस्तक दो सप्ताह के लिए मिलेगी।",
+     "Each book will be given for two weeks."
+    ],
+    [
+     "अगर आपको और समय चाहिए, तो कार्यालय में जाकर बताइए।",
+     "If you need more time, go to the office and tell us."
+    ],
+    [
+     "किताब देर से वापस करने पर प्रति दिन पाँच रुपए देने होंगे।",
+     "For returning a book late, five rupees per day must be paid."
+    ],
+    [
+     "नया सदस्य बनने के लिए एक पत्र पर हस्ताक्षर करना होगा।",
+     "To become a new member you must sign a letter."
+    ],
+    [
+     "बच्चों के लिए हर शनिवार को कहानी का समय रहेगा, और माता-पिता भी बैठ सकते हैं।",
+     "There will be story time for children every Saturday, and parents may sit in too."
+    ],
+    [
+     "आपके सहयोग के लिए धन्यवाद।",
+     "Thank you for your cooperation."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "पुस्तकालय किस दिन बंद रहेगा?",
+     "en": "On which day will the library stay closed?",
+     "type": "mc",
+     "options": [
+      "हर शनिवार",
+      "हर सोमवार",
+      "हर रविवार",
+      "हर शुक्रवार"
+     ],
+     "answer": 2,
+     "words": [
+      "बंद",
+      "रविवार"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "भीतर शांति रखना ज़रूरी है।",
+     "en": "Keeping quiet inside is necessary.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "शांति",
+      "भीतर"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "एक सदस्य एक बार में कितनी पुस्तकें ले सकता है?",
+     "en": "How many books can a member take at one time?",
+     "type": "mc",
+     "options": [
+      "दो",
+      "तीन",
+      "चार",
+      "छह"
+     ],
+     "answer": 2,
+     "words": [
+      "पुस्तक"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "अगर आप किताब देर से वापस करें, तो आपको कोई पैसा नहीं देना होगा।",
+     "en": "If you return a book late, you will not have to pay anything.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "प्रति",
+      "रुपया"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "नया सदस्य बनने के लिए क्या करना होगा?",
+     "en": "What must one do to become a new member?",
+     "type": "mc",
+     "options": [
+      "नई परीक्षा देना और पास होना",
+      "कार्ड के लिए पैसे देना",
+      "पत्र पर अपना नाम लिखना",
+      "फ़ोटो भेजना"
+     ],
+     "answer": 2,
+     "words": [
+      "हस्ताक्षर",
+      "पत्र"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0064",
+   "lv": "A2",
+   "title": "तूफ़ान की रात",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "आज शाम से आसमान बहुत काला है।",
+     "Since this evening the sky has been very dark."
+    ],
+    [
+     "रेडियो पर समाचार आया कि रात को तेज़ तूफ़ान आएगा।",
+     "The radio news said a strong storm would come at night."
+    ],
+    [
+     "माँ ने सब खिड़कियाँ बंद कर दीं और पापा ने बाहर से कुर्सियाँ भीतर रख लीं।",
+     "Mother shut all the windows and Father took the chairs inside from outside."
+    ],
+    [
+     "रात आठ बजे हवा बहुत तेज़ हो गई और बिजली चली गई।",
+     "At eight at night the wind became very strong and the electricity went off."
+    ],
+    [
+     "मुझे बहुत डर लग रहा था, इसलिए मैं दीदी के पास बैठ गया।",
+     "I was very scared, so I sat down next to my sister."
+    ],
+    [
+     "उसने मुझे एक पुरानी कहानी बताई।",
+     "She told me an old story."
+    ],
+    [
+     "बाहर पेड़ हिल रहे थे और कहीं कोई चीज़ गिरने की आवाज़ आई।",
+     "Outside the trees were swaying and from somewhere came the sound of something falling."
+    ],
+    [
+     "हमने अँधेरे में बैठकर बातें कीं और दूध पिया।",
+     "We sat in the dark, talked and drank milk."
+    ],
+    [
+     "दो घंटे बाद तूफ़ान गुज़र गया और सब कुछ शांत हो गया।",
+     "Two hours later the storm passed and everything became calm."
+    ],
+    [
+     "सुबह हमने देखा कि पड़ोसी के पेड़ की एक बड़ी शाखा टूटकर हमारी छत पर आ गई है।",
+     "In the morning we saw that a big branch of the neighbour's tree had broken and landed on our roof."
+    ],
+    [
+     "किसी को चोट नहीं लगी, और पापा ने कहा कि अब चिंता की कोई बात नहीं है।",
+     "Nobody got hurt, and Father said there was nothing to worry about now."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "तूफ़ान की ख़बर कहाँ से मिली?",
+     "en": "Where did the news of the storm come from?",
+     "type": "mc",
+     "options": [
+      "टीवी से",
+      "फ़ोन से",
+      "पड़ोसी से",
+      "रेडियो से"
+     ],
+     "answer": 3,
+     "words": [
+      "रेडियो",
+      "समाचार"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "रात भर बिजली चालू रही।",
+     "en": "The electricity stayed on all night.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बिजली"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "डर के कारण लिखने वाला किसके पास बैठा?",
+     "en": "Whom did the writer sit next to out of fear?",
+     "type": "mc",
+     "options": [
+      "अपनी माँ के पास",
+      "अपनी दादी के पास",
+      "अपने पापा के पास",
+      "अपनी दीदी के पास"
+     ],
+     "answer": 3,
+     "words": [
+      "डर लगना",
+      "दीदी"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "तूफ़ान दो घंटे बाद गुज़र गया।",
+     "en": "The storm passed after two hours.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "गुज़रना"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "सुबह उन्होंने क्या देखा?",
+     "en": "What did they see in the morning?",
+     "type": "mc",
+     "options": [
+      "छत पर पेड़ की शाखा थी",
+      "घर में पानी भर गया था",
+      "बिजली वापस आ गई थी",
+      "उनका पेड़ गिर गया था"
+     ],
+     "answer": 0,
+     "words": [
+      "शाखा",
+      "छत"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0065",
+   "lv": "A2",
+   "title": "पार्क में फ़ुटबॉल",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "रविवार को शहर के बड़े पार्क में स्कूलों का फ़ुटबॉल मैच हुआ।",
+     "On Sunday a schools' football match was held in the big park of the city."
+    ],
+    [
+     "एक दल उत्तर के स्कूल का था और दूसरा दल दक्षिण के स्कूल का।",
+     "One team was from the northern school and the other team from the southern school."
+    ],
+    [
+     "मैच देखने के लिए क़रीब पाँच सौ दर्शक आए थे।",
+     "About five hundred spectators had come to watch the match."
+    ],
+    [
+     "पहले आधे समय में किसी दल ने गोल नहीं किया।",
+     "In the first half no team scored a goal."
+    ],
+    [
+     "फिर दक्षिण के कप्तान ने गेंद ली और बहुत तेज़ दौड़ा।",
+     "Then the southern captain took the ball and ran very fast."
+    ],
+    [
+     "उसने सबको पीछे छोड़ा और गोल कर दिया।",
+     "He left everyone behind and scored a goal."
+    ],
+    [
+     "दर्शक ख़ुशी से चिल्लाए।",
+     "The spectators shouted with joy."
+    ],
+    [
+     "उत्तर का दल हारना नहीं चाहता था, इसलिए उसने भी बहुत प्रयास किया।",
+     "The northern team did not want to lose, so it also tried very hard."
+    ],
+    [
+     "अंत में उसे भी एक गोल मिला और परिणाम बराबर रहा।",
+     "In the end it also got a goal and the result was a draw."
+    ],
+    [
+     "दोनों कप्तानों ने एक-दूसरे को गले लगाया और अगले महीने फिर खेलने का वादा किया।",
+     "Both captains hugged each other and promised to play again next month."
+    ],
+    [
+     "सब कहते हैं कि यह इस साल का सबसे अच्छा मैच था।",
+     "Everyone says it was the best match of this year."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "मैच कहाँ हुआ?",
+     "en": "Where was the match held?",
+     "type": "mc",
+     "options": [
+      "स्कूल के मैदान में",
+      "बाज़ार में",
+      "शहर के पार्क में",
+      "स्टेशन के पास"
+     ],
+     "answer": 2,
+     "words": [
+      "पार्क",
+      "मैच"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "पहले आधे समय में दोनों दलों ने गोल किया।",
+     "en": "Both teams scored in the first half.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "गोल",
+      "दल"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "पहला गोल किसने किया?",
+     "en": "Who scored the first goal?",
+     "type": "mc",
+     "options": [
+      "दक्षिण वाले कप्तान ने",
+      "उत्तर वाले दल के कप्तान ने",
+      "एक दर्शक ने",
+      "दोनों कप्तानों ने"
+     ],
+     "answer": 0,
+     "words": [
+      "गोल"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "मैच का परिणाम बराबर रहा।",
+     "en": "The result of the match was a draw.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "परिणाम",
+      "बराबर"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "मैच के बाद कप्तानों ने क्या किया?",
+     "en": "What did the captains do after the match?",
+     "type": "mc",
+     "options": [
+      "एक-दूसरे पर ग़ुस्सा किया",
+      "दोनों दलों की गेंद बदली",
+      "जल्दी अपने घर चले गए",
+      "एक-दूसरे को गले लगाया"
+     ],
+     "answer": 3,
+     "words": [
+      "कप्तान",
+      "गला"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0066",
+   "lv": "A2",
+   "title": "अगले सोमवार की बैठक",
+   "oop": {
+    "सुनील": "name"
+   },
+   "names": [
+    "सुनील"
+   ],
+   "sentences": [
+    [
+     "साथियो, अगले सोमवार सुबह दस बजे कार्यालय में बैठक होगी।",
+     "Colleagues, there will be a meeting at the office at ten next Monday morning."
+    ],
+    [
+     "बैठक का विषय नई व्यवस्था है, जो अगले महीने से लागू होगी।",
+     "The topic of the meeting is the new arrangement, which will come into force next month."
+    ],
+    [
+     "कृपया अपनी रिपोर्ट बैठक से एक दिन पहले भेज दें।",
+     "Please send your report one day before the meeting."
+    ],
+    [
+     "हर रिपोर्ट में पिछले सप्ताह का काम और अगले सप्ताह की योजना लिखें।",
+     "In every report write last week's work and next week's plan."
+    ],
+    [
+     "अगर किसी को आना मुश्किल हो, तो मुझसे संपर्क करें।",
+     "If anyone finds it difficult to come, contact me."
+    ],
+    [
+     "हम फ़ोन पर बात कर सकते हैं या कोई दूसरा निश्चित समय तय कर सकते हैं।",
+     "We can talk on the phone or fix some other definite time."
+    ],
+    [
+     "कमरे में केवल बीस सीट हैं, इसलिए हम दो समूह बनाएँगे।",
+     "The room has only twenty seats, so we will make two groups."
+    ],
+    [
+     "पहला समूह दस बजे आएगा और दूसरा समूह बारह बजे।",
+     "The first group will come at ten and the second group at twelve."
+    ],
+    [
+     "बैठक के बाद सब लोगों के लिए चाय और नाश्ता होगा।",
+     "After the meeting there will be tea and snacks for everyone."
+    ],
+    [
+     "आप सबके सहयोग के लिए धन्यवाद।",
+     "Thank you all for your cooperation."
+    ],
+    [
+     "आपका सुनील",
+     "Yours, Sunil"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "बैठक कब होगी?",
+     "en": "When will the meeting be held?",
+     "type": "mc",
+     "options": [
+      "रविवार की दोपहर",
+      "सोमवार की सुबह",
+      "मंगलवार की शाम",
+      "शुक्रवार की सुबह"
+     ],
+     "answer": 1,
+     "words": [
+      "बैठक",
+      "कार्यालय"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "रिपोर्ट बैठक के एक दिन बाद भेजनी है।",
+     "en": "The report must be sent one day after the meeting.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "रिपोर्ट"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "अगर कोई नहीं आ सकता, तो उसे क्या करना चाहिए?",
+     "en": "What should someone who cannot come do?",
+     "type": "mc",
+     "options": [
+      "सुनील से संपर्क करना",
+      "छुट्टी लेकर घर पर रहना",
+      "किसी और को बैठक में भेजना",
+      "चुपचाप घर बैठे रहना"
+     ],
+     "answer": 0,
+     "words": [
+      "संपर्क"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "कितने समूह बनेंगे?",
+     "en": "How many groups will be formed?",
+     "type": "mc",
+     "options": [
+      "एक",
+      "दो",
+      "तीन",
+      "चार"
+     ],
+     "answer": 1,
+     "words": [
+      "समूह",
+      "सीट"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "बैठक के बाद सबको चाय मिलेगी।",
+     "en": "Everyone will get tea after the meeting.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चाय",
+      "नाश्ता"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0067",
+   "lv": "A2",
+   "title": "बाज़ार में एक दुकानदार",
+   "oop": {
+    "मोहन": "name"
+   },
+   "names": [
+    "मोहन"
+   ],
+   "sentences": [
+    [
+     "मैंने पुराने बाज़ार में फल बेचने वाले मोहन जी से बात की।",
+     "I talked to Mohan ji, who sells fruit in the old market."
+    ],
+    [
+     "मैंने पूछा कि आप यह व्यापार कितने साल से कर रहे हैं।",
+     "I asked how many years he had been doing this business."
+    ],
+    [
+     "उन्होंने कहा कि क़रीब बीस साल से, मेरे पिता जी ने यह दुकान शुरू की थी।",
+     "He said for about twenty years, my father started this shop."
+    ],
+    [
+     "मैंने पूछा कि आज फलों का मूल्य कैसा है।",
+     "I asked what the price of fruit is like today."
+    ],
+    [
+     "वे बोले कि आम की दर पिछले साल से ज़्यादा है, क्योंकि इस बार बारिश कम हुई।",
+     "He said the rate of mangoes is higher than last year because there was less rain this time."
+    ],
+    [
+     "फिर भी लोग अच्छे फल ख़रीदते हैं और मैं उन्हें सही मूल्य पर देता हूँ।",
+     "Even so people buy good fruit and I give it to them at a fair price."
+    ],
+    [
+     "मैंने पूछा कि ग्राहक भुगतान कैसे करते हैं।",
+     "I asked how customers pay."
+    ],
+    [
+     "उन्होंने हँसकर कहा कि अब आधे लोग फ़ोन से भुगतान करते हैं, और मैं भी सीख रहा हूँ।",
+     "He said with a laugh that now half the people pay by phone, and I am learning too."
+    ],
+    [
+     "मैंने पूछा कि क्या यह काम मुश्किल है।",
+     "I asked whether this work is hard."
+    ],
+    [
+     "वे बोले कि हाँ, पर मुझे अपने काम में आनंद मिलता है, और मुझे अपने ग्राहकों की परवाह है।",
+     "He said yes, but I enjoy my work, and I care about my customers."
+    ],
+    [
+     "मैंने उनका धन्यवाद किया और एक किलो आम ख़रीदे।",
+     "I thanked him and bought a kilo of mangoes."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "मोहन जी कितने साल से यह काम कर रहे हैं?",
+     "en": "For how many years has Mohan ji been doing this work?",
+     "type": "mc",
+     "options": [
+      "दस",
+      "पंद्रह",
+      "बीस",
+      "तीस"
+     ],
+     "answer": 2,
+     "words": [
+      "व्यापार",
+      "साल"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "इस साल आम की दर कम है।",
+     "en": "This year the rate of mangoes is low.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "दर"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "इस बार आम की दर ज़्यादा क्यों है?",
+     "en": "Why is the mango rate higher this time?",
+     "type": "mc",
+     "options": [
+      "इस बार ग्राहक बहुत कम हैं",
+      "पिछले साल दुकान नई बनी",
+      "इस बार कम बारिश हुई",
+      "सभी फल बहुत छोटे हैं"
+     ],
+     "answer": 2,
+     "words": [
+      "बारिश",
+      "दर"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "आधे ग्राहक फ़ोन से भुगतान करते हैं।",
+     "en": "Half the customers pay by phone.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "भुगतान"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "मोहन जी को अपने काम से क्या मिलता है?",
+     "en": "What does Mohan ji get from his work?",
+     "type": "mc",
+     "options": [
+      "लंबी छुट्टी",
+      "बहुत पैसा",
+      "बड़ा घर",
+      "काम का आनंद"
+     ],
+     "answer": 3,
+     "words": [
+      "आनंद",
+      "परवाह"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0068",
+   "lv": "A2",
+   "title": "पहली हवाई यात्रा",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "पिछले महीने मैंने पहली बार विमान से यात्रा की।",
+     "Last month I travelled by plane for the first time."
+    ],
+    [
+     "मैं सुबह चार बजे हवाई अड्डे पहुँचा, क्योंकि मुझे देर होने का डर था।",
+     "I reached the airport at four in the morning because I was afraid of being late."
+    ],
+    [
+     "मेरी सीट खिड़की के पास थी, इसलिए मैं बाहर साफ़ देख सकता था।",
+     "My seat was near the window, so I could see outside clearly."
+    ],
+    [
+     "जब विमान उड़ा, तो इंजन की आवाज़ बहुत तेज़ थी और मुझे थोड़ा डर लगा।",
+     "When the plane took off the engine's sound was very loud and I felt a little scared."
+    ],
+    [
+     "पास की सीट पर एक बूढ़ी महिला बैठी थीं, जो हर हफ़्ते उड़ान भरती हैं।",
+     "In the next seat sat an old woman who flies every week."
+    ],
+    [
+     "उन्होंने मुझसे कहा कि डरो मत, कुछ मिनट में सब सामान्य लगेगा।",
+     "She told me not to be afraid, that in a few minutes everything would feel normal."
+    ],
+    [
+     "कुछ देर बाद मैंने खिड़की से देखा, तो मुझे सफ़ेद बादल दिखाई दिए।",
+     "After a while I looked out of the window and saw white clouds."
+    ],
+    [
+     "नीचे धरती के घर, नदियाँ और खेत बहुत छोटे लगते थे।",
+     "Below, the houses, rivers and fields of the earth looked very small."
+    ],
+    [
+     "वह दृश्य इतना सुंदर था कि मैं कुछ देर बोल नहीं पाया।",
+     "The view was so beautiful that I could not speak for a while."
+    ],
+    [
+     "तीन घंटे बाद हम अच्छी तरह उतर गए।",
+     "Three hours later we landed well."
+    ],
+    [
+     "मुझे आशा है कि मैं जल्द ही फिर उड़ान भर सकूँगा।",
+     "I hope I can fly again soon."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "यात्री की सीट कहाँ थी?",
+     "en": "Where was the traveller's seat?",
+     "type": "mc",
+     "options": [
+      "सबसे पीछे",
+      "आगे",
+      "दरवाज़े के पास",
+      "खिड़की की तरफ़"
+     ],
+     "answer": 3,
+     "words": [
+      "सीट",
+      "खिड़की"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "विमान उड़ते समय इंजन की आवाज़ धीमी थी।",
+     "en": "The engine sound was soft when the plane took off.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "इंजन"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "पास की सीट पर कौन बैठा था?",
+     "en": "Who sat in the next seat?",
+     "type": "mc",
+     "options": [
+      "एक बूढ़ी महिला",
+      "एक बच्चा",
+      "यात्री का दोस्त",
+      "एक डॉक्टर"
+     ],
+     "answer": 0,
+     "words": [
+      "उड़ान"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "यात्री ने खिड़की से सफ़ेद बादल देखे।",
+     "en": "The traveller saw white clouds from the window.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "बादल",
+      "दिखाई"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "नीचे का दृश्य कैसा था?",
+     "en": "How was the view below?",
+     "type": "mc",
+     "options": [
+      "बहुत ख़राब",
+      "बहुत बेकार",
+      "बहुत अँधेरा",
+      "बहुत सुंदर"
+     ],
+     "answer": 3,
+     "words": [
+      "दृश्य"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0069",
+   "lv": "A2",
+   "title": "दादा जी की तबीयत",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "पिछले सप्ताह दादा जी की हालत ख़राब हो गई।",
+     "Last week Grandfather's condition got bad."
+    ],
+    [
+     "उन्हें तेज़ बुख़ार था और गला भी बहुत ख़राब था।",
+     "He had a high fever and his throat was also very bad."
+    ],
+    [
+     "हम उन्हें डॉक्टर के पास ले गए, और डॉक्टर ने कई परीक्षण करवाए।",
+     "We took him to the doctor, and the doctor had several tests done."
+    ],
+    [
+     "रिपोर्ट आने पर पता चला कि कोई बड़ा रोग नहीं है।",
+     "When the report came we learned there is no serious disease."
+    ],
+    [
+     "डॉक्टर ने कहा कि इलाज घर पर हो सकता है, पर देखभाल बहुत ज़रूरी है।",
+     "The doctor said the treatment can be done at home, but care is very important."
+    ],
+    [
+     "उन्होंने दादा जी को दिन में तीन बार दवा लेने के लिए कहा।",
+     "He told Grandfather to take medicine three times a day."
+    ],
+    [
+     "उन्होंने यह भी कहा कि दादा जी को गरम पानी पीना चाहिए और आराम करना चाहिए।",
+     "He also said Grandfather should drink warm water and rest."
+    ],
+    [
+     "हम सबने बारी-बारी से उनका ख़याल रखा।",
+     "We all took turns looking after him."
+    ],
+    [
+     "तीन दिन में उनकी हालत में सुधार हुआ।",
+     "In three days his condition improved."
+    ],
+    [
+     "अब वे सामान्य खाना खा लेते हैं, पर अभी बाहर नहीं जाते।",
+     "Now he can eat normal food, but he does not go out yet."
+    ],
+    [
+     "माँ को आशा है कि अगले सप्ताह वे फिर पार्क में घूम सकेंगे।",
+     "Mother hopes that next week he will be able to walk in the park again."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "दादा जी को क्या हुआ था?",
+     "en": "What was wrong with Grandfather?",
+     "type": "mc",
+     "options": [
+      "पैर टूटा था",
+      "बहुत तेज़ बुख़ार",
+      "आँख ख़राब थी",
+      "नींद नहीं आती थी"
+     ],
+     "answer": 1,
+     "words": [
+      "बुख़ार",
+      "गला"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "रिपोर्ट में एक बड़ा रोग निकला।",
+     "en": "A serious disease showed up in the report.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "रिपोर्ट",
+      "रोग"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "डॉक्टर के अनुसार इलाज कहाँ हो सकता है?",
+     "en": "According to the doctor, where can the treatment be done?",
+     "type": "mc",
+     "options": [
+      "अस्पताल में",
+      "घर पर",
+      "स्कूल में",
+      "दुकान पर"
+     ],
+     "answer": 1,
+     "words": [
+      "इलाज",
+      "देखभाल"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "हर दिन तीन बार दवा लेना ज़रूरी है।",
+     "en": "It is necessary to take medicine three times every day.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "दवा"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "तीन दिन बाद क्या हुआ?",
+     "en": "What happened after three days?",
+     "type": "mc",
+     "options": [
+      "उनकी हालत में सुधार हुआ",
+      "वे दोबारा अस्पताल चले गए",
+      "उन्हें फिर से बुख़ार हुआ",
+      "वे पार्क घूमने गए"
+     ],
+     "answer": 0,
+     "words": [
+      "हालत",
+      "सुधार"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0070",
+   "lv": "A2",
+   "title": "परीक्षा का परिणाम",
+   "oop": {
+    "मीना": "name"
+   },
+   "names": [
+    "मीना"
+   ],
+   "sentences": [
+    [
+     "आज मेरी बहन मीना की परीक्षा का परिणाम आया।",
+     "Today my sister Meena's exam result came."
+    ],
+    [
+     "सुबह से वह बहुत परेशान थी और कुछ खा नहीं रही थी।",
+     "Since morning she had been very worried and was not eating anything."
+    ],
+    [
+     "वह कहती थी कि मैंने गणित में बहुत मेहनत की, पर कुछ प्रश्न कठिन थे।",
+     "She kept saying that she worked hard in maths, but some questions were hard."
+    ],
+    [
+     "पापा ने कहा कि परिणाम जो भी हो, तुम्हारी कोशिश अच्छी थी।",
+     "Father said whatever the result, your effort was good."
+    ],
+    [
+     "दस बजे हमने फ़ोन पर परिणाम देखा।",
+     "At ten we looked at the result on the phone."
+    ],
+    [
+     "मीना ने अपना नंबर खोला, और उसकी आँखों में आँसू आ गए।",
+     "Meena opened her number, and tears came to her eyes."
+    ],
+    [
+     "पहले हमें लगा कि वह दुखी है, पर वह तो ख़ुशी से रो रही थी।",
+     "At first we thought she was sad, but she was crying with joy."
+    ],
+    [
+     "उसे गणित में नब्बे प्रतिशत नंबर मिले थे।",
+     "She had got ninety percent marks in maths."
+    ],
+    [
+     "माँ ने उसे गले लगाया और पापा मिठाई ले आए।",
+     "Mother hugged her and Father brought sweets."
+    ],
+    [
+     "मीना ने कहा कि मैं यह ख़बर अपने शिक्षक को बताना चाहती हूँ, क्योंकि उन्होंने मुझे हर विषय अच्छी तरह समझाया।",
+     "Meena said she wanted to tell this news to her teacher because he explained every subject well."
+    ],
+    [
+     "शाम को वह स्कूल गई, और शिक्षक ने उसके ज्ञान की बहुत तारीफ़ की।",
+     "In the evening she went to school, and the teacher praised her knowledge a lot."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "मीना किस विषय में परेशान थी?",
+     "en": "In which subject was Meena worried?",
+     "type": "mc",
+     "options": [
+      "हिंदी",
+      "इतिहास",
+      "विज्ञान",
+      "गणित"
+     ],
+     "answer": 3,
+     "words": [
+      "गणित",
+      "प्रश्न"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "पापा ने कहा कि मीना की कोशिश अच्छी थी।",
+     "en": "Father said Meena's effort was good.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "कोशिश",
+      "परिणाम"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "नंबर देखकर मीना ने क्या किया?",
+     "en": "What did Meena do on seeing her marks?",
+     "type": "mc",
+     "options": [
+      "वह ख़ुशी से रोई",
+      "वह चुप होकर बैठ गई",
+      "वह बाहर चली गई",
+      "वह हँसने लगी"
+     ],
+     "answer": 0,
+     "words": [
+      "नंबर",
+      "आँसू"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "मीना को गणित में साठ प्रतिशत नंबर मिले।",
+     "en": "Meena got sixty percent in maths.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "प्रतिशत"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "मीना शाम को कहाँ गई?",
+     "en": "Where did Meena go in the evening?",
+     "type": "mc",
+     "options": [
+      "बाज़ार",
+      "पार्क",
+      "स्कूल",
+      "अस्पताल"
+     ],
+     "answer": 2,
+     "words": [
+      "शिक्षक",
+      "ज्ञान"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0071",
+   "lv": "B1",
+   "title": "नदी पर नया पुल",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "शहर की सबसे बड़ी नदी पर नया पुल आख़िरकार आम लोगों के लिए खोल दिया गया है।",
+     "The new bridge over the city's biggest river has finally been opened to the public."
+    ],
+    [
+     "इसे बनाने में पूरे चार साल लगे और इस पर लगभग सौ करोड़ रुपए ख़र्च हुए।",
+     "It took a full four years to build and cost about a hundred crore rupees."
+    ],
+    [
+     "पुराना पुल बहुत तंग था, और सुबह-शाम वहाँ घंटों जाम लगा रहता था।",
+     "The old bridge was very narrow, and there were hours-long jams there morning and evening."
+    ],
+    [
+     "स्थानीय लोगों का कहना है कि दफ़्तर जाने में उन्हें रोज़ एक घंटा लग जाता था।",
+     "Local people say it used to take them an hour every day to get to the office."
+    ],
+    [
+     "नए पुल पर चार रास्ते हैं, और पैदल चलने वालों के लिए एक अलग रास्ता भी है।",
+     "The new bridge has four lanes, and there is also a separate path for people on foot."
+    ],
+    [
+     "अस्पताल जाने वाली गाड़ियों को अब बहुत कम समय लगेगा।",
+     "Vehicles going to the hospital will now take much less time."
+    ],
+    [
+     "पुल खोलने के दिन शहर के प्रमुख ने कहा कि यह पुल शहर के विकास की ओर एक बड़ा क़दम है।",
+     "On the day of opening, the head of the city said this bridge is a big step towards the city's development."
+    ],
+    [
+     "उन्होंने यह भी बताया कि पुल पर किसी से कोई शुल्क नहीं लिया जाएगा।",
+     "He also said no fee will be taken from anyone on the bridge."
+    ],
+    [
+     "कुछ दुकान वाले पहले चिंतित थे, क्योंकि वे नदी के पास अपना सामान बेचते हैं।",
+     "Some people with shops were worried at first, because they sell their goods near the river."
+    ],
+    [
+     "लेकिन अब उन्हें लगता है कि ज़्यादा लोग आएँगे और उनका व्यापार बढ़ेगा।",
+     "But now they think more people will come and their business will grow."
+    ],
+    [
+     "पर्यावरण पर काम करने वाले एक समूह ने आशा जताई कि अब सड़कों पर हवा साफ़ रहेगी।",
+     "A group working on the environment expressed hope that there will now be cleaner air on the roads."
+    ],
+    [
+     "अगले दशक में शहर की आबादी और बढ़ेगी, और अधिकारी चाहते हैं कि सड़कें पहले से तैयार रहें।",
+     "The city's population will grow further in the next decade, and officials want the roads to be ready in advance."
+    ],
+    [
+     "अभी लोग पुल पर खड़े होकर फ़ोटो ले रहे हैं और बहुत ख़ुश हैं।",
+     "For now people are standing on the bridge taking photos and are very happy."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "नया पुल बनाने में कितना समय लगा?",
+     "en": "How long did it take to build the new bridge?",
+     "type": "mc",
+     "options": [
+      "दो साल",
+      "तीन साल",
+      "चार साल",
+      "छह साल"
+     ],
+     "answer": 2,
+     "words": [
+      "ख़र्च"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "पुराने पुल पर अक्सर जाम लगता था।",
+     "en": "There were often jams on the old bridge.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "जाम",
+      "तंग"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "नए पुल पर पैदल चलने वालों के लिए क्या है?",
+     "en": "What is there on the new bridge for people on foot?",
+     "type": "mc",
+     "options": [
+      "एक छोटी दुकान",
+      "एक अलग रास्ता",
+      "एक बड़ा पेड़",
+      "कुछ भी नहीं"
+     ],
+     "answer": 1,
+     "words": [
+      "रास्ता",
+      "पैदल"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "पुल पर चलने के लिए शुल्क देना होगा।",
+     "en": "A fee must be paid to use the bridge.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "शुल्क"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "दुकान वालों को अब क्या लगता है?",
+     "en": "What do the shopkeepers think now?",
+     "type": "mc",
+     "options": [
+      "उन्हें दुकान बंद करनी होगी",
+      "उनका काम बढ़ेगा",
+      "पुल बहुत छोटा है",
+      "लोग कम आएँगे"
+     ],
+     "answer": 1,
+     "words": [
+      "व्यापार"
+     ],
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "p0072",
+   "lv": "B1",
+   "title": "पहाड़ पर पहला सफ़र",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "आज मैं पहली बार एक ऊँचे पर्वत पर चढ़ा, और मैं बहुत थक गया हूँ।",
+     "Today I climbed a high mountain for the first time, and I am very tired."
+    ],
+    [
+     "मेरे कंधे पर एक भारी बैग था, और उसमें पानी, रोटी और गरम कपड़े थे।",
+     "I had a heavy bag on my shoulder, with water, bread and warm clothes in it."
+    ],
+    [
+     "शुरू में रास्ता आसान था, पर थोड़ी देर बाद चट्टानें आने लगीं।",
+     "At first the path was easy, but after a while rocky cliffs began to come."
+    ],
+    [
+     "मुझे पसीना आ रहा था, और बार-बार प्यास लग रही थी।",
+     "I was sweating and kept getting thirsty."
+    ],
+    [
+     "हमारे साथ पहाड़ को अच्छी तरह जानने वाला एक आदमी था, जिसने बताया कि ऊँचाई पर हवा हल्की होती है, इसलिए धीरे चलना चाहिए।",
+     "We had a man with us who knew the mountain well, and he said the air is thin at height, so one should walk slowly."
+    ],
+    [
+     "दोपहर तक बादल हमारे नीचे आ गए, और तापमान बहुत गिर गया।",
+     "By noon the clouds had come below us and the temperature dropped a lot."
+    ],
+    [
+     "मेरे हाथ-पैर ठंडे हो रहे थे, फिर भी मैं रुकना नहीं चाहता था।",
+     "My hands and feet were getting cold, yet I did not want to stop."
+    ],
+    [
+     "एक जगह मैं गिरने ही वाला था, पर मेरे दोस्त ने मुझे तुरंत थाम लिया।",
+     "At one place I was about to fall, but my friend held me at once."
+    ],
+    [
+     "उस समय मुझे समझ आया कि ऐसे सफ़र में साहस के साथ सावधान रहना भी ज़रूरी है।",
+     "At that moment I understood that on such a trip caution is needed along with courage."
+    ],
+    [
+     "शाम चार बजे हम शिखर पर पहुँचे, और वहाँ का दृश्य ऐसा था जो मैं कभी नहीं भूलूँगा।",
+     "At four in the evening we reached the summit, and the view there was one I will never forget."
+    ],
+    [
+     "चारों ओर बर्फ़ और नीला आकाश दिखाई दे रहा था।",
+     "All around were snow and a blue sky."
+    ],
+    [
+     "हमने वहाँ एक छोटा झंडा लगाया और बहुत सी फ़ोटो लीं।",
+     "We put up a small flag there and took many photos."
+    ],
+    [
+     "उतरते समय मेरे घुटनों में दर्द था, पर दिल में ख़ुशी थी।",
+     "While coming down my knees hurt, but my heart was happy."
+    ],
+    [
+     "मैंने तय कर लिया है कि अगले साल इससे भी ऊँचे पर्वत पर जाऊँगा।",
+     "I have decided that next year I will go up an even higher mountain."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "दोपहर तक बादल कहाँ थे?",
+     "en": "Where were the clouds by noon?",
+     "type": "mc",
+     "options": [
+      "उनके पीछे",
+      "उनके ऊपर",
+      "उनके नीचे",
+      "कहीं नहीं थे"
+     ],
+     "answer": 2,
+     "words": [
+      "बादल",
+      "तापमान"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "लेखक के बैग में गरम कपड़े थे।",
+     "en": "The writer's bag had warm clothes in it.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "बैग",
+      "कंधा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "ऊँचाई पर धीरे क्यों चलना चाहिए?",
+     "en": "Why should one walk slowly at a height?",
+     "type": "mc",
+     "options": [
+      "वहाँ हवा हल्की होती है",
+      "वहाँ रास्ता गीला होता है",
+      "वहाँ बारिश होती है",
+      "वहाँ बहुत भीड़ होती है"
+     ],
+     "answer": 0,
+     "words": [
+      "ऊँचाई",
+      "हवा"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "गिरने से पहले लेखक को किसी ने नहीं थामा।",
+     "en": "Nobody held the writer before he fell.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "थामना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "शिखर पर उन्होंने क्या किया?",
+     "en": "What did they do at the summit?",
+     "type": "mc",
+     "options": [
+      "वहीं बैठकर खाना बनाया",
+      "सीधे नीचे उतर गए",
+      "सब चुपचाप सो गए",
+      "एक झंडा खड़ा किया"
+     ],
+     "answer": 3,
+     "words": [
+      "झंडा"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0073",
+   "lv": "B1",
+   "title": "नए फ़ोन की शिकायत",
+   "oop": {
+    "सुरेश": "name"
+   },
+   "names": [
+    "सुरेश"
+   ],
+   "sentences": [
+    [
+     "नमस्कार, मेरा नाम सुरेश है और मैं आपको एक ख़राब उत्पाद के बारे में लिख रहा हूँ।",
+     "Hello, my name is Suresh and I am writing to you about a faulty product."
+    ],
+    [
+     "मैंने पिछले महीने आपकी वेबसाइट से एक नया फ़ोन ख़रीदा था।",
+     "Last month I bought a new phone from your website."
+    ],
+    [
+     "मैंने पूरा भुगतान उसी दिन कर दिया था, पर फ़ोन मेरे पास दस दिन बाद पहुँचा।",
+     "I had paid in full that same day, but the phone reached me ten days later."
+    ],
+    [
+     "जब मैंने डिब्बा खोला, तो फ़ोन के पीछे का काँच टूटा हुआ था।",
+     "When I opened the box, the glass on the back of the phone was broken."
+    ],
+    [
+     "इसके अलावा, उसके दो बटन भी ठीक से काम नहीं करते।",
+     "Besides, two of its buttons also do not work properly."
+    ],
+    [
+     "मुझे शक है कि यह फ़ोन नया नहीं, बल्कि पहले से इस्तेमाल किया हुआ है।",
+     "I suspect that this phone is not new but already used."
+    ],
+    [
+     "मैं बहुत निराश हूँ, क्योंकि मैंने आपकी दुकान की सिफ़ारिश अपने कई दोस्तों से की थी।",
+     "I am very disappointed, because I had recommended your shop to many of my friends."
+    ],
+    [
+     "मैंने आपके ग्राहक सेवा के नंबर पर तीन बार फ़ोन किया, पर हर बार मुझसे इंतज़ार करने को कहा गया।",
+     "I called your customer service number three times, but each time I was told to wait."
+    ],
+    [
+     "अब मैं दो चीज़ें माँगता हूँ: या तो मुझे नया फ़ोन भेजिए, या मेरे पूरे पैसे वापस कीजिए।",
+     "Now I ask for two things: either send me a new phone, or give back all my money."
+    ],
+    [
+     "अगर आप मरम्मत का रास्ता चुनते हैं, तो मैं उसके लिए कोई शुल्क नहीं दूँगा।",
+     "If you choose repair, I will not pay any fee for it."
+    ],
+    [
+     "मैं सभी दस्तावेज़ और फ़ोटो इस पत्र के साथ भेज रहा हूँ।",
+     "I am sending all the documents and photos with this letter."
+    ],
+    [
+     "कृपया इस दिक़्क़त को जल्द सुलझाइए, ताकि मेरा आप पर भरोसा बना रहे।",
+     "Please solve this problem soon, so that my trust in you remains."
+    ],
+    [
+     "मुझे आशा है कि आप एक सप्ताह के भीतर मुझे जवाब देंगे।",
+     "I hope you will reply to me within a week."
+    ],
+    [
+     "धन्यवाद, सुरेश।",
+     "Thank you, Suresh."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "सुरेश ने फ़ोन कहाँ से ख़रीदा था?",
+     "en": "Where did Suresh buy the phone from?",
+     "type": "mc",
+     "options": [
+      "बाज़ार से",
+      "पास की दुकान से",
+      "दोस्त से",
+      "एक वेबसाइट से"
+     ],
+     "answer": 3,
+     "words": [
+      "वेबसाइट"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "फ़ोन का काँच बिलकुल ठीक था।",
+     "en": "The phone's glass was perfectly fine.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "काँच",
+      "डिब्बा"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "सुरेश को किस बात का शक है?",
+     "en": "What does Suresh suspect?",
+     "type": "mc",
+     "options": [
+      "फ़ोन पहले से इस्तेमाल हुआ है",
+      "ग्राहक सेवा का नंबर ही ग़लत है",
+      "दुकान जल्दी बंद हो जाएगी",
+      "फ़ोन का दाम बहुत ज़्यादा है"
+     ],
+     "answer": 0,
+     "words": [
+      "शक"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "सुरेश ने ग्राहक सेवा को केवल एक बार फ़ोन किया।",
+     "en": "Suresh called customer service only once.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "ग्राहक"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "सुरेश क्या चाहता है?",
+     "en": "What does Suresh want?",
+     "type": "mc",
+     "options": [
+      "नया फ़ोन या पूरे पैसे वापस",
+      "सिर्फ़ माफ़ी और थोड़ा और समय",
+      "दुकान का नंबर और पता",
+      "एक सस्ता फ़ोन आधे दाम पर"
+     ],
+     "answer": 0,
+     "words": [
+      "पैसा",
+      "वापस"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0074",
+   "lv": "B1",
+   "title": "एक युवा खिलाड़ी से बातचीत",
+   "oop": {
+    "आदित्य": "name"
+   },
+   "names": [
+    "आदित्य"
+   ],
+   "sentences": [
+    [
+     "सत्रह साल के आदित्य ने इस साल राज्य की क्रिकेट प्रतियोगिता जीती है।",
+     "Seventeen-year-old Aditya won the state cricket competition this year."
+    ],
+    [
+     "मैंने उनसे पूछा कि इतनी कम उम्र में आप इतने कामयाब कैसे हुए।",
+     "I asked him how he became so successful at such a young age."
+    ],
+    [
+     "उन्होंने कहा कि बचपन से मेरा एक ही इरादा था कि मैं देश का सर्वश्रेष्ठ खिलाड़ी बनूँ।",
+     "He said that since childhood I had only one intention, to become the country's best player."
+    ],
+    [
+     "उनके पिता एक चालक हैं, और घर की कमाई बहुत ज़्यादा नहीं थी।",
+     "His father is a driver, and the family's income was not very high."
+    ],
+    [
+     "इसलिए आदित्य ने एक पुरानी गेंद से ही रोज़ तीन घंटे मेहनत की।",
+     "So Aditya worked hard for three hours every day with just an old ball."
+    ],
+    [
+     "उन्होंने बताया कि मेरी प्रेरणा मेरी माँ हैं, जो मेरे हारने पर मुझे हिम्मत देती थीं।",
+     "He said my inspiration is my mother, who gave me courage when I lost."
+    ],
+    [
+     "पिछले साल एक बड़े मैच में वे असफल रहे और बहुत निराश हो गए।",
+     "Last year he failed in a big match and became very disappointed."
+    ],
+    [
+     "तब उनके शिक्षक ने कहा कि हारना भी एक सबक़ है, अगर तुम उससे सीखो।",
+     "Then his teacher said losing is also a lesson, if you learn from it."
+    ],
+    [
+     "इस बात ने उन्हें दोबारा भरोसा दिया, और उन्होंने अपना खेल बदल दिया।",
+     "This gave him trust again, and he changed his game."
+    ],
+    [
+     "मैंने पूछा कि अब आगे आपकी क्या योजना है।",
+     "I asked what his plan is now."
+    ],
+    [
+     "वे बोले कि मैं अपने खेल के लिए पूरी तरह समर्पित हूँ, पर स्कूल की परवाह भी करता हूँ।",
+     "He said I am completely dedicated to my game, but I also care about school."
+    ],
+    [
+     "आख़िर में मैंने पूछा कि बाक़ी युवा खिलाड़ियों के लिए आपकी क्या सलाह है।",
+     "Finally I asked what his advice is for other young players."
+    ],
+    [
+     "उन्होंने मुस्कुराकर कहा कि रोज़ मेहनत करो, और अपनी क़िस्मत पर नहीं, अपने प्रयास पर भरोसा रखो।",
+     "He said with a smile, work hard every day, and trust your effort, not your luck."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "आदित्य ने इस साल क्या जीता?",
+     "en": "What did Aditya win this year?",
+     "type": "mc",
+     "options": [
+      "क्रिकेट की राज्य प्रतियोगिता",
+      "एक बड़े शहर की पढ़ने की प्रतियोगिता",
+      "स्कूल का खेल",
+      "एक नौकरी"
+     ],
+     "answer": 0,
+     "words": [
+      "क्रिकेट"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "आदित्य के पिता चालक हैं।",
+     "en": "Aditya's father is a driver.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चालक"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "आदित्य के हारने पर उसे हिम्मत कौन देता था?",
+     "en": "Who gave Aditya courage when he lost?",
+     "type": "mc",
+     "options": [
+      "उसका दोस्त",
+      "उसके पिता",
+      "उसकी माँ",
+      "उसका शिक्षक"
+     ],
+     "answer": 2,
+     "words": [
+      "प्रेरणा",
+      "हिम्मत"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "पिछले साल आदित्य एक बड़े मैच में कामयाब रहे।",
+     "en": "Last year Aditya was successful in a big match.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "असफल",
+      "निराश"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "आदित्य दूसरे युवाओं को क्या सलाह देते हैं?",
+     "en": "What advice does Aditya give other youngsters?",
+     "type": "mc",
+     "options": [
+      "अपने प्रयास पर भरोसा रखें",
+      "सिर्फ़ क़िस्मत पर भरोसा करें",
+      "खेल छोड़ दें",
+      "कम मेहनत करें"
+     ],
+     "answer": 0,
+     "words": [
+      "क़िस्मत",
+      "प्रयास"
+     ],
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "p0075",
+   "lv": "B1",
+   "title": "तालाब के किनारे",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "गाँव के बाहर एक बड़ा तालाब था, जहाँ बच्चे हर शाम खेलने जाते थे।",
+     "Outside the village there was a big pond where children went to play every evening."
+    ],
+    [
+     "एक दिन चार बच्चे अपनी रोटियाँ और फल लेकर वहाँ पहुँचे।",
+     "One day four children reached there with their rotis and fruit."
+    ],
+    [
+     "उन्होंने बैग घास पर रखा और पानी में पैर डालकर बैठ गए।",
+     "They put the bag on the grass and sat with their feet in the water."
+    ],
+    [
+     "सबको लगा कि आज का दिन बहुत मज़ेदार होगा।",
+     "Everyone felt that today would be a lot of fun."
+    ],
+    [
+     "तभी पेड़ से एक बंदर नीचे उतरा और धीरे-धीरे उनके पास आने लगा।",
+     "Just then a monkey came down from the tree and slowly began to approach them."
+    ],
+    [
+     "सबसे छोटी बच्ची डर गई और ज़ोर से चिल्लाई।",
+     "The youngest girl got scared and shouted loudly."
+    ],
+    [
+     "बंदर ने उसके सिर से टोपी छीन ली और पेड़ पर चढ़ गया।",
+     "The monkey snatched the cap off her head and climbed the tree."
+    ],
+    [
+     "बच्चे हँसे भी और परेशान भी हुए, क्योंकि वह टोपी बच्ची की दादी ने बनाई थी।",
+     "The children laughed and were also upset, because the girl's grandmother had made that cap."
+    ],
+    [
+     "तब सबसे बड़े लड़के ने अपनी रोटी का एक टुकड़ा ऊपर की ओर बढ़ाया।",
+     "Then the oldest boy held a piece of his roti up."
+    ],
+    [
+     "बंदर ने टोपी नीचे गिरा दी और रोटी लेकर भाग गया।",
+     "The monkey dropped the cap and ran off with the roti."
+    ],
+    [
+     "बच्ची ने टोपी उठाई, उसकी धूल साफ़ की और उसे फिर से पहन लिया।",
+     "The girl picked up the cap, cleaned off the dust and put it on again."
+    ],
+    [
+     "उस दिन के बाद बच्चे जब भी तालाब जाते, तो खाने की चीज़ें अपने बैग में बंद रखते।",
+     "After that day, whenever the children went to the pond, they kept food things closed in their bag."
+    ],
+    [
+     "कभी-कभी वही बंदर दूर पेड़ से उन्हें देखता रहता था, जैसे उसे अपनी जीत पर बहुत गर्व हो।",
+     "Sometimes that same monkey kept watching them from far up a tree, as if proud of his victory."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "बच्चे तालाब पर क्या लेकर गए थे?",
+     "en": "What did the children take to the pond?",
+     "type": "mc",
+     "options": [
+      "मछली पकड़ने का सामान",
+      "खिलौने",
+      "किताबें",
+      "फल और रोटी"
+     ],
+     "answer": 3,
+     "words": [
+      "रोटी",
+      "फल"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "बच्चों ने बैग पानी में रख दिया।",
+     "en": "The children put the bag in the water.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "बैग",
+      "घास"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "बंदर ने बच्ची से क्या छीना?",
+     "en": "What did the monkey snatch from the girl?",
+     "type": "mc",
+     "options": [
+      "बच्चों का फल",
+      "सबसे बड़े लड़के की रोटी",
+      "बच्ची की टोपी",
+      "छोटी बच्ची का बैग"
+     ],
+     "answer": 2,
+     "words": [
+      "टोपी",
+      "छीनना"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "बंदर ने रोटी का टुकड़ा देखकर टोपी गिरा दी।",
+     "en": "The monkey dropped the cap on seeing the piece of roti.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "गिराना"
+     ],
+     "sentence": 9
+    },
+    {
+     "q": "उस दिन के बाद बच्चे क्या करने लगे?",
+     "en": "What did the children start doing after that day?",
+     "type": "mc",
+     "options": [
+      "तालाब पर जाना ही बंद कर दिया",
+      "बंदर को खाना देने लगे",
+      "खाना बैग में बंद रखने लगे",
+      "पेड़ पर चढ़ने लगे"
+     ],
+     "answer": 2,
+     "words": [
+      "बैग",
+      "बंद"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0076",
+   "lv": "B1",
+   "title": "कवि से मुलाक़ात",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "पिछले शनिवार शहर के पुस्तकालय में एक प्रसिद्ध कवि से मेरी मुलाक़ात हुई।",
+     "Last Saturday I met a famous poet at the city library."
+    ],
+    [
+     "मैं बचपन से उनकी कविताएँ पढ़ता आया हूँ, इसलिए मैं बहुत ख़ुश था।",
+     "I have been reading his poems since childhood, so I was very happy."
+    ],
+    [
+     "बड़े कमरे में क़रीब सौ प्रशंसक आए थे, और कुछ लोग अपनी पुस्तकें साथ लाए थे।",
+     "About a hundred fans had come to the big room, and some people had brought their books along."
+    ],
+    [
+     "कवि ने पहले अपनी एक पुरानी कविता सुनाई, जिसमें गाँव की याद थी।",
+     "The poet first recited one of his old poems, which had a memory of the village in it."
+    ],
+    [
+     "उसके बाद उन्होंने बताया कि अच्छी पंक्तियाँ लिखने के लिए रोज़ पढ़ना बहुत ज़रूरी है।",
+     "After that he said that to write good lines, reading every day is very important."
+    ],
+    [
+     "एक लड़की ने पूछा कि आपकी कविताओं का अनुवाद दूसरी भाषाओं में क्यों नहीं होता।",
+     "A girl asked why your poems are not translated into other languages."
+    ],
+    [
+     "उन्होंने हँसकर कहा कि अनुवाद आसान नहीं है, क्योंकि कुछ शब्दों का पूरा अर्थ दूसरी भाषा में नहीं आता।",
+     "He said with a laugh that translation is not easy, because the full meaning of some words does not come in another language."
+    ],
+    [
+     "एक बूढ़े आदमी ने बताया कि उन्होंने तीस साल पहले कवि का एक लेख पढ़ा था, जिसने उनकी सोच बदल दी।",
+     "An old man said that thirty years ago he had read an article by the poet which changed his thinking."
+    ],
+    [
+     "कवि ने उनकी बात ध्यान से सुनी और उन्हें धन्यवाद दिया।",
+     "The poet listened to him carefully and thanked him."
+    ],
+    [
+     "अंत में कवि सबकी पुस्तकों पर हस्ताक्षर करने लगे।",
+     "At the end the poet began signing everyone's books."
+    ],
+    [
+     "मैंने भी अपनी पुस्तक आगे बढ़ाई, तो उन्होंने नीली क़लम से मेरा नाम लिखा।",
+     "I also held out my book, and he wrote my name with a blue pen."
+    ],
+    [
+     "उन्होंने कहा कि हर अक्षर सोच-समझकर लिखना, क्योंकि शब्दों में बहुत ताक़त होती है।",
+     "He said write every letter thoughtfully, because words have great power."
+    ],
+    [
+     "घर लौटते समय मैं पूरे रास्ते उन्हीं की पंक्तियाँ याद करता रहा।",
+     "On the way home I kept recalling his lines the whole way."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "कवि से मुलाक़ात कहाँ हुई?",
+     "en": "Where did the meeting with the poet take place?",
+     "type": "mc",
+     "options": [
+      "कवि के अपने घर पर",
+      "स्कूल के बड़े कमरे में",
+      "शहर के बड़े पार्क में",
+      "एक पुस्तकालय में"
+     ],
+     "answer": 3,
+     "words": [
+      "पुस्तकालय",
+      "मुलाक़ात होना"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "कवि ने अपनी कोई कविता नहीं सुनाई।",
+     "en": "The poet did not recite any poem of his.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "कविता",
+      "सुनाना"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "अनुवाद आसान क्यों नहीं है?",
+     "en": "Why is translation not easy?",
+     "type": "mc",
+     "options": [
+      "दूसरी भाषा में अर्थ नहीं मिलता",
+      "कवि के पास अनुवाद का समय नहीं है",
+      "कविताएँ बहुत ही लंबी हैं",
+      "पुस्तकें बहुत महँगी हैं"
+     ],
+     "answer": 0,
+     "words": [
+      "अनुवाद",
+      "अर्थ"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "एक बूढ़े आदमी ने कवि का लेख पढ़ा था।",
+     "en": "An old man had read an article by the poet.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "लेख",
+      "सोच"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "कवि ने लेखक का नाम किससे लिखा?",
+     "en": "With what did the poet write the narrator's name?",
+     "type": "mc",
+     "options": [
+      "एक काली क़लम से",
+      "एक नीली क़लम से",
+      "एक लाल क़लम से",
+      "एक हरी क़लम से"
+     ],
+     "answer": 1,
+     "words": [
+      "क़लम"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0077",
+   "lv": "B1",
+   "title": "महीने का हिसाब",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "हर महीने की पहली तारीख़ को मैं बैठकर अपने ख़र्च का हिसाब लिखता हूँ।",
+     "On the first of every month I sit down and write the account of my spending."
+    ],
+    [
+     "पिछले साल तक मुझे पता ही नहीं चलता था कि मेरे पैसे कहाँ जाते हैं।",
+     "Until last year I never knew where my money went."
+    ],
+    [
+     "वेतन मिलते ही दस दिन में आधा पैसा ख़त्म हो जाता था, और फिर मुझे दोस्त से उधार लेना पड़ता था।",
+     "Half the money was gone within ten days of getting my salary, and then I had to borrow from a friend."
+    ],
+    [
+     "एक बार तो मैंने बैंक से क़र्ज़ लिया और उस पर काफ़ी ब्याज देना पड़ा।",
+     "Once I even took a loan from the bank and had to pay quite a lot of interest on it."
+    ],
+    [
+     "तब मैंने तय किया कि अब काग़ज़ पर सब कुछ लिखूँगा।",
+     "Then I decided that now I would write everything on paper."
+    ],
+    [
+     "पहले महीने में मुझे यह देखकर आश्चर्य हुआ कि मैं खाने-पीने पर बहुत ज़्यादा ख़र्च करता हूँ।",
+     "In the first month I was surprised to see that I spend a great deal on food and drink."
+    ],
+    [
+     "बाहर का खाना खाना मेरे वेतन का बड़ा हिस्सा ले जाता था।",
+     "Eating food from outside took a big part of my salary."
+    ],
+    [
+     "मैंने उसमें कटौती की और घर पर ज़्यादा खाना बनाना शुरू किया।",
+     "I made a cut there and started cooking more at home."
+    ],
+    [
+     "मैंने बीमा के लिए भी हर महीने थोड़े पैसे जोड़ दिए।",
+     "I also put aside a little money every month for insurance."
+    ],
+    [
+     "अब मैं हर महीने थोड़ा पैसा अलग रखता हूँ, चाहे वह कम ही क्यों न हो।",
+     "Now I set aside a little money every month, however little it may be."
+    ],
+    [
+     "मेरी माँ कहती हैं कि पैसा नदी की तरह है, उसकी दिशा तय न करो तो वह कहीं भी बह जाता है।",
+     "My mother says money is like a river; if you do not decide its direction, it flows anywhere."
+    ],
+    [
+     "अब महीने के अंत में मुझे चिंता नहीं होती।",
+     "Now I do not worry at the end of the month."
+    ],
+    [
+     "पिछले हफ़्ते मैंने पहली बार अपने लिए एक अच्छी घड़ी ख़रीदी, और वह भी बिना किसी क़र्ज़ के।",
+     "Last week for the first time I bought myself a good watch, and that too without any debt."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "लेखक हर महीने की पहली तारीख़ को क्या करता है?",
+     "en": "What does the writer do on the first of every month?",
+     "type": "mc",
+     "options": [
+      "नई घड़ी ख़रीदता है",
+      "पुराने दोस्तों से मिलता है",
+      "ख़र्च का हिसाब लिखता है",
+      "घर बदलता है"
+     ],
+     "answer": 2,
+     "words": [
+      "तारीख़",
+      "हिसाब"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "पहले लेखक को पता चलता था कि उसके पैसे कहाँ जाते हैं।",
+     "en": "Earlier the writer knew where his money went.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "पैसा"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "लेखक का सबसे ज़्यादा ख़र्च किस पर निकला?",
+     "en": "What turned out to be the writer's biggest expense?",
+     "type": "mc",
+     "options": [
+      "कपड़ों और जूतों पर",
+      "बाहर के खाने पर",
+      "घर के किराए पर",
+      "फ़ोन और इंटरनेट पर"
+     ],
+     "answer": 1,
+     "words": [
+      "ख़र्च करना"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "लेखक ने बाहर का खाना कम खाना शुरू कर दिया।",
+     "en": "The writer started eating less food from outside.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "कटौती"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "लेखक की माँ के अनुसार पैसा किसकी तरह है?",
+     "en": "According to the writer's mother, money is like what?",
+     "type": "mc",
+     "options": [
+      "घड़ी",
+      "पेड़",
+      "पहाड़",
+      "नदी"
+     ],
+     "answer": 3,
+     "words": [
+      "दिशा",
+      "नदी"
+     ],
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "p0078",
+   "lv": "B1",
+   "title": "सर्दियों का त्योहार",
+   "oop": {
+    "रिया": "name"
+   },
+   "names": [
+    "रिया"
+   ],
+   "sentences": [
+    [
+     "हमारे शहर में हर साल सर्दियों में एक छोटा त्योहार मनाया जाता है, जिसका सब बच्चे इंतज़ार करते हैं।",
+     "In our city a small festival is held every winter, which all the children wait for."
+    ],
+    [
+     "इस बार भी रविवार को मैं अपनी छोटी बहन रिया को वहाँ ले गया।",
+     "This time too, on Sunday I took my little sister Riya there."
+    ],
+    [
+     "मैदान में सैकड़ों लोग थे, और हर तरफ़ से गाने और हँसी की आवाज़ आ रही थी।",
+     "There were hundreds of people in the field, and the sound of songs and laughter was coming from every side."
+    ],
+    [
+     "एक दुकान पर खिलौने बिक रहे थे, और रिया हर खिलौने को हाथ में लेकर देखती रही।",
+     "Toys were being sold at one shop, and Riya kept picking up each toy to look at it."
+    ],
+    [
+     "मैंने उससे कहा कि सिर्फ़ एक खिलौना चुनो, क्योंकि मेरे पास ज़्यादा पैसे नहीं हैं।",
+     "I told her to choose just one toy, because I do not have much money."
+    ],
+    [
+     "उसने बहुत सोचा और आख़िर में लकड़ी का एक छोटा हाथी चुना।",
+     "She thought a lot and finally chose a small wooden elephant."
+    ],
+    [
+     "आगे एक आदमी जादू दिखा रहा था, जिसने अपनी टोपी से एक सफ़ेद चिड़िया निकाल दी।",
+     "Ahead, a man was performing magic, and he took a white bird out of his hat."
+    ],
+    [
+     "बच्चे ख़ुशी से चिल्लाए, और रिया ने मेरा हाथ ज़ोर से पकड़ लिया।",
+     "The children shouted with joy, and Riya gripped my hand tightly."
+    ],
+    [
+     "पास में एक जोकर सबको मिठाई बाँट रहा था, और वह हर बच्चे को देखकर मज़ेदार चेहरा बनाता था।",
+     "Nearby a clown was handing out sweets to everyone, and he made a funny face at every child."
+    ],
+    [
+     "एक छोटी दुकान पर गरम आलू बन रहे थे, और सबको उनका स्वाद बहुत पसंद आया।",
+     "Hot potatoes were being made at a small stall, and everyone liked their taste a lot."
+    ],
+    [
+     "हमने वहाँ बैठकर खाया और जोड़ी में बैठे कुछ बूढ़े लोगों का गाना सुना।",
+     "We sat there and ate, and heard some old couples sitting together sing."
+    ],
+    [
+     "शाम को रिया बहुत थक गई थी, इसलिए मैंने उसे अपने कंधे पर उठा लिया।",
+     "In the evening Riya was very tired, so I lifted her onto my shoulders."
+    ],
+    [
+     "घर पहुँचते-पहुँचते वह सो गई, पर उसके हाथ में अभी भी हाथी था।",
+     "By the time we reached home she was asleep, but the elephant was still in her hand."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "त्योहार कब मनाया जाता है?",
+     "en": "When is the festival held?",
+     "type": "mc",
+     "options": [
+      "हर गर्मी की छुट्टी में",
+      "हर महीने के पहले रविवार को",
+      "सर्दियों में हर साल",
+      "हर साल बारिश के बाद"
+     ],
+     "answer": 2,
+     "words": [
+      "त्योहार"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "रिया ने तीन खिलौने चुने।",
+     "en": "Riya chose three toys.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "खिलौना",
+      "चुनना"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "जादू दिखाने वाले ने टोपी से क्या निकाला?",
+     "en": "What did the magician take out of his hat?",
+     "type": "mc",
+     "options": [
+      "एक फूल",
+      "एक चिड़िया",
+      "एक सिक्का",
+      "एक छोटा हाथी"
+     ],
+     "answer": 1,
+     "words": [
+      "जादू",
+      "टोपी"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "त्योहार में एक जोकर मिठाई बाँट रहा था।",
+     "en": "At the festival a clown was handing out sweets.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "जोकर",
+      "मिठाई"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "शाम को रिया को घर कैसे ले जाया गया?",
+     "en": "How was Riya taken home in the evening?",
+     "type": "mc",
+     "options": [
+      "गाड़ी में",
+      "कंधे पर उठाकर",
+      "पैदल चलाकर",
+      "माँ को बुलाकर"
+     ],
+     "answer": 1,
+     "words": [
+      "कंधा",
+      "थकना"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0079",
+   "lv": "B1",
+   "title": "बाढ़ का डर",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "पिछले सप्ताह लगातार चार दिन बारिश हुई, और हमारे गाँव के पास की नदी का पानी ऊपर आने लगा।",
+     "Last week it rained for four days in a row, and the water of the river near our village began to rise."
+    ],
+    [
+     "सुबह रेडियो पर समाचार आया कि आने वाले दो दिनों में बाढ़ आ सकती है।",
+     "In the morning the news came on the radio that a flood could come in the next two days."
+    ],
+    [
+     "ग्रामीण कार्यालय के लोग हर घर जाकर सबको सावधान करने लगे।",
+     "People from the village office went to every house and began to warn everyone."
+    ],
+    [
+     "उन्होंने कहा कि जिनके घर नदी के पास हैं, उन्हें स्कूल के बड़े भवन में जाना होगा।",
+     "They said that those whose houses are near the river will have to go to the big school building."
+    ],
+    [
+     "मेरी दादी पहले जाने को तैयार नहीं थीं, क्योंकि उन्होंने पूरी ज़िंदगी उसी घर में बिताई है।",
+     "My grandmother was not ready to go at first, because she has spent her whole life in that house."
+    ],
+    [
+     "पर पापा ने उन्हें समझाया कि जान से ज़्यादा कुछ ज़रूरी नहीं होता।",
+     "But Father explained to her that nothing is more important than life."
+    ],
+    [
+     "हमने ज़रूरी दस्तावेज़ एक बैग में रखे, और बाक़ी सामान ऊपर की मंज़िल पर रख दिया।",
+     "We put the important documents in a bag, and put the rest of the things on the upper floor."
+    ],
+    [
+     "स्कूल के कक्ष में गाँव की आधी आबादी इकट्ठा हो गई थी।",
+     "Half the village's population had gathered in the school's rooms."
+    ],
+    [
+     "वहाँ सब लोगों के लिए खाना, पानी और चादरें थीं, और कुछ युवक बीमार लोगों की देखभाल कर रहे थे।",
+     "There was food, water and sheets for all the people, and some young men were looking after the sick."
+    ],
+    [
+     "रात को बच्चों ने मिलकर गाने गाए, ताकि कोई डरे नहीं।",
+     "At night the children sang songs together so that no one would be afraid."
+    ],
+    [
+     "अगले दिन पानी हमारे आँगन तक आया, पर घरों में नहीं घुसा।",
+     "The next day the water came up to our courtyard, but did not enter the houses."
+    ],
+    [
+     "तीसरे दिन नदी का पानी घटने लगा, और हम अपने घर लौट आए।",
+     "On the third day the river's water began to go down, and we returned to our homes."
+    ],
+    [
+     "इस घटना ने सबको सिखाया कि मुसीबत में एकता सबसे बड़ी ताक़त है।",
+     "This incident taught everyone that in trouble unity is the greatest strength."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "बाढ़ की ख़बर किससे मिली?",
+     "en": "How did the news of the flood arrive?",
+     "type": "mc",
+     "options": [
+      "अख़बार से",
+      "फ़ोन से",
+      "पड़ोसियों से",
+      "रेडियो से"
+     ],
+     "answer": 3,
+     "words": [
+      "बाढ़",
+      "समाचार"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "दादी घर छोड़ने के लिए तुरंत तैयार हो गईं।",
+     "en": "Grandmother was immediately ready to leave the house.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "ज़िंदगी"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "नदी के पास रहने वालों को कहाँ जाना था?",
+     "en": "Where did people living near the river have to go?",
+     "type": "mc",
+     "options": [
+      "स्कूल के भवन में",
+      "दूसरे गाँव के घर में",
+      "पहाड़ पर",
+      "अस्पताल में"
+     ],
+     "answer": 0,
+     "words": [
+      "भवन",
+      "स्कूल"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "स्कूल में रहने वालों को खाना और पानी मिला।",
+     "en": "The people staying at the school got food and water.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "चादर",
+      "देखभाल"
+     ],
+     "sentence": 8
+    },
+    {
+     "q": "तीसरे दिन क्या हुआ?",
+     "en": "What happened on the third day?",
+     "type": "mc",
+     "options": [
+      "सब लोग दूसरे गाँव चले गए",
+      "स्कूल का भवन भी बंद हो गया",
+      "बारिश और भी तेज़ हो गई",
+      "नदी का पानी कम होने लगा"
+     ],
+     "answer": 3,
+     "words": [
+      "घटना",
+      "नदी"
+     ],
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "p0080",
+   "lv": "B1",
+   "title": "दादी की कथा",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "जब मैं छोटा था, तब हर रात सोने से पहले दादी मुझे एक कथा सुनाती थीं।",
+     "When I was small, every night before sleeping my grandmother used to tell me a tale."
+    ],
+    [
+     "उनकी सबसे पसंदीदा कथा एक बहादुर राजकुमारी की थी।",
+     "Her favourite tale was about a brave princess."
+    ],
+    [
+     "कथा में राजकुमारी एक द्वीप पर रहती थी, जिसके चारों ओर नीला पानी था।",
+     "In the tale the princess lived on an island with blue water all around it."
+    ],
+    [
+     "एक दिन उसे पता चला कि द्वीप के बीच एक गुफा में पुराना ख़ज़ाना छिपा है।",
+     "One day she learned that an old treasure was hidden in a cave in the middle of the island."
+    ],
+    [
+     "गाँव के लोग कहते थे कि उस गुफा में एक भयानक शेर रहता है।",
+     "The village people said a terrible lion lives in that cave."
+    ],
+    [
+     "पर राजकुमारी को इस बात पर भरोसा नहीं था।",
+     "But the princess did not believe this."
+    ],
+    [
+     "वह अकेली एक छोटी नाव में बैठी और गुफा तक पहुँच गई।",
+     "She sat alone in a small boat and reached the cave."
+    ],
+    [
+     "वहाँ उसे शेर नहीं, बल्कि एक बूढ़ा आदमी मिला, जो रास्ता भटक गया था।",
+     "There she found not a lion but an old man who had lost his way."
+    ],
+    [
+     "उसने उस आदमी को पानी पिलाया और उसे अपने साथ वापस ले आई।",
+     "She gave the man water and brought him back with her."
+    ],
+    [
+     "बूढ़े आदमी ने जाते समय उसे एक पहेली दी, जिसका जवाब था कि असली ख़ज़ाना दूसरों की मदद करना है।",
+     "When leaving, the old man gave her a riddle whose answer was that the real treasure is helping others."
+    ],
+    [
+     "दादी यह कथा इतने प्यार से सुनाती थीं कि मुझे हर शब्द सच लगता था।",
+     "Grandmother told this tale so lovingly that every word seemed true to me."
+    ],
+    [
+     "आज मैं अपने बेटे को वही कथा सुनाता हूँ, और वह मुझसे वही सवाल पूछता है।",
+     "Today I tell the same tale to my son, and he asks me the same questions."
+    ],
+    [
+     "शायद अच्छी कथाएँ इसी तरह एक पीढ़ी से दूसरी पीढ़ी तक पहुँचती हैं।",
+     "Perhaps good tales reach from one generation to the next in just this way."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "राजकुमारी कहाँ रहती थी?",
+     "en": "Where did the princess live?",
+     "type": "mc",
+     "options": [
+      "एक पहाड़ पर",
+      "एक द्वीप पर",
+      "एक गाँव में",
+      "एक जंगल में"
+     ],
+     "answer": 1,
+     "words": [
+      "द्वीप",
+      "राजकुमारी"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "गुफा में सचमुच एक शेर रहता था।",
+     "en": "A lion really lived in the cave.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "शेर",
+      "भयानक"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "राजकुमारी गुफा तक कैसे पहुँची?",
+     "en": "How did the princess reach the cave?",
+     "type": "mc",
+     "options": [
+      "एक छोटी नाव में",
+      "पैदल चलकर",
+      "अपने घोड़े पर बैठकर",
+      "तैरकर नदी पार करके"
+     ],
+     "answer": 0,
+     "words": [
+      "नाव",
+      "गुफा"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "बूढ़ा आदमी रास्ता भटक गया था।",
+     "en": "The old man had lost his way.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "भटकना"
+     ],
+     "sentence": 7
+    },
+    {
+     "q": "पहेली के अनुसार असली ख़ज़ाना क्या है?",
+     "en": "According to the riddle, what is the real treasure?",
+     "type": "mc",
+     "options": [
+      "गुफा में रखा सारा पैसा",
+      "दूसरों की सहायता करना",
+      "एक पुरानी गुफा",
+      "बहादुर होना"
+     ],
+     "answer": 1,
+     "words": [
+      "पहेली",
+      "ख़ज़ाना"
+     ],
+     "sentence": 9
+    }
+   ]
   }
  ]
 }

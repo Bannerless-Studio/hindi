@@ -10,8 +10,8 @@ words = the builder's word count (the band rule); ws_words = whitespace-separate
 tokens of the passage text, the count the app shows (report only).
 
 - **A1**: 20 passages; words/passage 61-79 (median 68.5); ws_words 65-84; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 40, tf 57
-- **A2**: 20 passages; words/passage 100-125 (median 110.0); ws_words 108-129; coverage min 0.982, median 1.000 (rule >= 0.95); linked min 0.982; questions mc 43, tf 57
-- **B1**: 20 passages; words/passage 152-187 (median 173.0); ws_words 163-194; coverage min 1.000, median 1.000 (rule >= 0.93); linked min 1.000; questions mc 59, tf 40
+- **A2**: 30 passages; words/passage 100-140 (median 113.5); ws_words 108-143; coverage min 0.982, median 1.000 (rule >= 0.95); linked min 0.982; questions mc 73, tf 77
+- **B1**: 30 passages; words/passage 152-194 (median 176.0); ws_words 163-201; coverage min 1.000, median 1.000 (rule >= 0.93); linked min 1.000; questions mc 89, tf 60
 
 | id | lv | title | words | ws_words | coverage | linked | out-of-pack lemmas (reason) | higher-level lemmas |
 |---|---|---|---|---|---|---|---|---|
@@ -75,12 +75,36 @@ tokens of the passage text, the count the app shows (report only).
 | p0058 | B1 | नए होटल के बारे में मेरी राय | 165 | 176 | 1.000 | 1.000 | - | - |
 | p0059 | B1 | बड़ी उम्र में नई भाषा | 180 | 183 | 1.000 | 1.000 | - | - |
 | p0060 | B1 | दस साल बाद के लिए चिट्ठी | 182 | 194 | 1.000 | 1.000 | - | - |
+| p0061 | A2 | किसान और गधा | 123 | 130 | 1.000 | 1.000 | - | B1: घास, तैरना, रुक जाना |
+| p0062 | A2 | भैया की शादी | 137 | 140 | 1.000 | 1.000 | - | B1: मुस्कुराना, मेहमान, स्वागत करना |
+| p0063 | A2 | पुस्तकालय के नए नियम | 108 | 115 | 1.000 | 1.000 | - | B1: पुस्तकालय |
+| p0064 | A2 | तूफ़ान की रात | 129 | 133 | 1.000 | 1.000 | - | B1: शाखा |
+| p0065 | A2 | पार्क में फ़ुटबॉल | 115 | 120 | 1.000 | 1.000 | - | B1: गोल, फ़ुटबॉल |
+| p0066 | A2 | अगले सोमवार की बैठक | 104 | 111 | 1.000 | 1.000 | - | B1: चुपचाप |
+| p0067 | A2 | बाज़ार में एक दुकानदार | 140 | 143 | 1.000 | 1.000 | - | B1: किलो |
+| p0068 | A2 | पहली हवाई यात्रा | 130 | 133 | 1.000 | 1.000 | - | B1: अड्डा, बादल |
+| p0069 | A2 | दादा जी की तबीयत | 126 | 127 | 1.000 | 1.000 | - | B1: बुख़ार |
+| p0070 | A2 | परीक्षा का परिणाम | 130 | 135 | 1.000 | 1.000 | - | B1: गणित, तारीफ़ |
+| p0071 | B1 | नदी पर नया पुल | 194 | 201 | 1.000 | 1.000 | - | - |
+| p0072 | B1 | पहाड़ पर पहला सफ़र | 194 | 199 | 1.000 | 1.000 | - | - |
+| p0073 | B1 | नए फ़ोन की शिकायत | 182 | 191 | 1.000 | 1.000 | - | - |
+| p0074 | B1 | एक युवा खिलाड़ी से बातचीत | 177 | 186 | 1.000 | 1.000 | - | - |
+| p0075 | B1 | तालाब के किनारे | 169 | 172 | 1.000 | 1.000 | - | - |
+| p0076 | B1 | कवि से मुलाक़ात | 179 | 185 | 1.000 | 1.000 | - | - |
+| p0077 | B1 | महीने का हिसाब | 191 | 193 | 1.000 | 1.000 | - | - |
+| p0078 | B1 | सर्दियों का त्योहार | 188 | 200 | 1.000 | 1.000 | - | - |
+| p0079 | B1 | बाढ़ का डर | 186 | 189 | 1.000 | 1.000 | - | - |
+| p0080 | B1 | दादी की कथा | 170 | 181 | 1.000 | 1.000 | - | - |
 
 Title words, and question/option words the budget does not count (a numeral-like
 pack word), that are out of the pack or above the passage's level (report only;
 the budget rule above is unchanged):
 
 - p0009: title 'जन्मदिन': जन्मदिन A2
+- p0063: title 'पुस्तकालय': पुस्तकालय B1
+- p0065: title 'फुटबॉल': फ़ुटबॉल B1
+- p0067: title 'दुकानदार': out of pack
+- p0069: title 'तबीयत': out of pack
 
 <!-- manual section: kept across runs -->
 ## Manual QA (2026-09-26)
@@ -89,6 +113,8 @@ the budget rule above is unchanged):
   `--check` reports 0 errors; two runs give byte-identical output.
 - **Orthography.** Standard Devanagari with nukta and chandrabindu. The glide spellings are written
   folded (रुपए, किराए, गए), because spans match per character after `span_fold`.
+- **More A2/B1 reading (2026-10-14).** p0061-p0070 (A2) and p0071-p0080 (B1) appended, so A2 and B1 hold 30 each; p0001-p0060 are unchanged (progress keys).
+  They favour pack words the first 60 never linked (221 A2/B1 words newly linked). mc answer positions 0/1/2/3 are 16/16/14/14, no correct option is the unique longest, new mc keys verbatim in the text: A2 4/30, B1 0/30. Names: सुनील, मीना, मोहन, सुरेश, आदित्य, रिया, रामलाल.
 - **Builder, Hindi** (passage-only hooks in `langs/hi.py`):
   - hyphenated pairs split (माता-पिता, धीरे-धीरे, एक-दूसरे);
   - auxiliaries, vector/passive V2 and conjunctive कर/के are not counted;
