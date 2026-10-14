@@ -16,8 +16,8 @@ Each subtitle / wordfreq surface form is split over the (lemma, POS) pairs it ta
 
 | list | surfaces resolved from corpus | simplemma fallback |
 |---|---|---|
-| subtitles (top 100,000 surfaces) | 3,265 | 15,395 |
-| wordfreq top 30,000 | 3,355 | 18,994 |
+| subtitles (top 100,000 surfaces) | 3,264 | 15,396 |
+| wordfreq top 30,000 | 3,354 | 18,995 |
 
 Fallback lemmas whose POS could not be attached from another surface: 26,256. Clitic compounds resolved to the verb by suffix stripping: 0 distinct forms. Tokens with no dictionary-validated lemma (kept, never selected as words): 1,332.
 
@@ -60,20 +60,20 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
    2 का [prep] of, 's (का/की/के: agrees with what follows)
    3 में [prep] in, into; inside
    4 के लिए [prep] for
-   5 नहीं [part] not, no
-   6 करना [verb] to do, to make
+   5 करना [verb] to do, to make
+   6 नहीं [part] not, no
    7 यह [pron] this; he, she, it (near)
    8 मैं [pron] I
    9 और [conj] and; more
   10 को [prep] to; (marks a definite object)
   11 से [prep] from; with, by; than; since
   12 एक [num] one; a, an
-  13 रहना [verb] to live, to stay
-  14 जाना [verb] to go
+  13 जाना [verb] to go
+  14 रहना [verb] to live, to stay
   15 वह [pron] that; he, she, it (far)
   16 आप [pron] you (polite)
-  17 भी [part] also, too, even
-  18 पर [prep] on, at
+  17 पर [prep] on, at
+  18 भी [part] also, too, even
   19 कि [conj] that
   20 के साथ [prep] with, together with
   21 अपना [pron] one's own (my own, your own, his own...)
@@ -148,8 +148,8 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
   90 बार [noun] time, occasion (एक बार: once) (f)
   91 बड़ा [adj] big, large; elder
   92 कौन [pron] who
-  93 नाम [noun] name (m)
-  94 बनना [verb] to become; to be made
+  93 बनना [verb] to become; to be made
+  94 नाम [noun] name (m)
   95 रूप [noun] form, shape, appearance (m)
   96 मिल जाना [verb] to be found; to come across, to meet
   97 कैसे [adv] how
