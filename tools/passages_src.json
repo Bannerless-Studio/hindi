@@ -7730,7 +7730,9 @@
    "id": "p0062",
    "lv": "A2",
    "title": "भैया की शादी",
-   "oop": {},
+   "oop": {
+    "लेखिका": "feminine of लेखक, used once in a question to name the narrator"
+   },
    "names": [],
    "sentences": [
     [
@@ -7805,8 +7807,8 @@
      "sentence": 3
     },
     {
-     "q": "लड़की को किस बात का डर लग रहा है?",
-     "en": "What is the girl afraid of?",
+     "q": "लेखिका को किस बात का डर लग रहा है?",
+     "en": "What is the writer afraid of?",
      "type": "mc",
      "options": [
       "देर से पहुँचने का",
@@ -7855,7 +7857,9 @@
    "id": "p0063",
    "lv": "A2",
    "title": "पुस्तकालय के नए नियम",
-   "oop": {},
+   "oop": {
+    "फ़ॉर्म": "loanword 'form', not in the pack"
+   },
    "names": [],
    "sentences": [
     [
@@ -7891,8 +7895,8 @@
      "For returning a book late, five rupees per day must be paid."
     ],
     [
-     "नया सदस्य बनने के लिए एक पत्र पर हस्ताक्षर करना होगा।",
-     "To become a new member you must sign a letter."
+     "नया सदस्य बनने के लिए एक फ़ॉर्म पर हस्ताक्षर करना होगा।",
+     "To become a new member you must sign a form."
     ],
     [
      "बच्चों के लिए हर शनिवार को कहानी का समय रहेगा, और माता-पिता भी बैठ सकते हैं।",
@@ -7968,13 +7972,12 @@
      "options": [
       "नई परीक्षा देना और पास होना",
       "कार्ड के लिए पैसे देना",
-      "पत्र पर अपना नाम लिखना",
+      "फ़ॉर्म पर हस्ताक्षर करना",
       "फ़ोटो भेजना"
      ],
      "answer": 2,
      "words": [
-      "हस्ताक्षर",
-      "पत्र"
+      "हस्ताक्षर"
      ],
      "sentence": 8
     }
@@ -8062,8 +8065,8 @@
      "sentence": 3
     },
     {
-     "q": "डर के कारण लिखने वाला किसके पास बैठा?",
-     "en": "Whom did the writer sit next to out of fear?",
+     "q": "डर के कारण लड़का किसके पास बैठा?",
+     "en": "Whom did the boy sit next to out of fear?",
      "type": "mc",
      "options": [
       "अपनी माँ के पास",
@@ -8230,8 +8233,7 @@
      ],
      "answer": 3,
      "words": [
-      "कप्तान",
-      "गला"
+      "कप्तान"
      ],
      "sentence": 9
     }
@@ -8390,7 +8392,7 @@
     ],
     [
      "उन्होंने कहा कि क़रीब बीस साल से, मेरे पिता जी ने यह दुकान शुरू की थी।",
-     "He said for about twenty years, my father started this shop."
+     "He said, \"For about twenty years; my father started this shop.\""
     ],
     [
      "मैंने पूछा कि आज फलों का मूल्य कैसा है।",
@@ -8410,7 +8412,7 @@
     ],
     [
      "उन्होंने हँसकर कहा कि अब आधे लोग फ़ोन से भुगतान करते हैं, और मैं भी सीख रहा हूँ।",
-     "He said with a laugh that now half the people pay by phone, and I am learning too."
+     "He said with a laugh, \"Now half the people pay by phone, and I am learning too.\""
     ],
     [
      "मैंने पूछा कि क्या यह काम मुश्किल है।",
@@ -8418,7 +8420,7 @@
     ],
     [
      "वे बोले कि हाँ, पर मुझे अपने काम में आनंद मिलता है, और मुझे अपने ग्राहकों की परवाह है।",
-     "He said yes, but I enjoy my work, and I care about my customers."
+     "He said, \"Yes, but I enjoy my work, and I care about my customers.\""
     ],
     [
      "मैंने उनका धन्यवाद किया और एक किलो आम ख़रीदे।",
@@ -8777,8 +8779,8 @@
      "Since morning she had been very worried and was not eating anything."
     ],
     [
-     "वह कहती थी कि मैंने गणित में बहुत मेहनत की, पर कुछ प्रश्न कठिन थे।",
-     "She kept saying that she worked hard in maths, but some questions were hard."
+     "वह कह रही थी कि मैंने गणित में बहुत मेहनत की, पर कुछ प्रश्न कठिन थे।",
+     "She was saying that she worked hard in maths, but some questions were hard."
     ],
     [
      "पापा ने कहा कि परिणाम जो भी हो, तुम्हारी कोशिश अच्छी थी।",
@@ -8789,8 +8791,8 @@
      "At ten we looked at the result on the phone."
     ],
     [
-     "मीना ने अपना नंबर खोला, और उसकी आँखों में आँसू आ गए।",
-     "Meena opened her number, and tears came to her eyes."
+     "मीना ने अपना परिणाम खोला, और उसकी आँखों में आँसू आ गए।",
+     "Meena opened her result, and tears came to her eyes."
     ],
     [
      "पहले हमें लगा कि वह दुखी है, पर वह तो ख़ुशी से रो रही थी।",
@@ -8809,8 +8811,8 @@
      "Meena said she wanted to tell this news to her teacher because he explained every subject well."
     ],
     [
-     "शाम को वह स्कूल गई, और शिक्षक ने उसके ज्ञान की बहुत तारीफ़ की।",
-     "In the evening she went to school, and the teacher praised her knowledge a lot."
+     "शाम को वह स्कूल गई, और शिक्षक ने उसकी मेहनत की बहुत तारीफ़ की।",
+     "In the evening she went to school, and the teacher praised her hard work a lot."
     ]
    ],
    "questions": [
@@ -8844,8 +8846,8 @@
      "sentence": 3
     },
     {
-     "q": "नंबर देखकर मीना ने क्या किया?",
-     "en": "What did Meena do on seeing her marks?",
+     "q": "परिणाम देखकर मीना ने क्या किया?",
+     "en": "What did Meena do on seeing her result?",
      "type": "mc",
      "options": [
       "वह ख़ुशी से रोई",
@@ -8855,7 +8857,6 @@
      ],
      "answer": 0,
      "words": [
-      "नंबर",
       "आँसू"
      ],
      "sentence": 5
@@ -8883,8 +8884,7 @@
      ],
      "answer": 2,
      "words": [
-      "शिक्षक",
-      "ज्ञान"
+      "स्कूल"
      ],
      "sentence": 10
     }
@@ -8963,7 +8963,7 @@
      ],
      "answer": 2,
      "words": [
-      "ख़र्च"
+      "साल"
      ],
      "sentence": 1
     },
@@ -9115,7 +9115,7 @@
      "answer": true,
      "words": [
       "बैग",
-      "कंधा"
+      "कपड़ा"
      ],
      "sentence": 1
     },
@@ -9137,11 +9137,11 @@
      "sentence": 4
     },
     {
-     "q": "गिरने से पहले लेखक को किसी ने नहीं थामा।",
-     "en": "Nobody held the writer before he fell.",
+     "q": "दोस्त ने लेखक को गिरने से बचा लिया।",
+     "en": "The friend saved the writer from falling.",
      "type": "tf",
      "options": null,
-     "answer": false,
+     "answer": true,
      "words": [
       "थामना"
      ],
@@ -9329,7 +9329,7 @@
     ],
     [
      "उन्होंने कहा कि बचपन से मेरा एक ही इरादा था कि मैं देश का सर्वश्रेष्ठ खिलाड़ी बनूँ।",
-     "He said that since childhood I had only one intention, to become the country's best player."
+     "He said, \"Since childhood I had only one intention: to become the country's best player.\""
     ],
     [
      "उनके पिता एक चालक हैं, और घर की कमाई बहुत ज़्यादा नहीं थी।",
@@ -9341,7 +9341,7 @@
     ],
     [
      "उन्होंने बताया कि मेरी प्रेरणा मेरी माँ हैं, जो मेरे हारने पर मुझे हिम्मत देती थीं।",
-     "He said my inspiration is my mother, who gave me courage when I lost."
+     "He said, \"My inspiration is my mother, who gave me courage when I lost.\""
     ],
     [
      "पिछले साल एक बड़े मैच में वे असफल रहे और बहुत निराश हो गए।",
@@ -9369,7 +9369,7 @@
     ],
     [
      "उन्होंने मुस्कुराकर कहा कि रोज़ मेहनत करो, और अपनी क़िस्मत पर नहीं, अपने प्रयास पर भरोसा रखो।",
-     "He said with a smile, work hard every day, and trust your effort, not your luck."
+     "He said with a smile, \"Work hard every day, and trust your effort, not your luck.\""
     ]
    ],
    "questions": [
@@ -9379,9 +9379,9 @@
      "type": "mc",
      "options": [
       "क्रिकेट की राज्य प्रतियोगिता",
-      "एक बड़े शहर की पढ़ने की प्रतियोगिता",
-      "स्कूल का खेल",
-      "एक नौकरी"
+      "स्कूल की गणित प्रतियोगिता",
+      "फ़ुटबॉल की राज्य प्रतियोगिता",
+      "शहर की क्रिकेट प्रतियोगिता"
      ],
      "answer": 0,
      "words": [
@@ -9435,9 +9435,9 @@
      "type": "mc",
      "options": [
       "अपने प्रयास पर भरोसा रखें",
-      "सिर्फ़ क़िस्मत पर भरोसा करें",
-      "खेल छोड़ दें",
-      "कम मेहनत करें"
+      "केवल क़िस्मत पर भरोसा करें",
+      "बड़े मैच से बचें",
+      "दूसरों से ज़्यादा बात करें"
      ],
      "answer": 0,
      "words": [
@@ -9705,8 +9705,8 @@
      "sentence": 7
     },
     {
-     "q": "कवि ने लेखक का नाम किससे लिखा?",
-     "en": "With what did the poet write the narrator's name?",
+     "q": "कवि ने पुस्तक पर नाम किस क़लम से लिखा?",
+     "en": "With which pen did the poet write the name in the book?",
      "type": "mc",
      "options": [
       "एक काली क़लम से",
@@ -9893,7 +9893,7 @@
      "She thought a lot and finally chose a small wooden elephant."
     ],
     [
-     "आगे एक आदमी जादू दिखा रहा था, जिसने अपनी टोपी से एक सफ़ेद चिड़िया निकाल दी।",
+     "आगे एक आदमी जादू दिखा रहा था, जिसने अपनी टोपी से एक सफ़ेद चिड़िया निकाली।",
      "Ahead, a man was performing magic, and he took a white bird out of his hat."
     ],
     [
@@ -9909,8 +9909,8 @@
      "Hot potatoes were being made at a small stall, and everyone liked their taste a lot."
     ],
     [
-     "हमने वहाँ बैठकर खाया और जोड़ी में बैठे कुछ बूढ़े लोगों का गाना सुना।",
-     "We sat there and ate, and heard some old couples sitting together sing."
+     "हमने वहाँ बैठकर खाया और कुछ बूढ़े लोगों का गाना सुना।",
+     "We sat there and ate, and listened to some old people sing."
     ],
     [
      "शाम को रिया बहुत थक गई थी, इसलिए मैंने उसे अपने कंधे पर उठा लिया।",
@@ -9927,12 +9927,12 @@
      "en": "When is the festival held?",
      "type": "mc",
      "options": [
-      "हर गर्मी की छुट्टी में",
+      "हर साल बारिश के बाद",
       "हर महीने के पहले रविवार को",
-      "सर्दियों में हर साल",
-      "हर साल बारिश के बाद"
+      "हर गर्मी की छुट्टी में",
+      "सर्दियों में हर साल"
      ],
-     "answer": 2,
+     "answer": 3,
      "words": [
       "त्योहार"
      ],
@@ -10060,21 +10060,20 @@
    ],
    "questions": [
     {
-     "q": "बाढ़ की ख़बर किससे मिली?",
-     "en": "How did the news of the flood arrive?",
+     "q": "पिछले सप्ताह कितने दिन लगातार बारिश हुई?",
+     "en": "For how many days did it rain in a row last week?",
      "type": "mc",
      "options": [
-      "अख़बार से",
-      "फ़ोन से",
-      "पड़ोसियों से",
-      "रेडियो से"
+      "दो",
+      "तीन",
+      "चार",
+      "पाँच"
      ],
-     "answer": 3,
+     "answer": 2,
      "words": [
-      "बाढ़",
-      "समाचार"
+      "बारिश"
      ],
-     "sentence": 1
+     "sentence": 0
     },
     {
      "q": "दादी घर छोड़ने के लिए तुरंत तैयार हो गईं।",
@@ -10083,7 +10082,7 @@
      "options": null,
      "answer": false,
      "words": [
-      "ज़िंदगी"
+      "दादी"
      ],
      "sentence": 4
     },
@@ -10092,12 +10091,12 @@
      "en": "Where did people living near the river have to go?",
      "type": "mc",
      "options": [
-      "स्कूल के भवन में",
+      "अस्पताल में",
       "दूसरे गाँव के घर में",
       "पहाड़ पर",
-      "अस्पताल में"
+      "स्कूल के भवन में"
      ],
-     "answer": 0,
+     "answer": 3,
      "words": [
       "भवन",
       "स्कूल"
@@ -10121,12 +10120,12 @@
      "en": "What happened on the third day?",
      "type": "mc",
      "options": [
-      "सब लोग दूसरे गाँव चले गए",
+      "नदी का पानी कम होने लगा",
       "स्कूल का भवन भी बंद हो गया",
       "बारिश और भी तेज़ हो गई",
-      "नदी का पानी कम होने लगा"
+      "सब लोग दूसरे गाँव चले गए"
      ],
-     "answer": 3,
+     "answer": 0,
      "words": [
       "घटना",
       "नदी"
