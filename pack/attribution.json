@@ -79,5 +79,513 @@
     "licence": "CC-BY-SA-4.0",
     "count": 1033,
     "note": "Example sentences only, for words whose corpus sentences are missing or dropped by policy; no audio."
+  },
+  "story_sentences": {
+    "source": "Global Digital Library (StoryWeaver / Pratham Books mirrors) and Bloom Library, Hindi books with their English edition (each book carries its own licence entry; scripture books are left out)",
+    "licence": "CC-BY-4.0 (each book's own licence is in its entry)",
+    "url": "https://www.digitallibrary.io/ ; https://bloomlibrary.org/",
+    "note": "Sentences are split out of the book text, Hindi and English realigned sentence by sentence; typographic quotes became plain, a sentence-final full stop became the danda; nothing else was changed.",
+    "count": 111,
+    "stories": [
+      {
+        "id": "097gIArgSf",
+        "source": "Bloom Library",
+        "title": "एक मिर्च के साथ दुनिया भर में",
+        "english_title": "Around the World With a Chilli",
+        "authors": [],
+        "translators": [],
+        "illustrators": [
+          "Priya Kuriyan"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://bloomlibrary.org/book/097gIArgSf",
+        "english_url": "https://bloomlibrary.org/book/097gIArgSf",
+        "copyright": "Copyright © 2026, Pratham Books (© Pratham Books, 2015) under a CC BY 4.0 license on StoryWeaver. Read, create and translate stories for free on www.storyweaver.org.in"
+      },
+      {
+        "id": "5939",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "अवनि और मटर का पौधा",
+        "english_title": "Avani and the Pea Plant",
+        "authors": [
+          "Shruthi  Rao"
+        ],
+        "translators": [
+          "Arti Smit"
+        ],
+        "illustrators": [
+          "Debasmita Dasgupta"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%85%e0%a4%b5%e0%a4%a8%e0%a4%bf-%e0%a4%94%e0%a4%b0-%e0%a4%ae%e0%a4%9f%e0%a4%b0-%e0%a4%95%e0%a4%be-%e0%a4%aa%e0%a5%8c%e0%a4%a7%e0%a4%be/",
+        "english_url": "https://content.digitallibrary.io/book/avani-and-the-pea-plant/",
+        "publisher": "Pratham books",
+        "credits": "This story: अवनि और मटर का पौधा is translated by Arti Smit . The © for this translation lies with Pratham Books, 2016. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Avani and the Pea Plant ' , by Shruthi Rao . © Pratham Books , 2016. Some rights reserved. Released under CC BY 4.0 license.",
+        "english_authors": [
+          "Shruthi Rao"
+        ]
+      },
+      {
+        "id": "5951",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "एक था मोटा राजा",
+        "english_title": "Fat King Thin Dog",
+        "authors": [
+          "Parismita"
+        ],
+        "translators": [
+          "Seema Biswas"
+        ],
+        "illustrators": [
+          "Parismita"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%8f%e0%a4%95-%e0%a4%a5%e0%a4%be-%e0%a4%ae%e0%a5%8b%e0%a4%9f%e0%a4%be-%e0%a4%b0%e0%a4%be%e0%a4%9c%e0%a4%be/",
+        "english_url": "https://content.digitallibrary.io/book/fat-king-thin-dog/",
+        "publisher": "Pratham books",
+        "credits": "This story: एक था मोटा राजा is translated by Seema Biswas . The © for this translation lies with Seema Biswas , 2017. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Fat King Thin Dog ' , by Parismita . © Pratham Books , 2007. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "5968",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "कहाँ गये गालों के गड्‌ढे?",
+        "english_title": "Where Did Your Dimples Go?",
+        "authors": [
+          "Radha HS"
+        ],
+        "translators": [
+          "Ashvini  Vyas"
+        ],
+        "illustrators": [
+          "Kruttika Susarla"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%95%e0%a4%b9%e0%a4%be%e0%a4%81-%e0%a4%97%e0%a4%af%e0%a5%87-%e0%a4%97%e0%a4%be%e0%a4%b2%e0%a5%8b%e0%a4%82-%e0%a4%95%e0%a5%87-%e0%a4%97%e0%a4%a1%e0%a5%8d%e0%a4%a2%e0%a5%87/",
+        "english_url": "https://content.digitallibrary.io/book/where-did-your-dimples-go/",
+        "publisher": "Pratham books",
+        "credits": "This story: कहाँ गये गालों के गड्‌ढे? is translated by Ashvini Vyas . The © for this translation lies with Pratham Books, 2016. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Where Did Your Dimples Go? ' , by Radha HS . © Pratham Books , 2016. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "5972",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "कहानी केलों की!",
+        "english_title": "Too Many Bananas",
+        "authors": [
+          "Rohini Nilekani"
+        ],
+        "translators": [
+          "Manisha Chaudhry"
+        ],
+        "illustrators": [
+          "Angie",
+          "Upesh"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%95%e0%a4%b9%e0%a4%be%e0%a4%a8%e0%a5%80-%e0%a4%95%e0%a5%87%e0%a4%b2%e0%a5%8b%e0%a4%82-%e0%a4%95%e0%a5%80/",
+        "english_url": "https://content.digitallibrary.io/book/too-many-bananas/",
+        "publisher": "Pratham books",
+        "credits": "This story: कहानी केलों की! is translated by Manisha Chaudhry . The © for this translation lies with Pratham Books, 2010. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Too Many Bananas ' , by Rohini Nilekani . © Pratham Books , 2010. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "5984",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "क्या देखती है अनु?",
+        "english_title": "What Does Anu See?",
+        "authors": [
+          "Lavanya Karthik"
+        ],
+        "translators": [
+          "Arti Smit"
+        ],
+        "illustrators": [
+          "Lavanya Karthik"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a4%be-%e0%a4%a6%e0%a5%87%e0%a4%96%e0%a4%a4%e0%a5%80-%e0%a4%b9%e0%a5%88-%e0%a4%85%e0%a4%a8%e0%a5%81/",
+        "english_url": "https://content.digitallibrary.io/book/what-does-anu-see/",
+        "publisher": "Pratham books",
+        "credits": "This story: क्या देखती है अनु? is translated by Arti Smit . The © for this translation lies with Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' What Does Anu See? ' , by Lavanya Karthik . © Pratham Books , 2013. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6073",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "चलो किताबें खरीदने",
+        "english_title": "Going to Buy a Book",
+        "authors": [
+          "Rukmini Banerji"
+        ],
+        "translators": [
+          "Pratham Books Team"
+        ],
+        "illustrators": [
+          "Santosh Pujari"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%9a%e0%a4%b2%e0%a5%8b-%e0%a4%95%e0%a4%bf%e0%a4%a4%e0%a4%be%e0%a4%ac%e0%a5%87%e0%a4%82-%e0%a4%96%e0%a4%b0%e0%a5%80%e0%a4%a6%e0%a4%a8%e0%a5%87/",
+        "english_url": "https://content.digitallibrary.io/book/going-to-buy-a-book/",
+        "publisher": "Pratham books",
+        "credits": "This story: चलो किताबें खरीदने is translated by Pratham Books Team . The © for this translation lies with Pratham Books, 2004. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Going to Buy a Book ' , by Rukmini Banerji . © Pratham Books , 2004. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6077",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "चाचा की शादी",
+        "english_title": "Going to a Wedding",
+        "authors": [
+          "Rukmini Banerji"
+        ],
+        "translators": [
+          "Pratham Books Team"
+        ],
+        "illustrators": [
+          "Santosh Pujari"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%9a%e0%a4%be%e0%a4%9a%e0%a4%be-%e0%a4%95%e0%a5%80-%e0%a4%b6%e0%a4%be%e0%a4%a6%e0%a5%80/",
+        "english_url": "https://content.digitallibrary.io/book/going-to-a-wedding/",
+        "publisher": "Pratham books",
+        "credits": "This story: चाचा की शादी is translated by Pratham Books Team . The © for this translation lies with Pratham Books, 2004. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Going to a Wedding ' , by Rukmini Banerji . © Pratham Books , 2004. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6085",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "चूहा सिकंदर, घर के अंदर",
+        "english_title": "Mouse in the House",
+        "authors": [
+          "Sowmya Rajendran"
+        ],
+        "translators": [
+          "Poonam S. Kudesia"
+        ],
+        "illustrators": [
+          "Tanaya Vyas"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%9a%e0%a5%82%e0%a4%b9%e0%a4%be-%e0%a4%b8%e0%a4%bf%e0%a4%95%e0%a4%82%e0%a4%a6%e0%a4%b0-%e0%a4%98%e0%a4%b0-%e0%a4%95%e0%a5%87-%e0%a4%85%e0%a4%82%e0%a4%a6%e0%a4%b0/",
+        "english_url": "https://content.digitallibrary.io/book/mouse-in-the-house/",
+        "publisher": "Pratham books",
+        "credits": "This story: चूहा सिकंदर, घर के अंदर is translated by Poonam S. Kudesia . The © for this translation lies with Pratham Books, 2015. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Mouse in the House ' , by Sowmya Rajendran . © Pratham Books , 2015. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6097",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "टूथपेस्ट ट्यूब के अंदर कैसे आया?",
+        "english_title": "How Does the Toothpaste Get into the Tube?",
+        "authors": [
+          "Veena Prasad"
+        ],
+        "translators": [
+          "Arti Smit"
+        ],
+        "illustrators": [
+          "Rajiv Eipe"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%9f%e0%a5%82%e0%a4%a5%e0%a4%aa%e0%a5%87%e0%a4%b8%e0%a5%8d%e0%a4%9f-%e0%a4%9f%e0%a5%8d%e0%a4%af%e0%a5%82%e0%a4%ac-%e0%a4%95%e0%a5%87-%e0%a4%85%e0%a4%82%e0%a4%a6%e0%a4%b0-%e0%a4%95%e0%a5%88/",
+        "english_url": "https://content.digitallibrary.io/book/how-does-the-toothpaste-get-into-the-tube/",
+        "publisher": "Pratham books",
+        "credits": "This story: टूथपेस्ट ट्यूब के अंदर कैसे आया? is translated by Arti Smit . The © for this translation lies with Pratham Books, 2015. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' How Does the Toothpaste Get into the Tube? ' , by Veena Prasad . © Storyweaver, Pratham Books , 2015. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6111",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "नन्हे मददगार",
+        "english_title": "Little Painters",
+        "authors": [
+          "Cheryl Rao"
+        ],
+        "translators": [
+          "Mamta Naini"
+        ],
+        "illustrators": [
+          "Tanvi Bhat"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%a8%e0%a4%a8%e0%a5%8d%e0%a4%b9%e0%a5%87-%e0%a4%ae%e0%a4%a6%e0%a4%a6%e0%a4%97%e0%a4%be%e0%a4%b0/",
+        "english_url": "https://content.digitallibrary.io/book/little-painters/",
+        "publisher": "Pratham books",
+        "credits": "This story: नन्हे मददगार is translated by Mamta Naini . The © for this translation lies with Pratham Books, 2012. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Little Painters ' , by Cheryl Rao . © Pratham Books , 2012. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6125",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "पिशि फँसी तूफ़ान में",
+        "english_title": "Pishi Caught in a Storm",
+        "authors": [
+          "Mala  Kumar",
+          "Manisha Chaudhry"
+        ],
+        "translators": [
+          "Manisha Chaudhry"
+        ],
+        "illustrators": [
+          "Sangeeta Das"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%aa%e0%a4%bf%e0%a4%b6%e0%a4%bf-%e0%a4%ab%e0%a4%81%e0%a4%b8%e0%a5%80-%e0%a4%a4%e0%a5%82%e0%a5%9e%e0%a4%be%e0%a4%a8-%e0%a4%ae%e0%a5%87%e0%a4%82/",
+        "english_url": "https://content.digitallibrary.io/book/pishi-caught-in-a-storm/",
+        "publisher": "Pratham books",
+        "credits": "This story: पिशि फँसी तूफ़ान में is translated by Manisha Chaudhry . The © for this translation lies with Pratham Books, 2015. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Pishi Caught in a Storm ' , by Mala Kumar , Manisha Chaudhry . © Pratham Books , 2015. Some rights reserved. Released under CC BY 4.0 license.",
+        "english_authors": [
+          "Mala Kumar",
+          "Manisha Chaudhry"
+        ]
+      },
+      {
+        "id": "6135",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "भबलू भालू की सैर",
+        "english_title": "Bhabhloo Bear’s Adventure",
+        "authors": [
+          "Paro Anand"
+        ],
+        "translators": [
+          "Nishita Jha"
+        ],
+        "illustrators": [
+          "Suvidha Mistry"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%ad%e0%a4%ac%e0%a4%b2%e0%a5%82-%e0%a4%ad%e0%a4%be%e0%a4%b2%e0%a5%82-%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%88%e0%a4%b0/",
+        "english_url": "https://content.digitallibrary.io/book/bhabhloo-bears-adventure/",
+        "publisher": "Pratham books",
+        "credits": "This story: भबलू भालू की सैर is translated by Nishita Jha . The © for this translation lies with Pratham Books, 2010. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Bhabhloo Bear’s Adventure ' , by Paro Anand . © Pratham Books , 2010. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6142",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "मधुमक्खियाँ क्यों भन-भन करती हैं?",
+        "english_title": "Why Do Bees Buzz?",
+        "authors": [
+          "Nabanita Deshmukh"
+        ],
+        "translators": [
+          "Poonam S. Kudesia"
+        ],
+        "illustrators": [
+          "Zainab Tambawalla"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%ae%e0%a4%a7%e0%a5%81%e0%a4%ae%e0%a4%95%e0%a5%8d%e0%a4%96%e0%a4%bf%e0%a4%af%e0%a4%be%e0%a4%81-%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a5%8b%e0%a4%82-%e0%a4%ad%e0%a4%a8-%e0%a4%ad%e0%a4%a8-%e0%a4%95/",
+        "english_url": "https://content.digitallibrary.io/book/why-do-bees-buzz/",
+        "publisher": "Pratham books",
+        "credits": "This story: मधुमक्खियाँ क्यों भन-भन करती हैं? is translated by Poonam S. Kudesia . The © for this translation lies with Pratham Books, 2015. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Why Do Bees Buzz? ' , by Nabanita Deshmukh . © Storyweaver, Pratham Books , 2015. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6145",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "मुझे वो वाला चाहिये!",
+        "english_title": "I Want That One!",
+        "authors": [
+          "Mala  Kumar"
+        ],
+        "translators": [
+          "Rama Sharma"
+        ],
+        "illustrators": [
+          "Soumya Menon"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%ae%e0%a5%81%e0%a4%9d%e0%a5%87-%e0%a4%b5%e0%a5%8b-%e0%a4%b5%e0%a4%be%e0%a4%b2%e0%a4%be-%e0%a4%9a%e0%a4%be%e0%a4%b9%e0%a4%bf%e0%a4%af%e0%a5%87/",
+        "english_url": "https://content.digitallibrary.io/book/i-want-that-one/",
+        "publisher": "Pratham books",
+        "credits": "This story: मुझे वो वाला चाहिये! is translated by Rama Sharma . The © for this translation lies with Pratham Books, 2015. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' I Want That One! ' , by Mala Kumar . © Pratham Books , 2015. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6169",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "रीति और मिठु",
+        "english_title": "Reeti and Mithu",
+        "authors": [
+          "Anupa Lal"
+        ],
+        "translators": [
+          "Arti Smit"
+        ],
+        "illustrators": [
+          "Soumya Menon"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%b0%e0%a5%80%e0%a4%a4%e0%a4%bf-%e0%a4%94%e0%a4%b0-%e0%a4%ae%e0%a4%bf%e0%a4%a0%e0%a5%81/",
+        "english_url": "https://content.digitallibrary.io/book/reeti-and-mithu/",
+        "publisher": "Pratham books",
+        "credits": "This story: रीति और मिठु is translated by Arti Smit . The © for this translation lies with Pratham Books, 2016. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Reeti and Mithu ' , by Anupa Lal . © Pratham Books , 2016. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6173",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "लाल बरसाती",
+        "english_title": "The Red Raincoat",
+        "authors": [
+          "Kiran Kasturia"
+        ],
+        "translators": [
+          "Arti Smit"
+        ],
+        "illustrators": [
+          "Zainab Tambawalla"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%b2%e0%a4%be%e0%a4%b2-%e0%a4%ac%e0%a4%b0%e0%a4%b8%e0%a4%be%e0%a4%a4%e0%a5%80/",
+        "english_url": "https://content.digitallibrary.io/book/the-red-raincoat/",
+        "publisher": "Pratham books",
+        "credits": "This story: लाल बरसाती is translated by Arti Smit . The © for this translation lies with Pratham Books, 2015. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' The Red Raincoat ' , by Kiran Kasturia . © Pratham Books , 2015. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6185",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "सालाना बाल-कटाई दिवस",
+        "english_title": "Annual Haircut Day",
+        "authors": [
+          "Rohini Nilekani"
+        ],
+        "translators": [
+          "Ritu Singh"
+        ],
+        "illustrators": [
+          "Angie",
+          "Upesh"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%b8%e0%a4%be%e0%a4%b2%e0%a4%be%e0%a4%a8%e0%a4%be-%e0%a4%ac%e0%a4%be%e0%a4%b2-%e0%a4%95%e0%a4%9f%e0%a4%be%e0%a4%88-%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%b8/",
+        "english_url": "https://content.digitallibrary.io/book/annual-haircut-day/",
+        "publisher": "Pratham books",
+        "credits": "This story: सालाना बाल-कटाई दिवस is translated by Ritu Singh . The © for this translation lies with Pratham Books, 2007. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Annual Haircut Day ' , by Rohini Nilekani . © Pratham Books , 2007. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6189",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "सो जाओ टिंकु!",
+        "english_title": "Goodnight Tinku!",
+        "authors": [
+          "Preethi Nambiar"
+        ],
+        "translators": [
+          "Arti Smit"
+        ],
+        "illustrators": [
+          "Sonal Goyal",
+          "Sumit Sakhuja"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%b8%e0%a5%8b-%e0%a4%9c%e0%a4%be%e0%a4%93-%e0%a4%9f%e0%a4%bf%e0%a4%82%e0%a4%95%e0%a5%81/",
+        "english_url": "https://content.digitallibrary.io/book/goodnight-tinku/",
+        "publisher": "Pratham books",
+        "credits": "This story: सो जाओ टिंकु! is translated by Arti Smit . The © for this translation lies with Pratham Books, 2014. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' Goodnight, Tinku! ' , by Preethi Nambiar . © Pratham Books , 2014. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "6201",
+        "source": "Global Digital Library / StoryWeaver (Pratham Books)",
+        "title": "हवाई जहाज़ कैसे उड़ते हैं?",
+        "english_title": "How Do Aeroplanes Fly?",
+        "authors": [
+          "Aditi Sarawagi"
+        ],
+        "translators": [
+          "Arti Smit"
+        ],
+        "illustrators": [
+          "Lavanya Karthik"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://content.digitallibrary.io/book/%e0%a4%b9%e0%a4%b5%e0%a4%be%e0%a4%88-%e0%a4%9c%e0%a4%b9%e0%a4%be%e0%a5%9b-%e0%a4%95%e0%a5%88%e0%a4%b8%e0%a5%87-%e0%a4%89%e0%a5%9c%e0%a4%a4%e0%a5%87-%e0%a4%b9%e0%a5%88%e0%a4%82/",
+        "english_url": "https://content.digitallibrary.io/book/how-do-aeroplanes-fly/",
+        "publisher": "Pratham books",
+        "credits": "This story: हवाई जहाज़ कैसे उड़ते हैं? is translated by Arti Smit . The © for this translation lies with Pratham Books, 2016. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: ' How Do Aeroplanes Fly? ' , by Aditi Sarawagi . © Pratham Books , 2016. Some rights reserved. Released under CC BY 4.0 license."
+      },
+      {
+        "id": "9Xgg1B0Osi",
+        "source": "Bloom Library",
+        "title": "खट्टा - मीठा (मुझे अभी बताइये)",
+        "english_title": "Sweet and Sour (Tell me now series)",
+        "authors": [],
+        "translators": [],
+        "illustrators": [
+          "Rijuta Ghate"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://bloomlibrary.org/book/9Xgg1B0Osi",
+        "english_url": "https://bloomlibrary.org/book/9Xgg1B0Osi",
+        "copyright": "Copyright © 2026, Pratham Books (© Pratham Books, 2004) under a CC BY 4.0 license on StoryWeaver. Read, create and translate stories for free on www.storyweaver.org.in"
+      },
+      {
+        "id": "C0PKNMe6Dz",
+        "source": "Bloom Library",
+        "title": "गोल बस गोल (मुझे अभी बताइये)",
+        "english_title": "गोल बस गोल (मुझे अभी बताइये)",
+        "authors": [],
+        "translators": [],
+        "illustrators": [
+          "Rijuta Ghate"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://bloomlibrary.org/book/C0PKNMe6Dz",
+        "english_url": "https://bloomlibrary.org/book/C0PKNMe6Dz",
+        "copyright": "Copyright © 2025, Pratham Books (© Pratham Books, 2004) under a CC BY 4.0 license on StoryWeaver. Read, create and translate stories for free on www.storyweaver.org.in"
+      },
+      {
+        "id": "EgjXGVYOxm",
+        "source": "Bloom Library",
+        "title": "आकाशगंगा में छेद!",
+        "english_title": "There's a Hole in my Galaxy",
+        "authors": [],
+        "translators": [],
+        "illustrators": [
+          "Chaaya Prabhat"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://bloomlibrary.org/book/EgjXGVYOxm",
+        "english_url": "https://bloomlibrary.org/book/EgjXGVYOxm",
+        "copyright": "Copyright © 2026, Pratham Books (© Pratham Books, 2018) Pratham Books (© Pratham Books, 2018) under a CC BY 4.0 license on StoryWeaver. Read, create and translate stories for free on www.storyweaver.org.in"
+      },
+      {
+        "id": "FMNCQuGKvi",
+        "source": "Bloom Library",
+        "title": "मैं मदद कर सकती हूँ!",
+        "english_title": "I Can Help!",
+        "authors": [],
+        "translators": [],
+        "illustrators": [
+          "Aman Randhawa"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://bloomlibrary.org/book/FMNCQuGKvi",
+        "english_url": "https://bloomlibrary.org/book/FMNCQuGKvi",
+        "original_publisher": "Pratham Books",
+        "copyright": "Copyright © 2021, Эта работа лицензирована по международной лицензии Creative Commons Attribution 4.0. (https://creativecommons.org/licenses/by/4.0/)",
+        "credits": "\"Большая помощница\" (на русском языке), произведение переведено и адаптировано Нуриёй Умеровой, на основе исходного произведения I can help! (на английском языке), написанного Mini Shrinivasan, иллюстрированного Aman Randhava, опубликованного © Pratham Books 2013, под лицензией СC BY 4.0. C исходным произведением можно ознакомиться здесь: https://bloomlibrary.org/readBook/klMiATBlw"
+      },
+      {
+        "id": "KR9B1T74d6",
+        "source": "Bloom Library",
+        "title": "फसल कटाई",
+        "english_title": "It's Harvest Time",
+        "authors": [],
+        "translators": [],
+        "illustrators": [
+          "David Yambem"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://bloomlibrary.org/book/KR9B1T74d6",
+        "english_url": "https://bloomlibrary.org/book/KR9B1T74d6",
+        "copyright": "Copyright © 2025, Pratham Books (© Pratham Books, 2021) under a CC BY 4.0 license on StoryWeaver. Read, create and translate stories for free on www.storyweaver.org.in"
+      },
+      {
+        "id": "OcyzZa0b0W",
+        "source": "Bloom Library",
+        "title": "लड़की जो हँसती जाती",
+        "english_title": "The Girl Who Could Not Stop Laughing",
+        "authors": [],
+        "translators": [],
+        "illustrators": [
+          "ROSH",
+          "supported by CISCO"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://bloomlibrary.org/book/OcyzZa0b0W",
+        "english_url": "https://bloomlibrary.org/book/OcyzZa0b0W",
+        "copyright": "Copyright © 2025, CC BY 4.0 license on StoryWeaver. Read, create and translate stories for free on www.storyweaver.org.in"
+      }
+    ]
   }
 }

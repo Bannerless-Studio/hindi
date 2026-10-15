@@ -1,0 +1,60 @@
+# Story sentences dropped after a full strict hand audit of 2026-10-15 (Bloom Library pairs): the Hindi and the English are not one sentence
+# (English adds or drops a clause or detail, paraphrase that changes the action, machine-translation error, caption fragment).
+# One sentence per line exactly as the pack shows it; a line starting with "#" is a comment. Matching is on the text; the id is informational.
+
+# s3171 caption fragment
+नक्शा पैमाने पर नहीं।
+# s3172 "जहाज उड़ा दिए गए" (ships blown up) vs shipwrecked
+हजारों आदमी डूब गए या जहाज उड़ा दिए गए।
+# s3173 "घिर गया" (was surrounded) vs intrigued
+अप्पू सोच से घिर गया था।
+# s3178 English adds "It tastes salty"
+क्योंकि, समुद्र के पानी में नमक होता है।
+# s3182 English drops "without round wheels"
+गोल पहियों के बिना बस नहीं चलेगी।
+
+# Bloom + Global Digital Library story pairs, strict hand audit of 2026-10-15 (second pass: Global Digital Library added)
+# s3198 English "This is a fat king." drops the second clause
+एक राजा था। वह बहुत मोटा था।
+# s3203 English adds "big"
+अचानक, एक नारंगी बिल्ली खिड़की से कूद कर अंदर आई।
+# s3204 English source typo "They why", tense
+"तो वह अपनी मां की तरह नारंगी क्यों नहीं है?"
+# s3206 "stuck" vs lost, "family" vs parents
+यदि आप कहीं भी अटक जाएं, तो अपने परिवार वालों की मदद लें।
+# s3214 English adds "to look at"
+अनु को चीज़ों से है प्यार, बड़ी चीज़ों से और छोटी से भी।
+# s3219 English adds "I saw"
+हमारे घर के पास वाले खेत में मोर नाच रहे थे।
+# s3220 gives vs makes us drink
+माँ हमें पीने को गर्म दूध देती हैं।
+# s3236 "Relax" is not in the Hindi
+"बच्चों, आओ मेरे साथ," उसने कहा।
+# s3245 English drops "village"
+सब लोग ट्रेन से गाँव जायेंगे।
+# s3246 "first of all" vs "first to come"
+सबसे पहले हम स्टेशन पहुँच गये।
+# s3247 English adds "we have"
+और एक लाल रंग की पानी की बोतल।
+# s3251 statement vs question
+मुझे कुछ ठंडा पीना है।
+# s3260 English adds "immediately"
+बहुत सी मछलियों का एक समूह उसके आसपास तैरने लगा।
+# s3261 English adds "deep gash in his tummy"
+उन्होंने उसका घाव साफ़ कर दिया।
+# s3263 English adds "most brilliant"
+अचानक भबलू के मन में एक विचार आया!
+# s3266 continuation fragment, English adds "hum"
+या फिर शहद दिख जाने का जश्न है?
+# s3283 Hindi statement vs English question
+"माँ, आज ज़रूर बारिश होगी, है ना!" मनु ज़ोर से बोला।
+# s3284 English adds "at last"
+और फिर सच में बारिश होने लगी।
+# s3288 English has one more "so scared"
+बेचारा सृंगेरी श्रीनिवास इतना डर गया, इतना डर गया कि...
+# s3292 English adds "set off into the night", who vs what
+वह जानना चाहता था कि रात में उसे कौन मिल सकता है।
+# s3169 "अंत में खड़े" (stood at the end) vs "stood on end"
+अप्पू के बाल अंत में खड़े थे।
+# s3263 English adds "asked Manu"
+"माँ, क्या मैं इसे अभी पहन सकता हूँ?"

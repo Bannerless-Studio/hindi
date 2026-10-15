@@ -42,16 +42,16 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1129, 'adj': 319, 'verb
 
 ## Sentences
 
-- Final sentences: **3,163**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
-- Sentence ids (`tools/sentence_ids_v1.json`): 3,163 kept, 0 new, 4 retired.
+- Final sentences: **3,274**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Sentence ids (`tools/sentence_ids_v1.json`): 3,274 kept, 0 new, 6 retired.
 - Word coverage: 0 = 0, 1 = 1, 2 = 1999.
-- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,495. Rejected for a content lemma outside pack/top-3000: 2,878.
-- Primary word level of each sentence: {'B1': 1211, 'A1': 791, 'A2': 1161}.
+- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 10,608. Rejected for a content lemma outside pack/top-3000: 2,993.
+- Primary word level of each sentence: {'B1': 1233, 'A1': 852, 'A2': 1189}.
 - Token-length distribution of the final set:
 
 | tokens | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| sentences | 18 | 181 | 949 | 942 | 562 | 237 | 99 | 67 | 44 | 32 | 24 | 8 |
+| sentences | 22 | 196 | 960 | 958 | 578 | 246 | 109 | 77 | 53 | 38 | 26 | 11 |
 
 ## Top 100 by rank (lemma [pos] gloss)
 

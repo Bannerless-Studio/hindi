@@ -76,6 +76,18 @@ the 3,172 example sentences were written for this pack** (marked `"src":
 Tatoeba. The written sentences are machine-written and reviewed, but not by
 a native Hindi speaker.
 
+111 more example sentences are human-written story text from
+[Global Digital Library](https://www.digitallibrary.io/) (StoryWeaver / Pratham
+Books mirrors, 19 books) and [Bloom Library](https://bloomlibrary.org/) (7 books)
+Hindi books that have an English edition (CC BY 4.0; marked `"src": "story"` with the book id in `st`;
+authors, illustrators and copyright lines in `pack/attribution.json`
+`story_sentences`). Each is a Hindi sentence realigned with its English
+sentence; quotes became plain and a final full stop became the danda, nothing
+else changed. They fill the third and fourth example slot of a word (cap 4).
+Books whose text is a broken PDF font map and scripture books are left out;
+the shipped pairs were read by hand in full and the bad ones are in
+`tools/bad_sentences.txt`. Not reviewed by a native Hindi speaker.
+
 The Read tab passages were written for this pack and checked by the
 builder plus a manual QA pass; they have not had a native-speaker review.
 
@@ -94,9 +106,10 @@ shipped. Known residuals are tracked in `TODO.md`.
 | Spoken/subtitle frequency | [hermitdave/FrequencyWords](https://github.com/hermitdave/FrequencyWords) (`hi_full.txt`, OpenSubtitles 2018) | CC BY-SA 4.0 | word ranking |
 | Written/general frequency | [`wordfreq`](https://github.com/rspeer/wordfreq) Python package | CC BY-SA 4.0 | word ranking |
 | Glosses, POS, gender, romanisation, inflection tables | [kaikki.org](https://kaikki.org) Hindi Wiktionary extract | CC BY-SA 3.0 / GFDL | glosses, POS, `pron`, `alt` forms |
-| POS tagging / lemmatisation (build time only) | [Stanza](https://stanfordnlp.github.io/stanza/) 1.14.0 (Apache-2.0), hi default model trained on UD Hindi-HDTB | model data **CC BY-NC-SA 4.0** | corpus POS and lemmas, sentence links. No model files or tagger output ship; the pack ships only words, glosses and Tatoeba/written sentences. Same stance as the Russian and Persian packs. |
+| POS tagging / lemmatisation (build time only) | [Stanza](https://stanfordnlp.github.io/stanza/) 1.14.0 (Apache-2.0), hi default model trained on UD Hindi-HDTB | model data **CC BY-NC-SA 4.0** | corpus POS and lemmas, sentence links. No model files or tagger output ship; the pack ships only words, glosses and Tatoeba/written/story sentences. Same stance as the Russian and Persian packs. |
 | Example sentences | [Tatoeba](https://tatoeba.org) `hin_sentences_detailed.tsv` | CC BY 2.0 FR | sentence text (contributors in `pack/attribution.json`) |
 | Sentence translations | Tatoeba `eng_sentences.tsv` + `hin-eng_links.tsv` | CC BY 2.0 FR | English translations |
+| Story sentences | [Global Digital Library](https://www.digitallibrary.io/) (StoryWeaver / Pratham Books) and [Bloom Library](https://bloomlibrary.org/) Hindi books with an English edition | CC BY 4.0 (each book's licence in `pack/attribution.json`) | 111 sentences marked `"src": "story"`; credits listed per book |
 | Written sentences | `tools/generated_examples.tsv`, written for this pack | same as this repo | 1,034 sentences marked `"src": "gen"` |
 | Reading passages | `tools/passages_src.json`, written for this pack | same as this repo | 80 passages |
 | Font | Noto Sans Devanagari via Google Fonts | SIL OFL 1.1 | display only |
